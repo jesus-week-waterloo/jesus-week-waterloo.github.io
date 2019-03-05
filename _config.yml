@@ -2,6 +2,9 @@
 title: Jesus Week Waterloo
 timezone: America/New_York
 collections:
+  connect:
+    title: Connect
+    output: true
   events:
     title: Events
     output: true
