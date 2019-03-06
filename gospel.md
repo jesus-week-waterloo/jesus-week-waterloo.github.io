@@ -1,5 +1,6 @@
 ---
 title: The Gospel
+permalink: "/gospel"
 layout: page
-permalink: /gospel
 ---
+

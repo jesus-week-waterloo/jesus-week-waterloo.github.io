@@ -1,5 +1,6 @@
 ---
 title: Events
+permalink: "/events"
 layout: page
-permalink: /events
 ---
+
