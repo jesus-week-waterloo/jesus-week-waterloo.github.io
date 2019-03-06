@@ -1,6 +1,7 @@
 [submodule "test-assets"]
 	path = test-assets
 	url = git@github.com:jesus-week-waterloo/static-assets
+    ignore = dirty
 [submodule "_includes/icons"]
 	path = _includes/icons
 	url = https://github.com/tyxchen/fa-svg-icons
