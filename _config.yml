@@ -15,5 +15,5 @@ collections:
     title: Uploads
     output: true
 exclude:
-  - node_modules
-  - test-assets/node_modules
+- node_modules
+- test-assets/node_modules
