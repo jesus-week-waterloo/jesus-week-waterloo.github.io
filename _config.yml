@@ -8,3 +8,6 @@ collections:
   uploads:
     title: Uploads
     output: true
+exclude:
+  - node_modules
+  - test-assets/node_modules
