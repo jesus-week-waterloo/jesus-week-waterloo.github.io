@@ -1,0 +1,18 @@
+<header id="main-header">
+    <div class="container center flex-row">
+        <div class="logo"><a href="/" class="aria-hidden">Jesus Week Waterloo</a></div>
+        <a id="toggle-main-nav" role="button" title="Open navigation" aria-label="Open navigation" aria-controls="main-nav" href="#">{% include icons/bars.svg %}</a>
+        <nav id="main-nav">
+            <ul>
+                {% for id in site.display_pages %}
+                    {% assign node = site.pages | where: "name", id | first %}
+                    {% if page.url == node.url %}
+                <li class="current-page"><a href="{{node.url}}" class="current-page">{{node.title}}</a></li>
+                    {% else %}
+                <li><a href="{{node.url}}">{{node.title}}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</header>
