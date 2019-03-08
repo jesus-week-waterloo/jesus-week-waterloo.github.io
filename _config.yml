@@ -23,3 +23,5 @@ display_pages:
 - events.md
 - connect.md
 - contact.md
+baseurl: 
+url: https://jesusweek.ca
