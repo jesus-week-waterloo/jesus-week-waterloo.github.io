@@ -1,5 +1,5 @@
 ---
 title: About
+permalink: "/about"
 layout: landing
-permalink: /about
 ---

@@ -1,7 +1,7 @@
 ---
 title: Connect
+permalink: "/connect"
 layout: landing
-permalink: /connect
 ---
 
 <div class="text-center font-36">

@@ -1,7 +1,7 @@
 ---
 title: Events
+permalink: "/events"
 layout: landing
-permalink: /events
 links:
 - title: Events
   href: /events/events
