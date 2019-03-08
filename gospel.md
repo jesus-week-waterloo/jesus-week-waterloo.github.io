@@ -1,5 +1,5 @@
 ---
 title: The Gospel
-layout: page
+layout: landing
 permalink: /gospel
 ---

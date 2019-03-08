@@ -1,7 +1,10 @@
 ---
 title: Connect
-layout: page
+layout: landing
 permalink: /connect
 ---
 
-<iframe class="responsive-iframe" src="https://www.google.com/maps/d/embed?mid=1DUyJ4d1oK7HmCwwVaaeaf_TZBEZK4tbm" width="1024" height="480"></iframe>
+<div class="text-center font-36">
+    <p><a class="brand-btn arrow-btn" href="/connect/churches"><strong>Find a church</strong> {% include icons/arrow-right.svg %}</a></p>
+    <p><a class="brand-btn arrow-btn" href="/connect/fellowships"><strong>Find a fellowship</strong> {% include icons/arrow-right.svg %}</a></p>
+</div>
