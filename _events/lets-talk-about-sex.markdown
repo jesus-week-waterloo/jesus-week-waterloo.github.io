@@ -5,5 +5,6 @@ position: 0
 Location: M3 1006
 Time: 7-9pm
 Type: event
+layout: page
 ---
 
