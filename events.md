@@ -1,6 +1,7 @@
 ---
 title: Events
 permalink: "/events"
+layout: events
 links:
 - title: Events
   href: "/events/events"
@@ -10,6 +11,5 @@ links:
   href: "/events/evangelism"
 - title: Prayer
   href: "/events/prayer"
-layout: landing
 ---
 

@@ -1,0 +1,44 @@
+---
+layout: landing
+---
+
+<div class="flex-row" id="events-listing">
+    {% assign events = site.events | where: "Type", "event" %}
+    {% for event in events %}
+    <div class="event-listing event-onetime" id="{{ event.id }}">
+        <a class="event-link" href="{{ event.url }}">
+            <h2 class="event-title"><span class="quartz-highlight">{{ event.title }}</span></h2>
+            <h3 class="event-datetime">
+                <time class="event-date" datetime="{{ date }}">{{ event.date | date: '%m.%d.%Y' }}</time>
+                <span class="slash-sep">//</span> {{ event.Time }}
+            </h3>
+            <h3 class="event-location">{% if event.Locations %}
+                {{ event.Locations | join: "<span class='slash-sep'>//</span>" }}
+                {% else %}
+                {{ event.Location }}
+            {% endif %}</h3>
+        </a>
+    </div>
+    {% endfor %}
+
+    {% assign recurring = site.events | where: "Type", "recurring" %}
+    {% for event in recurring %}
+    <div class="event-listing event-recurring" id="{{ event.id }}">
+        <a class="event-link" href="{{ event.url }}">
+            <h2 class="event-title"><span class="quartz-highlight">{{ event.title }}</span></h2>
+            <h3 class="event-datetime">{% if event.Dates %}
+                {% for date in event.Dates %}
+                <time class="event-date" datetime="{{ date }}">{{ date | date: '%a' }}</time>
+                {% endfor %}
+                {% else %}
+                <time class="event-date" datetime="{{ date }}">{{ event.date | date: '%a' }}</time>
+            {% endif %} <span class="slash-sep">//</span> {{ event.Time }}</h3>
+            <h3 class="event-location">{% if event.Locations %}
+                {{ event.Locations | join: "<span class='slash-sep'>//</span>" }}
+                {% else %}
+                {{ event.Location }}
+            {% endif %}</h3>
+        </a>
+    </div>
+    {% endfor %}
+</div>
