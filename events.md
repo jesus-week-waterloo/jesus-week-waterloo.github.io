@@ -1,14 +1,16 @@
 ---
 title: Events
 permalink: "/events"
-layout: landing
+layout: events
 links:
 - title: Events
-  href: /events/events
+  href: "/events/events"
 - title: Booths
-  href: /events/booths
+  href: "/events/booths"
 - title: Evangelism
-  href: /events/evangelism
+  href: "/events/evangelism"
 - title: Prayer
-  href: /events/prayer
+  href: "/events/prayer"
 ---
+
+
