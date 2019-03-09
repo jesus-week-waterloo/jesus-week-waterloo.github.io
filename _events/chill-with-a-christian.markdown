@@ -1,7 +1,7 @@
 ---
 title: Chill with a Christian
 date: 2019-03-12 00:00:00 -04:00
-position: 2
+position: 1
 Location: SLC Great Hall
 Time: 11am-2pm
 Type: event
