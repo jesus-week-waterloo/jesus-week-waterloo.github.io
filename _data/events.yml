@@ -1,0 +1,53 @@
+launch-night:
+  Location: AL 116
+  Date: March 10, 2019
+  Time: 6-9pm
+  Type: onetime
+  Link: "https://www.facebook.com/events/267107934213620/"
+  Cover: "/uploads/JW%20Opening.jpg"
+
+chill:
+  Location: SLC Great Hall
+  Date: March 12, 2019
+  Time: 11am-2pm
+  Type: onetime
+  Link: "https://www.facebook.com/events/602080600217454/"
+  Cover: "/uploads/JW%20EVENT%202%20Chill%20with%20Christians.jpg"
+
+lets-talk:
+  Location: M3 1006
+  Date: March 14, 2019
+  Time: 7-9pm
+  Type: onetime
+  Link: "https://www.facebook.com/events/557873944732400/"
+  Cover: "/uploads/JW%20event%20Sex.jpg"
+
+closing:
+  Location: M3 1006
+  Date: March 15, 2019
+  Time: 11am-2pm
+  Type: onetime
+
+booths:
+  Locations:
+  - SLC
+  - STC
+  - DC
+  Dates:
+  - March 11, 2019
+  - March 12, 2019
+  - March 13, 2019
+  - March 14, 2019
+  - March 15, 2019
+  Time: 10am-3pm
+  Type: recurring
+
+evangelism:
+  Location: SLC Basement
+  Dates:
+  - March 11, 2019
+  - March 13, 2019
+  - March 14, 2019
+  - March 15, 2019
+  Time: 1030am-430pm
+  Type: recurring

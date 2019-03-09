@@ -2,18 +2,7 @@
 title: Booths
 date: 2019-03-09 15:25:00 -05:00
 position: 4
-Locations:
-- SLC
-- STC
-- DC
-Dates:
-- 2019-03-10 20:00:00 -04:00
-- 2019-03-11 20:00:00 -04:00
-- 2019-03-12 20:00:00 -04:00
-- 2019-03-13 20:00:00 -04:00
-- 2019-03-14 20:00:00 -04:00
-Type: recurring
-Time: 10am-3pm
-layout: page
+layout: event
+key: booths
 ---
 
