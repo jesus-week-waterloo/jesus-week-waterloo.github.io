@@ -25,3 +25,4 @@ display_pages:
 - contact.md
 baseurl: 
 url: https://jesusweek.ca
+future: true
