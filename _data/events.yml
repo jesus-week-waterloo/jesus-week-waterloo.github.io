@@ -57,7 +57,7 @@ closing:
   Time: 11am-2pm
   Type: onetime
   Description: |
-    Joint fellowship to close off Jesus Week.
+    As we close off Jesus Week 2019, join us for the CLOSING NIGHT to worship, praise, and pray with everyone from University of Waterloo and Wilfrid Laurier.
 
 booths:
   Title: Booths
@@ -73,6 +73,14 @@ booths:
   - March 15, 2019
   Time: 10am-3pm
   Type: recurring
+  Description: |
+    Come by the Booth stations to learn more what's offered on campus and off campus to get connected with a fellowship and church.
+    
+    - Monday: 10-3pm in SLC lower atrium + STC lobby
+    - Tuesday: 10-3pm in SLC lower atrium + STC lobby
+    - Wednesday: 10-3pm in SLC marketplace + STC lobby
+    - Thursday: 10-3pm in SLC lower atrium + STC lobby
+    - Friday: 10-3pm in SLC marketplace + DC lobby
 
 evangelism:
   Title: Evangelism
@@ -84,3 +92,5 @@ evangelism:
   - March 15, 2019
   Time: 1030am-0430pm
   Type: recurring
+  Description: |
+    If you are curious about Christianity or have any questions about God, feel free to drop by the SLC basement Monday, Wednesday, Thursday, or Friday from 10:30am - 4:30pm to ask questions and hear the Gospel.
