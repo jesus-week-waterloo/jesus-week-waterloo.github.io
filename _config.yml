@@ -4,9 +4,11 @@ timezone: America/New_York
 collections:
   connect:
     title: Connect
+    permalink: "/:collection/:name"
     output: true
   events:
     title: Events
+    permalink: "/:collection/:name"
     output: true
   posts:
     title: Posts

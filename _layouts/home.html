@@ -49,4 +49,5 @@ layout: default
 
 {% include footer.html %}
 
-<script>window.events = {{ site.data.events | jsonify }}</script>
+<script>window.events = {{ site.data.events | jsonify }};
+window.eventsURLs = Object.assign.apply({}, {{ site.events | map: 'key' | jsonify }}.map(function(e, i) { var o = {}; o[e] = {{ site.events | map: 'url' | jsonify }}[i]; return o; }));</script>
