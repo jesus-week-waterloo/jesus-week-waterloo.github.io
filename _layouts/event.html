@@ -1,4 +1,42 @@
 ---
-layout: page
+layout: default
 ---
+{% include top-bar.html %}
+{% assign event = site.data.events[page.key] %}
 
+<main id="content" role="main">
+    {% if event.Cover %}
+    <div id="doc-title" class="has-cover" style="background-image:linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)),url('{{ event.Cover }}')">
+    {% else %}
+    <div id="doc-title">
+    {% comment %}</div>{% endcomment %}
+    {% endif %}
+        <div class="container center">
+            <a class="navigate-up" href="{{ page.url | split: '/' | pop | join: '/' }}">&laquo; Back to Events</a>
+            <h1><span class="bg">{{ page.title }}</span></h1>
+            <h2><span class="bg">
+                {% if event.Dates %}
+                {% for date in event.Dates %}
+                <time class="event-date" datetime="{{ date }}">{{ date | date: '%a' }}.</time>
+                {% endfor %}
+                {% else %}
+                <time class="event-date" datetime="{{ event.Date }}">{{ event.Date | date: '%m.%d.%Y' }}</time>
+                {% endif %}
+                <span class="slash-sep">//</span>
+                {{ event.Time }}
+            </span></h2>
+            <h2><span class="bg">
+                {% if event.Locations %}
+                {{ event.Locations | join: " <span class='slash-sep'>//</span> " }}
+                {% else %}
+                {{ event.Location }}
+                {% endif %}
+            </span></h2>
+        </div>
+    </div>
+    <div id="doc-main-content" class="container center">
+        {{ event.Description | markdownify }}
+    </div>
+</main>
+
+{% include footer.html %}

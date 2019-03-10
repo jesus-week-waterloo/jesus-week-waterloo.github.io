@@ -6,7 +6,7 @@
             <ul>
                 {% for id in site.display_pages %}
                     {% assign node = site.pages | where: "name", id | first %}
-                    {% if page.url == node.url %}
+                    {% if page.url contains node.url %}
                 <li class="current-page"><a href="{{node.url}}" class="current-page">{{node.title}}</a></li>
                     {% else %}
                 <li><a href="{{node.url}}">{{node.title}}</a></li>
