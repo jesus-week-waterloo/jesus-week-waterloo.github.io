@@ -4,18 +4,49 @@ layout: default
 {% include top-bar.html %}
 
 <main id="content" role="main">
-	<div id="main-title" class="center"><h1><span class="brand-highlight">Choose Christ.</span></h1>
-        <h2>03.10.2019 &ndash; 03.15.2019 <span class="slash-sep">//</span> UW + WLU</h2></div>
-	<div id="events">
-	</div>
-	<div id="vision">
-	</div>
-	<div id="gospel">
-	</div>
-	<div id="connect">
-	</div>
-	<div id="contact">
-	</div>
+	<div id="main-title" class="container center flex-column"><h1><span class="brand-highlight">Choose Christ.</span></h1>
+        <h2>03.10.2019 &ndash; 03.15.2019 <span class="slash-sep">//</span> UW + WLU</h2>
+    </div>
+    <div id="home-events-toast">
+        <div class="container center flex-row">
+        </div>
+    </div>
+    <div id="main-content">
+    	<div id="vision" class="container center">
+            <h2><a class="brand-highlight" href="/about">
+                Our Mission
+                {% include icons/arrow-right.svg %}
+            </a></h2>
+            <p>To make Christ known on the campuses.</p>
+        </div>
+        <div id="gospel" class="container center">
+            <h2><a class="blue-highlight" href="/gospel">
+                The Gospel
+                {% include icons/arrow-right.svg %}
+            </a></h2>
+        </div>
+        <div id="events" class="container center">
+            <h2><a class="quartz-highlight" href="/events">
+                Events
+                {% include icons/arrow-right.svg %}
+            </a></h2>
+    	</div>
+    	<div id="connect" class="container center">
+            <h2><a class="highlight" href="/connect">
+                Connect
+                {% include icons/arrow-right.svg %}
+            </a></h2>
+    	</div>
+    	<div id="contact" class="container center">
+            <h2><a class="highlight" href="/contact">
+                Contact
+                {% include icons/arrow-right.svg %}
+            </a></h2>
+            <p>Check out our <a href="https://www.facebook.com/jesusweekwaterloo/" rel="noreferrer nofollow">Facebook page</a>, or fill out our <a href="/contact">contact form.</a>
+    	</div>
+    </div>
 </main>
 
 {% include footer.html %}
+
+<script>window.events = {{ site.data.events | jsonify }}</script>

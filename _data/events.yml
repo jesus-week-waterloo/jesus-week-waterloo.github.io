@@ -1,4 +1,5 @@
 launch-night:
+  Title: Opening Night
   Location: AL 116
   Date: March 10, 2019
   Time: 6-9pm
@@ -14,6 +15,7 @@ launch-night:
     We hope to see you there! 
 
 chill:
+  Title: Chill with a Christian
   Location: SLC Great Hall
   Date: March 12, 2019
   Time: 11am-2pm
@@ -25,6 +27,7 @@ chill:
     Ice cream sandwiches and hot drinks will be available first come first serve. 
 
 lets-talk:
+  Title: Let's Talk about Sex
   Location: M3 1006
   Date: March 14, 2019
   Time: 7-9pm
@@ -48,6 +51,7 @@ lets-talk:
     He became pastor of Trinity Bible Chapel in August 2009.
 
 closing:
+  Title: Closing
   Location: M3 1006
   Date: March 15, 2019
   Time: 11am-2pm
@@ -56,6 +60,7 @@ closing:
     Joint fellowship to close off Jesus Week.
 
 booths:
+  Title: Booths
   Locations:
   - SLC
   - STC
@@ -70,11 +75,12 @@ booths:
   Type: recurring
 
 evangelism:
+  Title: Evangelism
   Location: SLC Basement
   Dates:
   - March 11, 2019
   - March 13, 2019
   - March 14, 2019
   - March 15, 2019
-  Time: 1030am-430pm
+  Time: 1030am-0430pm
   Type: recurring
