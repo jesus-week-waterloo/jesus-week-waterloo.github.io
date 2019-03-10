@@ -3,8 +3,20 @@ layout: default
 ---
 {% include top-bar.html %}
 
+{% for id in site.display_pages %}
+    {% assign node = site.pages | where: "name", id | first %}
+    {% if page.url contains node.url %}
+        {% assign parent = node %}
+    {% endif %}
+{% endfor %}
+
 <main id="content" class="container center" role="main">
-	<div id="doc-title"><h1>{{ page.title }}</h1></div>
+    <div id="doc-title">
+        {% if parent %}
+        <a class="navigate-up" href="{{ parent.url }}">&laquo; Back to {{ parent.title }}</a>
+        {% endif %}
+        <h1>{{ page.title }}</h1>
+    </div>
 	<div id="doc-main-content">
 		{{ content }}
 	</div>
