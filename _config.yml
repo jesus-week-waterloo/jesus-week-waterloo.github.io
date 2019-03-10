@@ -28,3 +28,6 @@ display_pages:
 baseurl: 
 url: https://jesusweek.ca
 future: true
+logo: /favicon.png?20190310
+encoding: utf-8
+description: "Choose Christ. // To make Christ known on the campuses."
