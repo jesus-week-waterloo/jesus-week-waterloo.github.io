@@ -37,6 +37,11 @@ layout: default
     </div>
     <div id="doc-main-content" class="container center">
         {{ event.Description | markdownify }}
+        {% if event.Link %}
+        <p class="text-center font-28">
+            <a class="btn blue-btn arrow-btn" href="{{ event.Link }}" rel="noreferrer"><strong>See this event on Facebook</strong> {% include icons/arrow-right.svg %}</a>
+        </p>
+        {% endif %}
     </div>
 </main>
 
