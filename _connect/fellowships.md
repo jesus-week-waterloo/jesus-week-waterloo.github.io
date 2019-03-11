@@ -21,7 +21,7 @@ layout: page
             {% else %}
                 {% include icons/link.svg %}
             {% endif %}
-                <a href="{{ link.URL }}" rel="noreferrer">{{ link.URL }}</a></p>
+                <a class="raw" href="{{ link.URL }}" rel="noreferrer">{{ link.URL }}</a></p>
             {% endfor %}
             <hr>
             {% endfor %}
@@ -36,7 +36,7 @@ layout: page
             {% else %}
                 {% include icons/link.svg %}
             {% endif %}
-                <a href="{{ link.URL }}" rel="noreferrer">{{ link.URL }}</a>
+                <a class="raw" href="{{ link.URL }}" rel="noreferrer">{{ link.URL }}</a>
             {% endfor %}
             <hr>
             {% endfor %}
