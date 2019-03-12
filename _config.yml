@@ -36,6 +36,7 @@ future: true
 logo: "/favicon.png?20190310"
 encoding: utf-8
 description: Choose Christ. // To make Christ known on the campuses.
+short_description: Choose Christ.
 plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
