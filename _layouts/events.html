@@ -8,6 +8,7 @@ layout: landing
         {% assign event_page = site.events | where: "key", event_obj[0] | first %}
         {% assign event = event_obj[1] %}
     <div class="event-listing event-onetime text-center" id="{{ event_obj[0] }}">
+        <div class="event-listing-bg"></div>
         <a class="event-link" href="{{ event_page.url }}">
             <div class="event-content">
                 <h2 class="event-title"><span class="quartz-highlight">{{ event_page.title }}</span></h2>
@@ -34,6 +35,7 @@ layout: landing
         {% assign event_page = site.events | where: "key", event_obj[0] | first %}
         {% assign event = event_obj[1] %}
     <div class="event-listing event-recurring text-center" id="{{ event_obj[0] }}">
+        <div class="event-listing-bg"></div>
         <a class="event-link" href="{{ event_page.url }}">
             <div class="event-content">
                 <h2 class="event-title"><span class="quartz-highlight">{{ event_page.title }}</span></h2>
