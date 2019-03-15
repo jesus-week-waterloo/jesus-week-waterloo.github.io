@@ -7,7 +7,7 @@ layout: page
 <div class="tabber">
     <div class="tabber-tabbar">
         <a class="tabber-tab" data-active aria-controls="uwaterloo" href="#uwaterloo">UWaterloo</a>
-        <a class="tabber-tab" aria-controls="wlu" href="#wlu">Wilfred Laurier</a>
+        <a class="tabber-tab" aria-controls="wlu" href="#wlu">Wilfrid Laurier</a>
     </div>
     <div class="tabber-tabs">
         <div class="tabber-section" id="uwaterloo">
