@@ -4,85 +4,72 @@ layout: default
 {% include top-bar.html %}
 
 <main id="content" role="main">
-	<div id="home-title" class="container center flex-column"><h1><span class="brand-highlight">Choose Christ.</span></h1>
-        <h2>03.10.2019 &ndash; 03.15.2019 <span class="slash-sep">//</span> UW&nbsp;+&nbsp;WLU</h2>
+	<div class="HomeTitle center flex-column">
+        <div class="HomeTitle_racingStripe"></div>
+        <div class="HomeTitle_backgroundQuestions"></div>
+        <h1 class="HomeTitle_title">What kind of <span class="HomeTitle_textBackground">King</span> is this?</h1>
     </div>
-    <div id="home-events-toast">
-        <div class="container center flex-row">
+    <div id="home-content" class="container">
+        <div class="HomeSpacer" id="HomeSpacer--1">
+            <div class="HomeSpacer_transitionOutside HomeSpacer--bg-start" width="173" height="38"></div>
+            <div class="HomeSpacer_transitionInside"></div>
+            <div class="HomeSpacer_separator HomeSpacer--grad-to-left"></div>
+            <div class="HomeSpacer_borderRadius HomeSpacer_borderRadius--left-down HomeSpacer--border-end"></div>
+            <div class="HomeSpacer_extension HomeSpacer--bg-end"></div>
         </div>
-    </div>
-    <div id="home-content">
-    	<div id="vision">
-            <div class="container center">
-                <h2><a class="highlight icon-link" href="/about">
-                    Our Mission
-                    {% include icons/arrow-right.svg %}
-                </a></h2>
-                <p>To make Christ known on the campuses.</p>
-                <blockquote>
-                    <em class="font-24">For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.</em>
-                    <p class="text-right font-20">&mdash; John 3:16</p>
-                </blockquote>
-                <p class="text-right"><a class="link-more icon-link" href="/about">Read More {% include icons/arrow-right.svg %}</a></p>
+    	<div class="HomeSection" id="questions">
+            <div class="container sub-container center">
+                <h2 class="HomeSection_title">The Questions</h2>
+                <p>What kind of King...?</p>
+                <p>What kind of King...?</p>
+                <p>What kind of King...?</p>
+                <p>What kind of King...?</p>
+                <p>What kind of King...?</p>
+                <p>What kind of King...?</p>
+                <a class="HomeSection_link icon-link" href="/about">Read the answers {% include icons/arrow-right.svg %}</a>
             </div>
         </div>
-        <div id="gospel">
-            <div class="container center">
-                <h2><a class="highlight icon-link" href="/gospel">
-                    The Gospel
-                    {% include icons/arrow-right.svg %}
-                </a></h2>
+        <div class="HomeSpacer" id="HomeSpacer--2">
+            <div class="HomeSpacer_extension HomeSpacer--bg-start"></div>
+            <div class="HomeSpacer_borderRadius HomeSpacer_borderRadius--down-right HomeSpacer--border-start"></div>
+            <div class="HomeSpacer_separator HomeSpacer--grad-to-right"></div>
+            <div class="HomeSpacer_borderRadius HomeSpacer_borderRadius--right-down HomeSpacer--border-end"></div>
+            <div class="HomeSpacer_extension HomeSpacer--bg-end"></div>
+        </div>
+        <div class="HomeSection" id="gospel">
+            <div class="container sub-container center">
+                <h2 class="HomeSection_title">The Gospel</h2>
                 <ol>
                     <li>God is holy and perfect.</li>
                     <li>We are sinful and separated from God.</li>
                     <li>God sent Jesus to die on the cross as the perfect sacrifice for our sins.</li>
                     <li>All who repent of their sins and believe in Him are saved.</li>
                 </ol>
-                <p class="text-right"><a class="link-more icon-link" href="/gospel">Learn More {% include icons/arrow-right.svg %}</a></p>
+                <a class="HomeSection_link icon-link" href="/gospel">Why the Gospel? {% include icons/arrow-right.svg %}</a>
             </div>
         </div>
-        <div id="events">
-            <div class="container center">
-                <h2><a class="highlight icon-link" href="/events">
-                    Events
-                    {% include icons/arrow-right.svg %}
-                </a></h2>
-                <div class="flex-row events-container">
-                    <div class="ongoing-events">
-                        <h3>Ongoing Events</h3>
-                    </div>
-                    <div class="upcoming-events">
-                        <h3>Upcoming Events</h3>
-                    </div>
-                </div>
-                <p class="text-right"><a class="link-more icon-link" href="/events">See All Events {% include icons/arrow-right.svg %}</a></p>
-        	</div>
+        <div class="HomeSpacer" id="HomeSpacer--3">
+            <div class="HomeSpacer_extension HomeSpacer--bg-start"></div>
+            <div class="HomeSpacer_borderRadius HomeSpacer_borderRadius--down-left HomeSpacer--border-start"></div>
+            <div class="HomeSpacer_separator HomeSpacer--grad-to-left"></div>
+            <div class="HomeSpacer_borderRadius HomeSpacer_borderRadius--left-down HomeSpacer--border-end"></div>
+            <div class="HomeSpacer_extension HomeSpacer--bg-end"></div>
         </div>
-    	<div id="connect">
-            <div class="container center">
-                <h2><a class="highlight icon-link" href="/connect">
-                    Connect
-                    {% include icons/arrow-right.svg %}
-                </a></h2>
-                <!-- <blockquote>
-                    <em class="font-24">As iron sharpens iron, so one person sharpens another.</em>
-                    <p class="text-right font-20">&mdash; Proverbs 27:17</p>
-                </blockquote> -->
+    	<div class="HomeSection" id="connect">
+            <div class="container sub-container center">
+                <h2 class="HomeSection_title">Connect</h2>
                 <p>Whether you've just started your spiritual journey, or you've been a long-time believer, finding a church and fellowship is an important step in growing your faith.</p>
-                <p class="connect-container">
-                    <a class="btn blue-btn arrow-btn" href="/connect/churches">Connect with a church {% include icons/arrow-right.svg %}</a>
-                    <a class="btn blue-btn arrow-btn" href="/connect/fellowships">Connect with a fellowship {% include icons/arrow-right.svg %}</a>
-                </p>
+                <a class="HomeSection_link icon-link" href="/connect/churches">Connect with a church {% include icons/arrow-right.svg %}</a><br>
+                <a class="HomeSection_link icon-link" href="/connect/fellowships">Connect with a fellowship {% include icons/arrow-right.svg %}</a><br>
+                <a class="HomeSection_link icon-link" href="https://www.facebook.com/jesusweekwaterloo/">Connect with us on Facebook {% include icons/external-link-alt.svg %}</a>
         	</div>
         </div>
-    	<div id="contact">
-            <div class="container center">
-                <h2><a class="highlight icon-link" href="/contact">
-                    Contact
-                    {% include icons/arrow-right.svg %}
-                </a></h2>
-                <p>Check out our <a href="https://www.facebook.com/jesusweekwaterloo/" rel="noreferrer nofollow">Facebook page</a>, or fill out our <a href="/contact">contact form.</a></p>
-        	</div>
+        <div class="HomeSpacer" id="HomeSpacer--4">
+            <div class="HomeSpacer_extension HomeSpacer--bg-start"></div>
+            <div class="HomeSpacer_borderRadius HomeSpacer_borderRadius--down-right HomeSpacer--border-start"></div>
+            <div class="HomeSpacer_separator HomeSpacer--grad-to-right"></div>
+            <div class="HomeSpacer_borderRadius HomeSpacer_borderRadius--right-down HomeSpacer--border-end"></div>
+            <div class="HomeSpacer_extension HomeSpacer--bg-end"></div>
         </div>
     </div>
 </main>
