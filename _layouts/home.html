@@ -1,32 +1,41 @@
 ---
 layout: default
 ---
+
+{% assign i18n = site.data.i18n %}
+{% assign lang = page.lang %}
+
 {% include top-bar.html %}
 
 <main id="content" role="main">
 	<div class="HomeTitle center flex-column">
+        <div class="HomeTitle_backgroundQuestions" aria-hidden="true">
+            {% for question in i18n.home.background-questions %}
+            <div class="HomeTitle_backgroundQuestionsRow HomeTitle_backgroundQuestionsRow--{{ forloop.index }}">
+                {% for _ in (0..5) %}
+                <p>{{ question[lang] }}</p>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
         <div class="HomeTitle_racingStripe"></div>
-        <div class="HomeTitle_backgroundQuestions"></div>
-        <h1 class="HomeTitle_title">What kind of <span class="HomeTitle_textBackground">King</span> is this?</h1>
+        <h1 class="HomeTitle_title">{{ i18n.home.title.pre-king[lang] }} <span class="HomeTitle_textBackground">{{ i18n.home.title.king[lang] }}</span> {{ i18n.home.title.post-king[lang] }}</h1>
     </div>
     <div id="home-content" class="container">
         <div class="HomeSpacer" id="HomeSpacer--1">
-            <div class="HomeSpacer_transitionOutside HomeSpacer--bg-start" width="173" height="38"></div>
-            <div class="HomeSpacer_transitionInside"></div>
             <div class="HomeSpacer_separator HomeSpacer--grad-to-left"></div>
             <div class="HomeSpacer_borderRadius HomeSpacer_borderRadius--left-down HomeSpacer--border-end"></div>
             <div class="HomeSpacer_extension HomeSpacer--bg-end"></div>
         </div>
     	<div class="HomeSection" id="questions">
             <div class="container sub-container center">
-                <h2 class="HomeSection_title">The Questions</h2>
-                <p>What kind of King...?</p>
-                <p>What kind of King...?</p>
-                <p>What kind of King...?</p>
-                <p>What kind of King...?</p>
-                <p>What kind of King...?</p>
-                <p>What kind of King...?</p>
-                <a class="HomeSection_link icon-link" href="/about">Read the answers {% include icons/arrow-right.svg %}</a>
+                <h2 class="HomeSection_title">{{ i18n.home.section-questions.title[lang] }}</h2>
+                <div class="HomeSection_content">
+                    {% for question in i18n.theme.questions %}
+                    <p>{{ i18n.theme.prefixes.questions[lang] }} {{ question.question[lang] | default: "..." }}?</p>
+                    {% endfor %}
+                </div>
+                <a class="HomeSection_link icon-link" href="/about">{{ i18n.home.section-questions.link[lang] }} {% include icons/arrow-right.svg %}</a>
             </div>
         </div>
         <div class="HomeSpacer" id="HomeSpacer--2">
@@ -38,14 +47,15 @@ layout: default
         </div>
         <div class="HomeSection" id="gospel">
             <div class="container sub-container center">
-                <h2 class="HomeSection_title">The Gospel</h2>
-                <ol>
-                    <li>God is holy and perfect.</li>
-                    <li>We are sinful and separated from God.</li>
-                    <li>God sent Jesus to die on the cross as the perfect sacrifice for our sins.</li>
-                    <li>All who repent of their sins and believe in Him are saved.</li>
-                </ol>
-                <a class="HomeSection_link icon-link" href="/gospel">Why the Gospel? {% include icons/arrow-right.svg %}</a>
+                <h2 class="HomeSection_title">{{ i18n.home.section-gospel.title[lang] }}</h2>
+                <div class="HomeSection_content">
+                    <ol>
+                        {% for point in i18n.home.section-gospel.points %}
+                        <li>{{ point[lang] }}</li>
+                        {% endfor %}
+                    </ol>
+                </div>
+                <a class="HomeSection_link icon-link" href="/gospel">{{ i18n.home.section-gospel.link[lang] }} {% include icons/arrow-right.svg %}</a>
             </div>
         </div>
         <div class="HomeSpacer" id="HomeSpacer--3">
@@ -57,11 +67,13 @@ layout: default
         </div>
     	<div class="HomeSection" id="connect">
             <div class="container sub-container center">
-                <h2 class="HomeSection_title">Connect</h2>
-                <p>Whether you've just started your spiritual journey, or you've been a long-time believer, finding a church and fellowship is an important step in growing your faith.</p>
-                <a class="HomeSection_link icon-link" href="/connect/churches">Connect with a church {% include icons/arrow-right.svg %}</a><br>
-                <a class="HomeSection_link icon-link" href="/connect/fellowships">Connect with a fellowship {% include icons/arrow-right.svg %}</a><br>
-                <a class="HomeSection_link icon-link" href="https://www.facebook.com/jesusweekwaterloo/">Connect with us on Facebook {% include icons/external-link-alt.svg %}</a>
+                <h2 class="HomeSection_title">{{ i18n.home.section-connect.title[lang] }}</h2>
+                <div class="HomeSection_content">
+                    <p>{{ i18n.home.section-connect.description[lang] }}</p>
+                </div>
+                <a class="HomeSection_link icon-link" href="/connect/churches">{{ i18n.home.section-connect.link-churches[lang] }} {% include icons/arrow-right.svg %}</a><br>
+                <a class="HomeSection_link icon-link" href="/connect/fellowships">{{ i18n.home.section-connect.link-fellys[lang] }} {% include icons/arrow-right.svg %}</a><br>
+                <a class="HomeSection_link icon-link" href="https://www.facebook.com/jesusweekwaterloo/">{{ i18n.home.section-connect.link-fb[lang] }} {% include icons/external-link-alt.svg %}</a>
         	</div>
         </div>
         <div class="HomeSpacer" id="HomeSpacer--4">
