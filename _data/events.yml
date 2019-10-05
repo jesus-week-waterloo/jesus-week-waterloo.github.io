@@ -1,69 +1,51 @@
 launch-night:
-  Title: Opening Night
+  Title:
+    en-ca: Opening Night
+    zh-hk:
   Location: AL 116
-  Date: March 10, 2019
-  Time: 6-9pm
+  Date:
+    en-ca: October 27
+    zh-hk: 10月27日
+  Time: 
+    en-ca: 6-9pm
+    zh-hk: 1800-2100
   Type: onetime
   Link: "https://www.facebook.com/events/267107934213620/"
   Cover: "/uploads/JW%20Opening.jpg"
-  Description: |
-    Two campuses, one vision. To make Christ known on campus.
+  Description:
+    en-ca: |
+      Two campuses, one vision. To make Christ known on campus.
 
-    Join us for the OPENING NIGHT of Jesus Week for a night of prayer, praise, and fellowship.
-    As we prepare our hearts for the week ahead, we'll be coming together in a time of prayer for the salvation of our campuses. 
+      Join us for the OPENING NIGHT of Jesus Week for a night of prayer, praise, and fellowship.
+      As we prepare our hearts for the week ahead, we'll be coming together in a time of prayer for the salvation of our campuses. 
 
-    We hope to see you there! 
-
-chill:
-  Title: Chill with a Christian
-  Location: SLC Great Hall
-  Date: March 12, 2019
-  Time: 11am-2pm
-  Type: onetime
-  Link: "https://www.facebook.com/events/602080600217454/"
-  Cover: "/uploads/JW%20EVENT%202%20Chill%20with%20Christians%20scaled.jpg"
-  Description: |
-    Come join us in the SLC Great Hall to ask your questions about the Christian faith.
-    Ice cream sandwiches and hot drinks will be available first come first serve. 
-
-lets-talk:
-  Title: Let's Talk about Sex
-  Location: M3 1006
-  Date: March 14, 2019
-  Time: 7-9pm
-  Type: onetime
-  Link: "https://www.facebook.com/events/557873944732400/"
-  Cover: "/uploads/JW%20event%20Sex%20scaled.jpg"
-  Description: |
-    Please join us for a three-part lecture series on the topic of sexuality, followed by a Q+A discussion. 
-
-    ### 'What is Tolerance?' Dr. David Haskell
-
-    Dr. Haskell is an outspoken advocate of free expression and free thought with a PhD from Potchefstroom University and a MA from the University of Western Ontario.
-    He is a professor at Wilfrid Laurier University and is currently running to be a member of parliament. 
- 
-    ### 'Is Sex Ultimate?' Dr. Kurt Durston
-    Dr. Durston has spent that past 35 years working for Power to Change at universities across Canada, thinking, writing and speaking about the interaction of science, theology and philosophy within the context of authentic Christianity.
-    He holds a PhD in Biophysics from the University of Guelph. 
-
-    ### 'What is the answer to sexual shame?' Pastor Jacob Reaume
-    Pastor Jacob holds a Master of Divinity from The Southern Baptist Theological Seminary in Louisville, Kentucky.
-    He became pastor of Trinity Bible Chapel in August 2009.
+      We hope to see you there! 
+    zh-hk: |
+      ...
 
 closing:
-  Title: Closing
+  Title:
+    en-ca: Closing
+    zh-hk: 
   Location: M3 1006
-  Date: March 15, 2019
-  Time: 7-10pm
+  Date: 
+    en-ca: November 1
+    zh-hk: 11月1日
+  Time: 
+    en-ca: 7-10pm
+    zh-hk: 1900-2200
   Type: onetime
   Link: "https://www.facebook.com/events/331365594153591/"
   Cover: "/uploads/JW%20Closing.jpg"
-  Description: |
-    Come hear about what God has done.
-    
-    Come share about what God has done.
+  Description:
+    en-ca: |
+      Come hear about what God has done.
+      
+      Come share about what God has done.
 
-    Join us for a night of celebration and thanksgiving as we reflect and pray about God's goodness throughout the week. We want to wrap up Jesus Week with a time of encouragement to propel us to live daily in the mission of Jesus.
+      Join us for a night of celebration and thanksgiving as we reflect and pray about God's goodness throughout the week. We want to wrap up Jesus Week with a time of encouragement to propel us to live daily in the mission of Jesus.
+    zh-hk: |
+      ...
 
 booths:
   Title: Booths
@@ -72,30 +54,17 @@ booths:
   - STC
   - DC
   Dates:
-  - March 11, 2019
-  - March 12, 2019
-  - March 13, 2019
-  - March 14, 2019
-  - March 15, 2019
-  Time: 10am-3pm
+  - en-ca: October 28
+    zh-hk: 10月28日
+  - en-ca: October 29
+    zh-hk: 10月29日
+  - en-ca: October 30
+    zh-hk: 10月30日
+  Time:
+    en-ca: 10am-3pm
+    zh-hk: 1000-1500
   Type: recurring
-  Description: |
-    Come by the Booth stations to learn more what's offered on campus and off campus to get connected with a fellowship and church.
-    
-    - Monday: 10-3pm in SLC lower atrium + STC lobby
-    - Tuesday: 10-3pm in SLC lower atrium + STC lobby
-    - Wednesday: 10-3pm in SLC marketplace + STC lobby
-    - Thursday: 10-3pm in SLC lower atrium + STC lobby
-    - Friday: 10-3pm in SLC marketplace + DC lobby
-
-evangelism:
-  Title: Evangelism
-  Location: SLC Basement
-  Dates:
-  - March 11, 2019
-  - March 13, 2019
-  - March 15, 2019
-  Time: 1030am-0430pm
-  Type: recurring
-  Description: |
-    If you are curious about Christianity or have any questions about God, feel free to drop by the SLC basement Monday, Wednesday, or Friday from 10:30am - 4:30pm to ask questions and hear the Gospel.
+  Description:
+    en-ca: |
+      Come by the Booth stations to learn more what's offered on campus and off campus to get connected with a fellowship and church.
+    zh-hk: |

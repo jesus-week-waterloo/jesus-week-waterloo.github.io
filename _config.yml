@@ -1,6 +1,7 @@
 ---
 title: Jesus Week Waterloo
 timezone: America/New_York
+lang: en-ca
 collections:
   connect:
     title: Connect
@@ -16,6 +17,15 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ""
+  values:
+    lang: en-ca
+- scope:
+    path: _uploads/
+  values:
+    sitemap: false
 exclude:
 - node_modules
 - test-assets/node_modules
@@ -35,8 +45,3 @@ short_description: Choose Christ.
 plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
-defaults:
-- scope:
-    path: "_uploads/"
-  values:
-    sitemap: false

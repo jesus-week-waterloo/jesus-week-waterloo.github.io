@@ -1,0 +1,353 @@
+# This is a comment.
+# Everything after the '#' on the same line will be ignored
+
+# The purpose of this file is to provide a consistent translation interface for the Jesus Week site.
+# Unless otherwise stated, translations should be (mostly) literal, and can be assumed to have no context.
+# Empty fields (or fields whose value is ...) signify untranslated strings.
+
+#
+# General site internationalizations
+#
+
+site:
+  title:
+    # The title of our site
+    en-ca: Jesus Week Waterloo
+    zh-hk: 
+  description:
+    # A short description to appear on Google when we're searched for
+    en-ca: What kind of King is this? // To make Christ known on the campuses.
+    zh-hk: 
+  theme:
+    # The theme of the current Jesus Week
+    en-ca: What kind of King is this?
+    zh-hk: 
+  accessibility:
+    skip-to-content:
+      en-ca: Skip to content
+      zh-hk:
+    translate:
+      en-ca: Translate
+      zh-hk:
+  roman-font-family:
+    # DO NOT CHANGE
+    en-ca: neue-haas-grotesk-text, system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', HelveticaNeue, Roboto, 'Segoe UI', Arial, sans-serif
+    zh-hk: source-han-sans-hong-kong, system-ui, -apple-system, BlinkMacSystemFont, 'PingFang HK', 'Noto Sans CJK HK', 'Microsoft JhengHei', sans-serif
+  display-font-family:
+    # DO NOT CHANGE
+    en-ca: neue-haas-grotesk-display, var(--rm-ff)
+    zh-hk: var(--rm-ff)
+
+#
+# Internationalization
+#
+
+header:
+  date:
+    en-ca: Oct 27–Nov 1
+    zh-hk: 10月27日–11月1日
+  menu:
+    - en-ca: About
+      zh-hk:
+    - en-ca: The Theme
+      zh-hk:
+    - en-ca: The Gospel
+      zh-hk:
+    - en-ca: Events
+      zh-hk:
+    - en-ca: Connect
+      zh-hk:
+    - en-ca: Contact
+      zh-hk:
+footer:
+  jesus-week:
+    en-ca: Jesus Week
+    zh-hk:
+  waterloo:
+    en-ca: Waterloo
+    zh-hk: 滑鐵盧
+  copyright:
+    en-ca: Copyright
+    zh-hk:
+home:
+  title:
+    # These three strings will be concatenated, e.g. en-ca: What kind of King is this?
+    pre-king:
+      en-ca: What kind of
+      zh-hk:
+    king:
+      en-ca: King
+      zh-hk:
+    post-king:
+      en-ca: is this?
+      zh-hk:
+  background-questions:
+    - en-ca: What kind of King fulfills prophecies?
+      zh-hk:
+    - en-ca: What kind of King never lies?
+      zh-hk:
+    - en-ca: What kind of King heals the sick?
+      zh-hk:
+    - en-ca: What kind of King dines with criminals?
+      zh-hk:
+    - en-ca: What kind of King is oppressed by his people?
+      zh-hk:
+    - en-ca: What kind of King gets buried with the wicked?
+      zh-hk:
+    - en-ca: What kind of King comes back to life?
+      zh-hk:
+    - en-ca: What kind of King brings salvation?
+      zh-hk:
+  section-questions:
+    title:
+      en-ca: The Questions
+      zh-hk:
+    link:
+      en-ca: What kind of King is King Jesus?
+      zh-hk:
+  section-gospel:
+    title:
+      en-ca: The Gospel
+      zh-hk:
+    points:
+      - en-ca: God is holy and perfect.
+        zh-hk:
+      - en-ca: We are sinful and separated from God.
+        zh-hk:
+      - en-ca: God sent Jesus to die on the cross as the perfect sacrifice for our sins.
+        zh-hk:
+      - en-ca: All who repent of their sins and believe in Him are saved.
+        zh-hk:
+    link:
+      en-ca: ...
+      zh-hk:
+  section-connect:
+    title:
+      en-ca: Connect
+      zh-hk:
+    description:
+      en-ca: Whether you've just started your spiritual journey, or you've been a long-time believer, finding a church and fellowship is an important step in growing your faith.
+      zh-hk:
+    link-churches:
+      en-ca: Connect with a church
+      zh-hk:
+    link-fellys:
+      en-ca: Connect with a fellowship
+      zh-hk:
+    link-fb:
+      en-ca: Connect with us on Facebook
+      zh-hk:
+theme:
+  title:
+    en-ca: The Theme
+    zh-hk:
+  description:
+    title:
+      # What kind of King is King Jesus?
+      prefix:
+        en-ca: What kind of King is
+        zh-hk:
+      king:
+        en-ca: King Jesus
+        zh-hk:
+    en-ca: | # Why did we choose the theme 'What kind of King is this?'
+      ...
+    zh-hk: |
+      ...
+  prefixes:
+    questions:
+      en-ca: What kind of King
+      zh-hk:
+    responses:
+      en-ca: A King that # e.g. A King that would die for his enemies, but we only need the
+                         # contexual translation for "A King that"
+      zh-hk:
+  questions:
+    # TODO: come up with questions
+    # Can reuse banner questions
+
+    # These are the concrete examples of our theme, "What kind of King is this?"
+    # They are questions meant to challenge the idea of a king, or authority, of power.
+    # We pose these questions throughout the website (as well as on our print and digital media)
+    # to get people to ponder on who and what Jesus is.
+    # Each question is separated into two fields:
+    # 1. question: This is the actual unique part of the question. It will be prefixed by the
+    #              prefixes.questions defined earlier.
+    # 3. answer: This is the explanation for the question. It should be clear and concise, but also
+    #            ideally reference the Bible.
+
+    # QUESTION 1
+    - question:
+        en-ca: would die for his enemies # => What kind of King would die for his enemies?
+        zh-hk:
+      answer:
+        en-ca:
+        zh-hk:
+    # QUESTION 2
+    - question:
+        en-ca:
+        zh-hk:
+      response:
+        en-ca:
+        zh-hk:
+      answer:
+        en-ca:
+        zh-hk:
+    # QUESTION 3
+    - question:
+        en-ca:
+        zh-hk:
+      response:
+        en-ca:
+        zh-hk:
+      answer:
+        en-ca:
+        zh-hk:
+    # QUESTION 4
+    - question:
+        en-ca:
+        zh-hk:
+      response:
+        en-ca:
+        zh-hk:
+      answer:
+        en-ca:
+        zh-hk:
+    # QUESTION 5
+    - question:
+        en-ca:
+        zh-hk:
+      response:
+        en-ca:
+        zh-hk:
+      answer:
+        en-ca:
+        zh-hk:
+    # QUESTION 6
+    - question:
+        en-ca:
+        zh-hk:
+      response:
+        en-ca:
+        zh-hk:
+      answer:
+        en-ca:
+        zh-hk:
+about:
+  title:
+    en-ca: About
+    zh-hk:
+  mission:
+    lede:
+      en-ca: Our Mission
+      zh-hk:
+    text:
+      en-ca: To make Christ known on the campuses.
+      zh-hk:
+  vision:
+    lede:
+      en-ca: Our Vision
+      zh-hk:
+    text:
+      en-ca: Gospel centred unity across the fellowships for the salvation of the campuses.
+      zh-hk:
+  verse:
+    source:
+      en-ca: 2 Corinthians 5:20-21
+      zh-hk:
+    text:
+      en-ca: Therefore, we are ambassadors for Christ, God making his appeal through us. We implore you on behalf of Christ, be reconciled to God. For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God.
+      zh-hk:
+  description:
+    en-ca: |
+      The objective of Jesus Week 2019 is simple: a desperate and urgent plea to our fellow students at the University of Waterloo and Wilfrid Laurier University to consider the reality of hell and the saving work of Jesus Christ on the cross for sinners like ourselves.
+
+      We don’t believe that we, in our own individual power and wisdom, can convert anyone, but our desire is to make known to all the grace and mercy of Jesus, who stood in our place at Calvary and died the death that we deserved. Whoever should repent and trust in Jesus will be saved.
+
+      We plead with you; hell is real, heaven is real, time is short; you must choose how you will respond.
+    zh-hk: |
+      ...
+gospel:
+  title:
+    en-ca: The Gospel
+    zh-hk:
+  points:
+    - title:
+        en-ca: A Holy and Perfect God
+        zh-hk:
+      description:
+        en-ca: In the beginning, God created the world. He is a perfect and holy God who cannot be in the presence of anything short of perfection. 
+        zh-hk:
+      reference:
+        source:
+          en-ca: Hebrews 12:14
+          zh-hk:
+        text:
+          en-ca: Make every effort to live in peace with everyone and to be holy; without holiness no one will see the Lord.
+          zh-hk:
+    - title:
+        en-ca: The Fall
+        zh-hk:
+      description:
+        en-ca: Humans are sinful in nature and deserve God’s wrath, eternal punishment. We are eternally separated from God.
+        zh-hk:
+      reference:
+        source:
+          en-ca: Romans 5:12
+          zh-hk:
+        text:
+          en-ca: Therefore, just as sin entered the world through one man, and death through sin, and in this way death came to all people, because all sinned.
+          zh-hk:
+    - title:
+        en-ca: The Messiah
+        zh-hk:
+      description:
+        en-ca: In the beginning, God created the world. He is a perfect and holy God who cannot be in the presence of anything short of perfection. God sent his one and only Son Jesus to die on the cross as the perfect sacrifice, to satisfy God’s wrath. And on the third day, Jesus rose and conquered death.
+        zh-hk:
+      reference:
+        source:
+          en-ca: 1 Corinthians 15:3-4
+          zh-hk:
+        text:
+          en-ca: Make every effort to live in peace with everyone and to be holy; without holiness no one will see the Lord.
+          zh-hk:
+    - title:
+        en-ca: Saved by Grace Through Faith
+        zh-hk:
+      description:
+        en-ca: Though we hated him, God gives to us unmerited favour by sending his own Son to die in our place. It is because of him, not of any earned merit of ourselves, that we can be saved.
+        zh-hk:
+      reference:
+        source:
+          en-ca: Romans 10:9-10
+          zh-hk:
+        text:
+          en-ca: If you declare with your mouth, "Jesus is Lord", and believe in your heart that God raised him from the dead, you will be saved. For it is with your heart that you believe and are justified, and it is with your mouth that you profess your faith and are saved.
+          zh-hk:
+events:
+  title:
+    en-ca: Events
+    zh-hk:
+connect:
+  title:
+    en-ca: Connect
+    zh-hk:
+  headline:
+    en-ca: The Gospel doesn't just stop with Jesus Week.
+    zh-hk:
+  preamble:
+    en-ca: Whether you're a fully professing Christian, just started on your spiritual journey, or interested in learning more about Jesus, we strongly encourage you to go to a church and join a fellowship. You'll find a community of like-minded, Gospel-centred believers in Christ that will answer your questions, keep you accountable, and guide you in growing your faith.
+    zh-hk:
+  card:
+    en-ca: Interested in taking the next step?
+    zh-hk:
+  link-find-church:
+    en-ca: Connect with a church
+    zh-hk:
+  link-find-felly:
+    en-ca: Connect with a fellowship
+    zh-hk:
+contact:
+  title:
+    en-ca: Contact
+    zh-hk:

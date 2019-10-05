@@ -1,65 +1,117 @@
 UWaterloo:
-  UWCCF:
-    Meetings:
-      Time: Fridays 7pm
-      Location: RCH 301
-    Links: 
-      - Type: Page
-        URL: "https://www.uwccf.com"
-      - Type: Facebook
-        URL: "https://www.facebook.com/uwccf/"
-      - Type: Facebook
-        URL: "https://www.facebook.com/groups/uwaterlooccf/"
+  - name:
+      en-ca: UW Chinese Christian Fellowship
+      zh-hk:
+    meetings:
+      time:
+        en-ca: Fridays 7pm
+        zh-hk:
+      location: RCH 301
+    links: 
+      - type: Page
+        url: "https://www.uwccf.com"
+      - type: Facebook
+        url: "https://www.facebook.com/uwccf/"
+      - type: Facebook
+        url: "https://www.facebook.com/groups/uwaterlooccf/"
 
-  Waterloo KCF:
-    Meetings:
-      Time: Fridays 630pm
-      Location: PHY 235
-    Links: 
-      - Type: Facebook
-        URL: "https://www.facebook.com/groups/waterlookcf/"
+  - name:
+      en-ca: Waterloo Korean Christian Fellowship
+      zh-hk:
+    meetings:
+      time:
+        en-ca: Fridays 630pm
+        zh-hk:
+      location: PHY 235
+    links: 
+      - type: Facebook
+        url: "https://www.facebook.com/groups/waterlookcf/"
 
-  UWcCCF:
-    Meetings:
-      Time: Tuesdays 7pm
-      Location: DWE 3522
-    Links: 
-      - Type: Facebook
-        URL: "https://www.facebook.com/groups/uwcccf/"
+  - name:
+      en-ca: UW Cantonese Chinese Christian Fellowship
+      zh-hk:
+    meetings:
+      time:
+        en-ca: Tuesdays 7pm
+        zh-hk:
+      location: DWE 3522
+    links: 
+      - type: Facebook
+        url: "https://www.facebook.com/groups/uwcccf/"
 
-  UWmCCF:
-    Meetings:
-      Time: Thursdays 7pm
-      Location: MC 4060
-    Links: 
-      - Type: Facebook
-        URL: "https://www.facebook.com/groups/uwmccf/"
+  - name:
+      en-ca: UW Mandarin Chinese Christian Fellowship
+      zh-hk:
+    meetings:
+      time:
+        en-ca: Thursdays 7pm
+        zh-hk:
+      location: MC 4060
+    links: 
+      - type: Facebook
+        url: "https://www.facebook.com/groups/uwmccf/"
 
-  P2C - Waterloo:
-    Meetings:
-      Time: Fridays 7pm
-      Location: MC 2065
-    Links:
-      - Type: Page
-        URL: "https://p2c.com/students/campuses/university-of-waterloo/"
-      - Type: Facebook
-        URL: "https://www.facebook.com/p2c.waterloo/"
-      - Type: Facebook
-        URL: "https://www.facebook.com/groups/p2cwaterloo/"
+  - name:
+      en-ca: Power2Change - Waterloo
+      zh-hk:
+    meetings:
+      time: 
+        en-ca: Fridays 7pm
+        zh-hk:
+      location: MC 2065
+    links:
+      - type: Page
+        url: "https://p2c.com/students/campuses/university-of-waterloo/"
+      - type: Facebook
+        url: "https://www.facebook.com/p2c.waterloo/"
+      - type: Facebook
+        url: "https://www.facebook.com/groups/p2cwaterloo/"
+
+  - name:
+      en-ca: Kingdom Come - UW/WLU
+      zh-hk:
+    meetings:
+      time:
+        en-ca: Thursdays 630pm
+        zh-hk:
+      location: DWE 3518
+    links:
+      - type: Facebook
+        url: "https://www.facebook.com/groups/kcwaterloo/"
 
 WLU:
-  Laurier CCF:
-    Meetings:
-      Time: Wednesdays 730pm
-      Location: Updated weekly on facebook
-    Links: 
-      - Type: Facebook
-        URL: "https://www.facebook.com/groups/laurierccf/"
+  - name:
+      en-ca: Laurier Chinese Christian Fellowship
+      zh-hk:
+    meetings:
+      time: 
+        en-ca: Wednesdays 730pm
+        zh-hk:
+      location: Updated weekly on facebook
+    links: 
+      - type: Facebook
+        url: "https://www.facebook.com/groups/laurierccf/"
 
-  P2C - Laurier:
-    Meetings:
-      Time: Thursdays 715pm
-      Location: Updated weekly on Facebook
-    Links: 
-      - Type: Facebook
-        URL: "https://www.facebook.com/groups/p2claurier/"
+  - name:
+      en-ca: Power2Change - Laurier
+      zh-hk:
+    meetings:
+      time: 
+        en-ca: Thursdays 715pm
+        zh-hk:
+      location: Updated weekly on Facebook
+    links: 
+      - type: Facebook
+        url: "https://www.facebook.com/groups/p2claurier/"
+
+  - name:
+      en-ca: Kingdom Come - UW/WLU
+      zh-hk:
+    meetings:
+      time:
+        en-ca: Thursdays 630pm
+        zh-hk:
+      location: DWE 3518
+    links:
+      - type: Facebook
+        url: "https://www.facebook.com/groups/kcwaterloo/"
