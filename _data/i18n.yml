@@ -3,7 +3,7 @@
 
 # The purpose of this file is to provide a consistent translation interface for the Jesus Week site.
 # Unless otherwise stated, translations should be (mostly) literal, and can be assumed to have no context.
-# Empty fields (or fields whose value is ...) signify untranslated strings.
+# Fields whose value is ... signify untranslated strings.
 
 #
 # General site internationalizations
@@ -13,22 +13,48 @@ site:
   title:
     # The title of our site
     en-ca: Jesus Week Waterloo
-    zh-hk: 
+    zh-hk: ...
   description:
     # A short description to appear on Google when we're searched for
     en-ca: What kind of King is this? // To make Christ known on the campuses.
-    zh-hk: 
+    zh-hk: ...
   theme:
     # The theme of the current Jesus Week
     en-ca: What kind of King is this?
-    zh-hk: 
+    zh-hk: ...
   accessibility:
     skip-to-content:
       en-ca: Skip to content
-      zh-hk:
+      zh-hk: ...
     translate:
       en-ca: Translate
-      zh-hk:
+      zh-hk: ...
+  js-accessibility:
+    open-navigation:
+      # open the navigation menu
+      en-ca: Open navigation
+      zh-hk: ...
+    close-navigation:
+      # close the navigation menu
+      en-ca: Close navigation
+      zh-hk: ...
+    events:
+      ongoing:
+        en-ca: Ongoing
+        zh-hk: ...
+      upcoming:
+        en-ca: Next event
+        zh-hk: ...
+      none-ongoing:
+        en-ca: No ongoing events
+        zh-hk: ...
+      none-upcoming:
+        en-ca: No upcoming events
+        zh-hk: ...
+  link-prefix:
+    # DO NOT CHANGE
+    en-ca: ""
+    zh-hk: /zh-hk
   roman-font-family:
     # DO NOT CHANGE
     en-ca: neue-haas-grotesk-text, system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', HelveticaNeue, Roboto, 'Segoe UI', Arial, sans-serif
@@ -39,7 +65,7 @@ site:
     zh-hk: var(--rm-ff)
 
 #
-# Internationalization
+# The header that appears on top of every page
 #
 
 header:
@@ -47,307 +73,676 @@ header:
     en-ca: Oct 27–Nov 1
     zh-hk: 10月27日–11月1日
   menu:
-    - en-ca: About
-      zh-hk:
-    - en-ca: The Theme
-      zh-hk:
-    - en-ca: The Gospel
-      zh-hk:
-    - en-ca: Events
-      zh-hk:
-    - en-ca: Connect
-      zh-hk:
-    - en-ca: Contact
-      zh-hk:
+    # DO NOT CHANGE
+    - about
+    - theme
+    - gospel
+    - events
+    - connect
+    - contact
+
+#
+# The footer that appears at the bottom of every page
+#
+
 footer:
   jesus-week:
     en-ca: Jesus Week
-    zh-hk:
+    zh-hk: ...
   waterloo:
     en-ca: Waterloo
     zh-hk: 滑鐵盧
   copyright:
     en-ca: Copyright
-    zh-hk:
+    zh-hk: ...
+
+#
+# List of page titles and their translations
+#
+
+titles:
+  404:
+    en-ca: 404, Page Not Found
+    zh-hk: ...
+  about:
+    en-ca: About
+    zh-hk: ...
+  theme:
+    en-ca: The Theme
+    zh-hk: ...
+  gospel:
+    en-ca: The Gospel
+    zh-hk: ...
+  events:
+    en-ca: Events
+    zh-hk: ...
+  connect:
+    en-ca: Connect
+    zh-hk: ...
+  connect-churches:
+    en-ca: Churches
+    zh-hk: ...
+  connect-fellys:
+    en-ca: Fellowships
+    zh-hk: ...
+  contact:
+    en-ca: Contact
+    zh-hk: ...
+
+#
+# Translations for the home page
+#
+
 home:
   title:
+    # This is the headline of the Jesus Week site, the first thing people will see when they go to
+    # jesusweek.ca.
     # These three strings will be concatenated, e.g. en-ca: What kind of King is this?
     pre-king:
       en-ca: What kind of
-      zh-hk:
+      zh-hk: ...
     king:
       en-ca: King
-      zh-hk:
+      zh-hk: ...
     post-king:
       en-ca: is this?
-      zh-hk:
+      zh-hk: ...
   background-questions:
+    # These are the questions that we have scrolling across the background on the home page
     - en-ca: What kind of King fulfills prophecies?
-      zh-hk:
+      zh-hk: ...
     - en-ca: What kind of King never lies?
-      zh-hk:
+      zh-hk: ...
     - en-ca: What kind of King heals the sick?
-      zh-hk:
+      zh-hk: ...
     - en-ca: What kind of King dines with criminals?
-      zh-hk:
+      zh-hk: ...
     - en-ca: What kind of King is oppressed by his people?
-      zh-hk:
+      zh-hk: ...
     - en-ca: What kind of King gets buried with the wicked?
-      zh-hk:
+      zh-hk: ...
     - en-ca: What kind of King comes back to life?
-      zh-hk:
+      zh-hk: ...
     - en-ca: What kind of King brings salvation?
-      zh-hk:
+      zh-hk: ...
   section-questions:
     title:
+      # The title for the questions section of the home page, right below the Jesus Week title
       en-ca: The Questions
-      zh-hk:
+      zh-hk: ...
     link:
+      # Link text to lead to the page where we answer our theme questions (see below)
       en-ca: What kind of King is King Jesus?
-      zh-hk:
+      zh-hk: ...
   section-gospel:
     title:
+      # The title for the Gospel section of the home page
       en-ca: The Gospel
-      zh-hk:
+      zh-hk: ...
     points:
       - en-ca: God is holy and perfect.
-        zh-hk:
+        zh-hk: ...
       - en-ca: We are sinful and separated from God.
-        zh-hk:
+        zh-hk: ...
       - en-ca: God sent Jesus to die on the cross as the perfect sacrifice for our sins.
-        zh-hk:
+        zh-hk: ...
       - en-ca: All who repent of their sins and believe in Him are saved.
-        zh-hk:
+        zh-hk: ...
     link:
-      en-ca: ...
-      zh-hk:
+      # Link text to lead to a more detailed explanation of the Gospel
+      en-ca: Learn more about the Gospel
+      zh-hk: ...
   section-connect:
     title:
+      # The title for the Connect section of the home page
       en-ca: Connect
-      zh-hk:
+      zh-hk: ...
     description:
-      en-ca: Whether you've just started your spiritual journey, or you've been a long-time believer, finding a church and fellowship is an important step in growing your faith.
-      zh-hk:
+      en-ca: >
+        Whether you've just started your spiritual journey, or you've been a long-time believer,
+        finding a church and fellowship is an important step in growing your faith.
+      zh-hk: >
+        ...
     link-churches:
       en-ca: Connect with a church
-      zh-hk:
+      zh-hk: ...
     link-fellys:
       en-ca: Connect with a fellowship
-      zh-hk:
+      zh-hk: ...
     link-fb:
       en-ca: Connect with us on Facebook
-      zh-hk:
+      zh-hk: ...
+
+#
+# Translations for the theme page, where we explain our theme and answer the theme questions
+#
+
 theme:
-  title:
-    en-ca: The Theme
-    zh-hk:
   description:
     title:
       # What kind of King is King Jesus?
-      prefix:
-        en-ca: What kind of King is
-        zh-hk:
-      king:
-        en-ca: King Jesus
-        zh-hk:
-    en-ca: | # Why did we choose the theme 'What kind of King is this?'
-      ...
-    zh-hk: |
-      ...
+      en-ca: What kind of King is *King Jesus*?
+      zh-hk: ...
   prefixes:
     questions:
-      en-ca: What kind of King
-      zh-hk:
-    responses:
-      en-ca: A King that # e.g. A King that would die for his enemies, but we only need the
-                         # contexual translation for "A King that"
-      zh-hk:
+      en-ca: What kind of King # e.g. What kind of King has utmost authority, but we only need the
+                               # contexual translation for "What kind of King"
+      zh-hk: ...
   questions:
-    # TODO: come up with questions
-    # Can reuse banner questions
-
     # These are the concrete examples of our theme, "What kind of King is this?"
     # They are questions meant to challenge the idea of a king, or authority, of power.
     # We pose these questions throughout the website (as well as on our print and digital media)
     # to get people to ponder on who and what Jesus is.
-    # Each question is separated into two fields:
-    # 1. question: This is the actual unique part of the question. It will be prefixed by the
-    #              prefixes.questions defined earlier.
-    # 3. answer: This is the explanation for the question. It should be clear and concise, but also
-    #            ideally reference the Bible.
 
     # QUESTION 1
-    - question:
-        en-ca: would die for his enemies # => What kind of King would die for his enemies?
-        zh-hk:
-      answer:
-        en-ca:
-        zh-hk:
+    - en-ca: has utmost authority # => What kind of King has utmost authority?
+      zh-hk: ...
     # QUESTION 2
-    - question:
-        en-ca:
-        zh-hk:
-      response:
-        en-ca:
-        zh-hk:
-      answer:
-        en-ca:
-        zh-hk:
+    - en-ca: hires and calls in the weak
+      zh-hk: ...
     # QUESTION 3
-    - question:
-        en-ca:
-        zh-hk:
-      response:
-        en-ca:
-        zh-hk:
-      answer:
-        en-ca:
-        zh-hk:
+    - en-ca: serves the lowly
+      zh-hk: ...
     # QUESTION 4
-    - question:
-        en-ca:
-        zh-hk:
-      response:
-        en-ca:
-        zh-hk:
-      answer:
-        en-ca:
-        zh-hk:
+    - en-ca: puts the need of all others ahead of his own
+      zh-hk: ...
     # QUESTION 5
-    - question:
-        en-ca:
-        zh-hk:
-      response:
-        en-ca:
-        zh-hk:
-      answer:
-        en-ca:
-        zh-hk:
+    - en-ca: forgives His enemies
+      zh-hk: ...
     # QUESTION 6
-    - question:
-        en-ca:
-        zh-hk:
-      response:
-        en-ca:
-        zh-hk:
-      answer:
-        en-ca:
-        zh-hk:
+    - en-ca: lays down his life for those rebelling against Him
+      zh-hk: ...
+  explanation:
+    # This is our explanation for our theme. It's split into several sections, each corresponding
+    # to a specific visual effect.
+    preamble:
+      en-ca: |
+        Jesus is the one with total authority, given by God, in Heaven and on Earth.
+      zh-hk: |
+        ...
+    preamble-verse:
+      source:
+        en-ca: Ephesians 1:20-21
+        zh-hk: ...
+      text:
+        en-ca: >
+          God raised him from the dead and seated him at his right hand in the heavenly places, far
+          above all rule and authority and power and dominion, and above every name that is named,
+          not only in this age but also in the one to come.
+        zh-hk: >
+          ...
+    authority-p1:
+      en-ca: |
+        The authority of Jesus can be witnessed through his triumph over nature, illness,
+        forgiveness of sins, and even death. We see accounts of his authority over nature when he
+        controls the wind and seas to calm a storm, over illness when he heals blindness, over sin
+        when pours out mercy, and over death when he rose from the grave.
+      zh-hk: |
+        ... 
+    authority-verses:
+      - source:
+          en-ca: Matthew 4:41
+          zh-hk: ...
+        text:
+          en-ca: >
+            Who then is this, that even the wind and the sea obey him?
+          zh-hk: >
+            ...
+      - source:
+          en-ca: Acts 10:38
+          zh-hk: ...
+        text:
+          en-ca: >
+            He went about doing good and healing all who were oppressed by the devil, for God was
+            with Him.
+          zh-hk: >
+            ...
+      - source:
+          en-ca: Mark 1:27
+          zh-hk: ...
+        text:
+          en-ca: >
+            What is this? A new teaching with authority! He commands even the unclean spirits, and
+            they obey Him.
+          zh-hk: >
+            ...
+      - source:
+          en-ca: Luke 24:6-7
+          zh-hk: ...
+        text:
+          en-ca: >
+            He is not here; he has risen! Remember how he told you, while he was still with you in
+            Galilee: ‘The Son of Man must be delivered over to the hands of sinners, be crucified
+            and on the third day be raised again.’
+          zh-hk: >
+            ...
+    authority-p2:
+      en-ca: |
+        Jesus has all authority and all power. He is, furthermore, all holy and righteous (Romans
+        3:10). He is the one who is fully right to judge us, but instead of judging us, he offers
+        us eternal life. This tremendously contradicts our expectation of a king.
+      zh-hk: |
+        ...
+    suffering:
+      en-ca: |
+        Jesus is not a king who turns away to those who are suffering or demands to be served as
+        the world’s authority figures expect to be. Rather, he experiences our suffering and cares
+        (Hebrews 2:18). Jesus, with all authority, emptied himself of his glory and took on the
+        role of a servant. As seen in the accounts of his authority on Earth, he is patient,
+        compassionate, and merciful to those who are helpless. Jesus sees the need in people. He
+        sees us so clearly in our brokenness, yet, Jesus is the King who died for us, so that we
+        may be reconciled to God (2 Corinthians 5:17-18).
+      zh-hk: |
+        ...
+    conclusion:
+      en-ca: |
+        He is so powerful, howbeit so loving and tender. He is Lord of lords and King of kings
+        (Revelation 17:14), and the good shepherd who lays down His life for His sheep (John
+        10:11). Jesus is the promised King, the one who will save, who will rule, who will redeem.
+        He is the way, and the truth, and the life. (John 14:6). 
+      zh-hk: |
+        ...
+
+#
+# Translations for our about page
+# Note: this is the same as what we had for Winter 2019
+#
+
 about:
-  title:
-    en-ca: About
-    zh-hk:
   mission:
+    # Our Mission: ...
     lede:
       en-ca: Our Mission
-      zh-hk:
+      zh-hk: ...
     text:
       en-ca: To make Christ known on the campuses.
-      zh-hk:
+      zh-hk: ...
   vision:
+    # Our Vision: ...
     lede:
       en-ca: Our Vision
-      zh-hk:
+      zh-hk: ...
     text:
       en-ca: Gospel centred unity across the fellowships for the salvation of the campuses.
-      zh-hk:
+      zh-hk: ...
   verse:
+    # The bible verse that underlies who we are
     source:
       en-ca: 2 Corinthians 5:20-21
-      zh-hk:
+      zh-hk: ...
     text:
-      en-ca: Therefore, we are ambassadors for Christ, God making his appeal through us. We implore you on behalf of Christ, be reconciled to God. For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God.
-      zh-hk:
+      en-ca: >
+        Therefore, we are ambassadors for Christ, God making his appeal through us. We implore you
+        on behalf of Christ, be reconciled to God. For our sake he made him to be sin who knew no
+        sin, so that in him we might become the righteousness of God.
+      zh-hk: >
+        ...
   description:
     en-ca: |
-      The objective of Jesus Week 2019 is simple: a desperate and urgent plea to our fellow students at the University of Waterloo and Wilfrid Laurier University to consider the reality of hell and the saving work of Jesus Christ on the cross for sinners like ourselves.
+      The objective of Jesus Week 2019 is simple: a desperate and urgent plea to our fellow
+      students at the University of Waterloo and Wilfrid Laurier University to consider the reality
+      of hell and the saving work of Jesus Christ on the cross for sinners like ourselves.
 
-      We don’t believe that we, in our own individual power and wisdom, can convert anyone, but our desire is to make known to all the grace and mercy of Jesus, who stood in our place at Calvary and died the death that we deserved. Whoever should repent and trust in Jesus will be saved.
+      We don’t believe that we, in our own individual power and wisdom, can convert anyone, but our
+      desire is to make known to all the grace and mercy of Jesus, who stood in our place at
+      Calvary and died the death that we deserved. Whoever should repent and trust in Jesus will
+      be saved.
 
-      We plead with you; hell is real, heaven is real, time is short; you must choose how you will respond.
+      We plead with you; hell is real, heaven is real, time is short; you must choose how you will
+      respond.
     zh-hk: |
       ...
+
+#
+# Translations for our Gospel page
+#
+
 gospel:
-  title:
-    en-ca: The Gospel
-    zh-hk:
   points:
     - title:
         en-ca: A Holy and Perfect God
-        zh-hk:
+        zh-hk: ...
       description:
-        en-ca: In the beginning, God created the world. He is a perfect and holy God who cannot be in the presence of anything short of perfection. 
-        zh-hk:
+        en-ca: >
+          In the beginning, God created the world. He is a perfect and holy God who cannot be
+          in the presence of anything short of perfection. 
+        zh-hk: >
+          ...
       reference:
         source:
           en-ca: Hebrews 12:14
-          zh-hk:
+          zh-hk: ...
         text:
-          en-ca: Make every effort to live in peace with everyone and to be holy; without holiness no one will see the Lord.
-          zh-hk:
+          en-ca: >
+            Make every effort to live in peace with everyone and to be holy; without holiness
+            no one will see the Lord.
+          zh-hk: >
+            ...
     - title:
         en-ca: The Fall
-        zh-hk:
+        zh-hk: ...
       description:
-        en-ca: Humans are sinful in nature and deserve God’s wrath, eternal punishment. We are eternally separated from God.
-        zh-hk:
+        en-ca: >
+          Humans are sinful in nature and deserve God’s wrath, eternal punishment. We are
+          eternally separated from God.
+        zh-hk: >
+          ...
       reference:
         source:
           en-ca: Romans 5:12
-          zh-hk:
+          zh-hk: ...
         text:
-          en-ca: Therefore, just as sin entered the world through one man, and death through sin, and in this way death came to all people, because all sinned.
-          zh-hk:
+          en-ca: >
+            Therefore, just as sin entered the world through one man, and death through sin, and in
+            this way death came to all people, because all sinned.
+          zh-hk: >
+            ...
     - title:
         en-ca: The Messiah
-        zh-hk:
+        zh-hk: ...
       description:
-        en-ca: In the beginning, God created the world. He is a perfect and holy God who cannot be in the presence of anything short of perfection. God sent his one and only Son Jesus to die on the cross as the perfect sacrifice, to satisfy God’s wrath. And on the third day, Jesus rose and conquered death.
-        zh-hk:
+        en-ca: >
+          In the beginning, God created the world. He is a perfect and holy God who cannot be in
+          the presence of anything short of perfection. God sent his one and only Son Jesus to die
+          on the cross as the perfect sacrifice, to satisfy God’s wrath. And on the third day,
+          Jesus rose and conquered death.
+        zh-hk: >
+          ...
       reference:
         source:
           en-ca: 1 Corinthians 15:3-4
-          zh-hk:
+          zh-hk: ...
         text:
-          en-ca: Make every effort to live in peace with everyone and to be holy; without holiness no one will see the Lord.
-          zh-hk:
+          en-ca: >
+            Make every effort to live in peace with everyone and to be holy; without holiness no
+            one will see the Lord.
+          zh-hk: >
+            ...
     - title:
         en-ca: Saved by Grace Through Faith
-        zh-hk:
+        zh-hk: ...
       description:
-        en-ca: Though we hated him, God gives to us unmerited favour by sending his own Son to die in our place. It is because of him, not of any earned merit of ourselves, that we can be saved.
-        zh-hk:
+        en-ca: >
+          Though we hated him, God gives to us unmerited favour by sending his own Son to die in
+          our place. It is because of him, not of any earned merit of ourselves, that we can be
+          saved.
+        zh-hk: >
+          ...
       reference:
         source:
           en-ca: Romans 10:9-10
-          zh-hk:
+          zh-hk: ...
         text:
-          en-ca: If you declare with your mouth, "Jesus is Lord", and believe in your heart that God raised him from the dead, you will be saved. For it is with your heart that you believe and are justified, and it is with your mouth that you profess your faith and are saved.
-          zh-hk:
+          en-ca: >
+            If you declare with your mouth, "Jesus is Lord", and believe in your heart that God
+            raised him from the dead, you will be saved. For it is with your heart that you believe
+            and are justified, and it is with your mouth that you profess your faith and are saved.
+          zh-hk: >
+            ...
+
+#
+# Translations for events
+#
+
 events:
-  title:
-    en-ca: Events
-    zh-hk:
+  links:
+    facebook:
+      en-ca: See this event on Facebook
+      zh-hk: ...
+  events:
+    # Our opening night event
+    launch-night:
+      title:
+        en-ca: Opening Night
+        zh-hk: ...
+      location: AL 116
+      canonicalDate: 2019-10-27
+      date:
+        en-ca: Oct. 27
+        zh-hk: 10月27日
+      canonicalTime: 18:00-21:00
+      time: 
+        en-ca: 6-9pm
+        zh-hk: 1800-2100
+      type: onetime
+      link: "https://www.facebook.com/events/267107934213620/"
+      cover: "/uploads/JW%20Opening.jpg"
+      description:
+        en-ca: |
+          Two campuses, one vision. To make Christ known on campus.
+
+          Join us for the OPENING NIGHT of Jesus Week for a night of prayer, praise, and
+          fellowship. As we prepare our hearts for the week ahead, we'll be coming together in a
+          time of prayer for the salvation of our campuses. 
+
+          We hope to see you there! 
+        zh-hk: |
+          ...
+    # Our closing night event
+    closing:
+      title:
+        en-ca: Closing
+        zh-hk: ...
+      location: M3 1006
+      canonicalDate: 2019-11-01
+      date: 
+        en-ca: Nov. 1
+        zh-hk: 11月1日
+      canonicalTime: 19:00-22:00
+      time: 
+        en-ca: 7-10pm
+        zh-hk: 1900-2200
+      type: onetime
+      link: "https://www.facebook.com/events/331365594153591/"
+      cover: "/uploads/JW%20Closing.jpg"
+      description:
+        en-ca: |
+          Come hear about what God has done.
+          
+          Come share about what God has done.
+
+          Join us for a night of celebration and thanksgiving as we reflect and pray about God's
+          goodness throughout the week. We want to wrap up Jesus Week with a time of encouragement
+          to propel us to live daily in the mission of Jesus.
+        zh-hk: |
+          ...
+    # Event page for booths
+    booths:
+      title:
+        en-ca: Booths
+        zh-hk: ...
+      locations:
+        - SLC
+        - STC
+        - DC
+      canonicalDates:
+        - 2019-10-28
+        - 2019-10-29
+        - 2019-10-30
+      dates:
+        - en-ca: Oct. 28
+          zh-hk: 10月28日
+        - en-ca: Oct. 29
+          zh-hk: 10月29日
+        - en-ca: Oct. 30
+          zh-hk: 10月30日
+      canonicalTime: 10:00-15:00
+      time:
+        en-ca: 10am-3pm
+        zh-hk: 1000-1500
+      type: recurring
+      description:
+        en-ca: |
+          Come by the Booth stations to learn more what's offered on campus and off campus to get
+          connected with a fellowship and church.
+
+          - Monday Oct 28:
+          - Tuesday Oct 29:
+          - Wednesday Oct 30:
+        zh-hk: |
+          ...
+
+#
+# Translations for the connect page
+#
+
 connect:
-  title:
-    en-ca: Connect
-    zh-hk:
   headline:
     en-ca: The Gospel doesn't just stop with Jesus Week.
-    zh-hk:
+    zh-hk: ...
   preamble:
-    en-ca: Whether you're a fully professing Christian, just started on your spiritual journey, or interested in learning more about Jesus, we strongly encourage you to go to a church and join a fellowship. You'll find a community of like-minded, Gospel-centred believers in Christ that will answer your questions, keep you accountable, and guide you in growing your faith.
-    zh-hk:
+    en-ca: >
+      Whether you're a fully professing Christian, just started on your spiritual journey, or
+      interested in learning more about Jesus, we strongly encourage you to go to a church and join
+      a fellowship. You'll find a community of like-minded, Gospel-centred believers in Christ that
+      will answer your questions, keep you accountable, and guide you in growing your faith.
+    zh-hk: >
+      ...
   card:
+    # This text will appear whenever we want to link to the connect page from another page
     en-ca: Interested in taking the next step?
-    zh-hk:
+    zh-hk: ...
   link-find-church:
     en-ca: Connect with a church
-    zh-hk:
+    zh-hk: ...
   link-find-felly:
     en-ca: Connect with a fellowship
-    zh-hk:
+    zh-hk: ...
+  # A list of fellowships in UW and WLU
+  campuses:
+    - name:
+        en-ca: UWaterloo
+        zh-hk: ...
+      fellys:
+        - name:
+            en-ca: UW Chinese Christian Fellowship
+            zh-hk: ...
+          meetings:
+            time:
+              en-ca: Fridays 7pm
+              zh-hk: ...
+            location: RCH 301
+          links: 
+            - type: Page
+              url: "https://www.uwccf.com"
+            - type: Facebook
+              url: "https://www.facebook.com/uwccf/"
+            - type: Facebook
+              url: "https://www.facebook.com/groups/uwaterlooccf/"
+        - name:
+            en-ca: Waterloo Korean Christian Fellowship
+            zh-hk: ...
+          meetings:
+            time:
+              en-ca: Fridays 630pm
+              zh-hk: ...
+            location: PHY 235
+          links: 
+            - type: Facebook
+              url: "https://www.facebook.com/groups/waterlookcf/"
+        - name:
+            en-ca: UW Cantonese Chinese Christian Fellowship
+            zh-hk: ...
+          meetings:
+            time:
+              en-ca: Tuesdays 7pm
+              zh-hk: ...
+            location: DWE 3522
+          links: 
+            - type: Facebook
+              url: "https://www.facebook.com/groups/uwcccf/"
+        - name:
+            en-ca: UW Mandarin Chinese Christian Fellowship
+            zh-hk: ...
+          meetings:
+            time:
+              en-ca: Thursdays 7pm
+              zh-hk: ...
+            location: MC 4060
+          links: 
+            - type: Facebook
+              url: "https://www.facebook.com/groups/uwmccf/"
+        - name:
+            en-ca: Power2Change - Waterloo
+            zh-hk: ...
+          meetings:
+            time: 
+              en-ca: Fridays 7pm
+              zh-hk:
+            location: MC 2065
+          links:
+            - type: Page
+              url: "https://p2c.com/students/campuses/university-of-waterloo/"
+            - type: Facebook
+              url: "https://www.facebook.com/p2c.waterloo/"
+            - type: Facebook
+              url: "https://www.facebook.com/groups/p2cwaterloo/"
+        - name:
+            en-ca: Kingdom Come - UW/WLU
+            zh-hk: ...
+          meetings:
+            time:
+              en-ca: Thursdays 630pm
+              zh-hk:
+            location: DWE 3518
+          links:
+            - type: Facebook
+              url: "https://www.facebook.com/groups/kcwaterloo/"
+    - name:
+        en-ca: WLU
+        zh-hk: ...
+      fellys:
+        - name:
+            en-ca: Laurier Chinese Christian Fellowship
+            zh-hk: ...
+          meetings:
+            time: 
+              en-ca: Wednesdays 730pm
+              zh-hk: ...
+            location: Updated weekly on facebook
+          links: 
+            - type: Facebook
+              url: "https://www.facebook.com/groups/laurierccf/"
+        - name:
+            en-ca: Power2Change - Laurier
+            zh-hk: ...
+          meetings:
+            time: 
+              en-ca: Thursdays 715pm
+              zh-hk: ...
+            location: Updated weekly on Facebook
+          links: 
+            - type: Facebook
+              url: "https://www.facebook.com/groups/p2claurier/"
+        - name:
+            en-ca: Kingdom Come - UW/WLU
+            zh-hk: ...
+          meetings:
+            time:
+              en-ca: Thursdays 630pm
+              zh-hk: ...
+            location: DWE 3518
+          links:
+            - type: Facebook
+              url: "https://www.facebook.com/groups/kcwaterloo/"
+
+#
+# Translations for the contact page
+#
+
 contact:
-  title:
-    en-ca: Contact
-    zh-hk:
+  facebook:
+    en-ca: Check out the Jesus Week Waterloo Facebook page
+    zh-hk: ...
+
+#
+# Translations for the 404 page
+#
+
+404:
+  message:
+    en-ca: We couldn't find the page you were looking for
+    zh-hk: ...
+  back-to-home:
+    en-ca: Back to the homepage
+    zh-hk: ...
