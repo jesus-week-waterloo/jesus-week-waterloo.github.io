@@ -9,11 +9,37 @@
     <link rel="dns-prefetch" href="https://polyfill.io">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
 
-    <link rel="shortcut icon" href="/favicon.png?v20190310" type="image/png">
+    <link rel="shortcut icon" href="{{ site.logo }}" type="image/png">
 
-    <title>{% if page.title %}{{ page.title }} // {% endif %}{{ i18n.site.title[lang] }} // {{ i18n.site.theme[lang] }}</title>
+    {% assign i18n = site.data.i18n %}
+    {% assign lang = page.lang %}
 
-    {% seo title=false %}
+    {% if page.title %}
+    {% if page.layout == 'event' %}
+    {% assign title = i18n.events.events[page.key].title[lang] %}
+    {% else %}
+    {% assign title = i18n.titles[page.title][lang] %}
+    {% endif %}
+    {% else %}
+    {% assign title = i18n.site.title[lang] %}
+    {% endif %}
+
+    <title>{% if page.title %}{{ title }} // {% endif %}{{ i18n.site.title[lang] }} // {{ i18n.site.theme[lang] }}</title>
+
+    <!-- SEO -->
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:locale" content="{{ site.locales[lang] }}" />
+    {% for locale in site.locales %}
+    {% if locale[0] != lang %}<meta property="og:locale-alternate" content="{{ locale[1] }}" />{% endif %}
+    {% endfor %}
+    <meta name="description" content="{{ i18n.site.description[lang] }}" />
+    <meta property="og:description" content="{{ i18n.site.description[lang] }}" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:site_name" content="{{ i18n.site.title[lang] }}" />
+    <script type="application/ld+json">
+    {"description":"{{ i18n.site.description[lang] }}","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"{{ site.logo }}"}},"@type":"WebPage","url":"{{ site.url }}{{ page.url }}","headline":"{{ title }}","@context":"http://schema.org"}</script>
+    <!-- END SEO -->
 
     {% if jekyll.environment == "production" %}{% assign assets_url = "/static-assets" %}{% else %}{% assign assets_url = "/test-assets" %}{% endif %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />

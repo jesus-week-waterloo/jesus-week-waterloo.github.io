@@ -1,7 +1,10 @@
 ---
-title: 404, Page Not Found
+title: p404
 layout: default
 ---
+
+{% assign i18n = site.data.i18n %}
+{% assign lang = page.lang %}
 
 {% include top-bar.html %}
 
@@ -11,8 +14,8 @@ layout: default
         <p class="text-center font-24"><em>And they found the stone rolled away from the tomb, but when they went in they did not find the body of the Lord Jesus.</em></p>
         <p class="text-right">&mdash; Luke 24:2-3</p>
     </blockquote>
-    <p class="text-center">We couldn't find the page you were looking for.</p>
-    <p class="text-center">Perhaps you'd like to check out our <a href="/">homepage</a>, or <a href="/gospel">the Gospel message</a>.</p>
+    <p class="text-center">{{ i18n.p404.message[lang] }}.</p>
+    <p class="text-center"><a href="{{ i18n.site.link-prefix[lang] }}/">{{ i18n.p404.back-to-home[lang] }}</a></p>
 </main>
 
 {% include footer.html %}

@@ -1,44 +1,48 @@
 ---
 layout: default
 ---
+
+{% assign i18n = site.data.i18n %}
+{% assign lang = page.lang %}
+
 {% include top-bar.html %}
-{% assign event = site.data.events[page.key] %}
+{% assign event = i18n.events.events[page.key] %}
 
 <main id="content" role="main">
-    {% if event.Cover %}
-    <div id="doc-title" class="has-cover" style="background-image:linear-gradient(to bottom, rgba(26,24,31,.5), rgba(26,24,31,.5)),url('{{ event.Cover }}')">
+    {% if event.cover %}
+    <div id="doc-title" class="has-cover" style="background-image:linear-gradient(to bottom, rgba(26,24,31,.5), rgba(26,24,31,.5)),url('{{ event.cover }}')">
     {% else %}
     <div id="doc-title">
     {% comment %}</div>{% endcomment %}
     {% endif %}
         <div class="container center">
-            <a class="navigate-up" href="{{ page.url | split: '/' | pop | join: '/' }}">&laquo; Back to Events</a>
-            <h1><span class="bg">{{ page.title }}</span></h1>
+            <a class="navigate-up" href="{{ page.url | split: '/' | pop | join: '/' }}">&laquo; {{ i18n.titles.events[lang] }}</a>
+            <h1><span class="bg">{{ event.title[lang] }}</span></h1>
             <h2><span class="bg">
-                {% if event.Dates %}
-                {% for date in event.Dates %}
-                <time class="event-date" datetime="{{ date }}">{{ date | date: '%a' }}.</time>
+                {% if event.dates %}
+                {% for date in event.dates %}
+                <time class="event-date" datetime="{{ event.canonicalDates[forloop.index] }}">{{ date[lang] }}.</time>
                 {% endfor %}
                 {% else %}
-                <time class="event-date" datetime="{{ event.Date }}">{{ event.Date | date: '%m.%d.%Y' }}</time>
+                <time class="event-date" datetime="{{ event.canonicalDate }}">{{ event.date[lang] }}</time>
                 {% endif %}
                 <span class="slash-sep">//</span>
-                {{ event.Time }}
+                {{ event.time[lang] }}
             </span></h2>
             <h2><span class="bg">
-                {% if event.Locations %}
-                {{ event.Locations | join: " <span class='slash-sep'>//</span> " }}
+                {% if event.locations %}
+                {{ event.locations | join: " <span class='slash-sep'>//</span> " }}
                 {% else %}
-                {{ event.Location }}
+                {{ event.location }}
                 {% endif %}
             </span></h2>
         </div>
     </div>
     <div id="doc-main-content" class="container center">
-        {{ event.Description | markdownify }}
-        {% if event.Link %}
+        {{ event.description[lang] | markdownify }}
+        {% if event.link %}
         <p class="text-center font-28">
-            <a class="btn blue-btn arrow-btn" href="{{ event.Link }}" rel="noreferrer"><strong>See this event on Facebook</strong> {% include icons/arrow-right.svg %}</a>
+            <a class="btn blue-btn arrow-btn" href="{{ event.Link }}" rel="noreferrer"><strong>{{ i18n.events.links.facebook[lang] }}</strong> {% include icons/arrow-right.svg %}</a>
         </p>
         {% endif %}
     </div>

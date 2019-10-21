@@ -19,7 +19,7 @@ layout: default
         {% if parent %}
         <a class="navigate-up" href="{{ parent.url }}">&laquo; Back to {{ parent.title }}</a>
         {% endif %}
-        <h1>{{ page.title }}</h1>
+        <h1>{{ i18n.titles[page.title][lang] }}</h1>
     </div>
 	<div id="doc-main-content" class="container center">
 		{{ content }}

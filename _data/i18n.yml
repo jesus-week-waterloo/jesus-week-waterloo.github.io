@@ -101,7 +101,7 @@ footer:
 #
 
 titles:
-  404:
+  p404:
     en-ca: 404, Page Not Found
     zh-hk: ...
   about:
@@ -168,7 +168,7 @@ home:
   section-questions:
     title:
       # The title for the questions section of the home page, right below the Jesus Week title
-      en-ca: The Questions
+      en-ca: The Theme
       zh-hk: ...
     link:
       # Link text to lead to the page where we answer our theme questions (see below)
@@ -238,19 +238,13 @@ theme:
     - en-ca: has utmost authority # => What kind of King has utmost authority?
       zh-hk: ...
     # QUESTION 2
-    - en-ca: hires and calls in the weak
+    - en-ca: humbles himself for the sake of the weak
       zh-hk: ...
     # QUESTION 3
-    - en-ca: serves the lowly
+    - en-ca: feels compassion for the suffering of the world
       zh-hk: ...
     # QUESTION 4
-    - en-ca: puts the need of all others ahead of his own
-      zh-hk: ...
-    # QUESTION 5
-    - en-ca: forgives His enemies
-      zh-hk: ...
-    # QUESTION 6
-    - en-ca: lays down his life for those rebelling against Him
+    - en-ca: dies for his enemies
       zh-hk: ...
   explanation:
     # This is our explanation for our theme. It's split into several sections, each corresponding
@@ -271,12 +265,12 @@ theme:
           not only in this age but also in the one to come.
         zh-hk: >
           ...
-    authority-p1:
+    authority:
       en-ca: |
         The authority of Jesus can be witnessed through his triumph over nature, illness,
         forgiveness of sins, and even death. We see accounts of his authority over nature when he
-        controls the wind and seas to calm a storm, over illness when he heals blindness, over sin
-        when pours out mercy, and over death when he rose from the grave.
+        controls the wind and seas to *calm a storm*, over illness when he *heals blindness*, over
+        sin when he *pours out mercy*, and over death when he *rose from the grave*.
       zh-hk: |
         ... 
     authority-verses:
@@ -285,7 +279,7 @@ theme:
           zh-hk: ...
         text:
           en-ca: >
-            Who then is this, that even the wind and the sea obey him?
+            Who then is this, that even *the wind and the sea* obey him?
           zh-hk: >
             ...
       - source:
@@ -293,8 +287,8 @@ theme:
           zh-hk: ...
         text:
           en-ca: >
-            He went about doing good and healing all who were oppressed by the devil, for God was
-            with Him.
+            He went about doing good and healing all who were oppressed by the devil, for *God was
+            with Him.*
           zh-hk: >
             ...
       - source:
@@ -302,8 +296,8 @@ theme:
           zh-hk: ...
         text:
           en-ca: >
-            What is this? A new teaching with authority! He commands even the unclean spirits, and
-            they obey Him.
+            What is this? *A new teaching with authority!* He commands even the unclean spirits, and
+            *they obey Him.*
           zh-hk: >
             ...
       - source:
@@ -311,35 +305,76 @@ theme:
           zh-hk: ...
         text:
           en-ca: >
-            He is not here; he has risen! Remember how he told you, while he was still with you in
-            Galilee: ‘The Son of Man must be delivered over to the hands of sinners, be crucified
-            and on the third day be raised again.’
+            He is not here; *he has risen!* Remember how he told you, while he was still with you
+            in Galilee: ‘The Son of Man must be delivered over to the hands of sinners, be 
+            crucified and *on the third day be raised again.*’
           zh-hk: >
             ...
-    authority-p2:
+    humbles:
       en-ca: |
-        Jesus has all authority and all power. He is, furthermore, all holy and righteous (Romans
-        3:10). He is the one who is fully right to judge us, but instead of judging us, he offers
-        us eternal life. This tremendously contradicts our expectation of a king.
+        Jesus has all authority and all power, and is all holy and righteous (Romans 3:10). He is
+        the one who is fully right to judge us, but instead of judging us from his throne in
+        Heaven, *he comes down to Earth to offer us eternal life.* This tremendously contradicts
+        our expectation of a king.
       zh-hk: |
         ...
+    humbles-verse:
+      source:
+        en-ca: John 6:38
+        zh-hk: ...
+      text:
+        en-ca: >
+          "For I have come down from heaven, not to do my own will but the will of him who sent me."
+        zh-hk: >
+          ...
     suffering:
       en-ca: |
-        Jesus is not a king who turns away to those who are suffering or demands to be served as
-        the world’s authority figures expect to be. Rather, he experiences our suffering and cares
-        (Hebrews 2:18). Jesus, with all authority, emptied himself of his glory and took on the
-        role of a servant. As seen in the accounts of his authority on Earth, he is patient,
-        compassionate, and merciful to those who are helpless. Jesus sees the need in people. He
-        sees us so clearly in our brokenness, yet, Jesus is the King who died for us, so that we
-        may be reconciled to God (2 Corinthians 5:17-18).
+        Jesus is not a king who demands to be served, as the world’s authority figures expect to
+        be, nor does he turn away from those who are suffering. Rather, he experiences our
+        suffering and cares (Hebrews 2:18).
+
+        Jesus, with all authority, emptied himself of his glory and took on the role of a servant.
       zh-hk: |
         ...
+    suffering-verse:
+      source:
+        en-ca: Matthew 9:36
+        zh-hk: ...
+      text:
+        en-ca: >
+          When he saw the crowds, *he had compassion for them*, because they were harassed and
+          helpless, like sheep without a shepherd.
+        zh-hk: >
+          ...
+    sacrifice:
+      en-ca: |
+        As seen in the accounts of the authority of Jesus on Earth, he is patient, compassionate,
+        and merciful to those who are helpless. Jesus sees the need in people. He sees us so
+        clearly in our brokenness, and still, Jesus is the King who died for us, so that we may be
+        reconciled to God (2 Corinthians 5:17-18).
+      zh-hk: |
+        ...
+    sacrifice-verse:
+      source:
+        en-ca: Romans 5:7-8
+        zh-hk: ...
+      text:
+        en-ca: >
+          For one will scarcely die for a righteous person — though perhaps for a good person one
+          would dare even to die — but God shows his love for us in that *while we were still
+          sinners, Christ died for us.*
+        zh-hk: >
+          ...
     conclusion:
       en-ca: |
-        He is so powerful, howbeit so loving and tender. He is Lord of lords and King of kings
-        (Revelation 17:14), and the good shepherd who lays down His life for His sheep (John
-        10:11). Jesus is the promised King, the one who will save, who will rule, who will redeem.
-        He is the way, and the truth, and the life. (John 14:6). 
+        King Jesus is so powerful, yet so loving and tender. 
+
+        He is the Lord of lords and King of kings (Revelation 17:14), and the good shepherd who
+        lays down His life for His sheep (John 10:11). 
+
+        He is the promised King, the one who will save, who will rule, who will redeem. 
+
+        *He is the way, and the truth, and the life (John 14:6).*
       zh-hk: |
         ...
 
@@ -739,7 +774,7 @@ contact:
 # Translations for the 404 page
 #
 
-404:
+p404:
   message:
     en-ca: We couldn't find the page you were looking for
     zh-hk: ...

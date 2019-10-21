@@ -8,7 +8,7 @@ layout: default
 {% include top-bar.html %}
 
 <main id="content" role="main">
-	<div class="HomeTitle center flex-column">
+	<div class="HomeTitle GrandTitle center flex-column">
         <div class="HomeTitle_backgroundQuestions" aria-hidden="true">
             {% for question in i18n.home.background-questions %}
             <div class="HomeTitle_backgroundQuestionsRow HomeTitle_backgroundQuestionsRow--{{ forloop.index }}">
@@ -32,10 +32,10 @@ layout: default
                 <h2 class="HomeSection_title">{{ i18n.home.section-questions.title[lang] }}</h2>
                 <div class="HomeSection_content">
                     {% for question in i18n.theme.questions %}
-                    <p>{{ i18n.theme.prefixes.questions[lang] }} {{ question.question[lang] | default: "..." }}?</p>
+                    <p>{{ i18n.theme.prefixes.questions[lang] }} {{ question[lang] | default: "..." }}?</p>
                     {% endfor %}
                 </div>
-                <a class="HomeSection_link icon-link" href="/about">{{ i18n.home.section-questions.link[lang] }} {% include icons/arrow-right.svg %}</a>
+                <a class="HomeSection_link icon-link" href="{{ i18n.site.link-prefix[lang] }}/theme">{{ i18n.home.section-questions.link[lang] }} {% include icons/arrow-right.svg %}</a>
             </div>
         </div>
         <div class="HomeSpacer" id="HomeSpacer--2">
@@ -88,5 +88,5 @@ layout: default
 
 {% include footer.html %}
 
-<script>window.events = {{ site.data.events | jsonify }};
+<script>window.events = {{ i18n.events.events | jsonify }};
 window.eventsURLs = Object.assign.apply({}, {{ site.events | map: 'key' | jsonify }}.map(function(e, i) { var o = {}; o[e] = {{ site.events | map: 'url' | jsonify }}[i]; return o; }));</script>

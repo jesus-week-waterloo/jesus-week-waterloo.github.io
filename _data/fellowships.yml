@@ -1,11 +1,11 @@
 UWaterloo:
   - name:
       en-ca: UW Chinese Christian Fellowship
-      zh-hk:
+      zh-hk: ...
     meetings:
       time:
         en-ca: Fridays 7pm
-        zh-hk:
+        zh-hk: ...
       location: RCH 301
     links: 
       - type: Page
@@ -17,11 +17,11 @@ UWaterloo:
 
   - name:
       en-ca: Waterloo Korean Christian Fellowship
-      zh-hk:
+      zh-hk: ...
     meetings:
       time:
         en-ca: Fridays 630pm
-        zh-hk:
+        zh-hk: ...
       location: PHY 235
     links: 
       - type: Facebook
@@ -29,11 +29,11 @@ UWaterloo:
 
   - name:
       en-ca: UW Cantonese Chinese Christian Fellowship
-      zh-hk:
+      zh-hk: ...
     meetings:
       time:
         en-ca: Tuesdays 7pm
-        zh-hk:
+        zh-hk: ...
       location: DWE 3522
     links: 
       - type: Facebook
@@ -41,11 +41,11 @@ UWaterloo:
 
   - name:
       en-ca: UW Mandarin Chinese Christian Fellowship
-      zh-hk:
+      zh-hk: ...
     meetings:
       time:
         en-ca: Thursdays 7pm
-        zh-hk:
+        zh-hk: ...
       location: MC 4060
     links: 
       - type: Facebook
@@ -53,7 +53,7 @@ UWaterloo:
 
   - name:
       en-ca: Power2Change - Waterloo
-      zh-hk:
+      zh-hk: ...
     meetings:
       time: 
         en-ca: Fridays 7pm
@@ -69,7 +69,7 @@ UWaterloo:
 
   - name:
       en-ca: Kingdom Come - UW/WLU
-      zh-hk:
+      zh-hk: ...
     meetings:
       time:
         en-ca: Thursdays 630pm
@@ -82,11 +82,11 @@ UWaterloo:
 WLU:
   - name:
       en-ca: Laurier Chinese Christian Fellowship
-      zh-hk:
+      zh-hk: ...
     meetings:
       time: 
         en-ca: Wednesdays 730pm
-        zh-hk:
+        zh-hk: ...
       location: Updated weekly on facebook
     links: 
       - type: Facebook
@@ -94,11 +94,11 @@ WLU:
 
   - name:
       en-ca: Power2Change - Laurier
-      zh-hk:
+      zh-hk: ...
     meetings:
       time: 
         en-ca: Thursdays 715pm
-        zh-hk:
+        zh-hk: ...
       location: Updated weekly on Facebook
     links: 
       - type: Facebook
@@ -106,11 +106,11 @@ WLU:
 
   - name:
       en-ca: Kingdom Come - UW/WLU
-      zh-hk:
+      zh-hk: ...
     meetings:
       time:
         en-ca: Thursdays 630pm
-        zh-hk:
+        zh-hk: ...
       location: DWE 3518
     links:
       - type: Facebook

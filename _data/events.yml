@@ -1,7 +1,7 @@
 launch-night:
   Title:
     en-ca: Opening Night
-    zh-hk:
+    zh-hk: ...
   Location: AL 116
   Date:
     en-ca: October 27
@@ -26,7 +26,7 @@ launch-night:
 closing:
   Title:
     en-ca: Closing
-    zh-hk: 
+    zh-hk: ...
   Location: M3 1006
   Date: 
     en-ca: November 1
@@ -68,3 +68,4 @@ booths:
     en-ca: |
       Come by the Booth stations to learn more what's offered on campus and off campus to get connected with a fellowship and church.
     zh-hk: |
+      ...

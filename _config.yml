@@ -2,6 +2,12 @@
 title: Jesus Week Waterloo
 timezone: America/New_York
 lang: en-ca
+langs:
+  en-ca: en-CA
+  zh-hk: zh-yue-Hant-HK
+locales:
+  en-ca: en_CA
+  zh-hk: zh_HK
 collections:
   connect:
     title: Connect

@@ -1,7 +1,7 @@
 <!doctype html>
 {% assign i18n = site.data.i18n %}
 {% assign lang = page.lang %}
-<html lang="{{ site.langs[lang] }}" class="layout-{{ page.layout }}">
+<html lang="{{ site.langs[lang] }}" class="no-js layout-{{ page.layout }} {{ page.classes }}">
 {% include html-head.html %}
 <body class="flex-column">
 	<div id="access"><a id="access-skip" href="#content">Skip to content</a></div>

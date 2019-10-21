@@ -1,8 +1,11 @@
+{% assign i18n = site.data.i18n %}
+{% assign lang = page.lang %}
+
 <footer id="main-footer">
     <div class="container center flex-column mainscript">
         <div>
             <!-- Jesus Week Logo -->
-            <p><strong>Jesus Week</strong> Waterloo</p>
+            <p><strong>{{ i18n.footer.jesus-week[lang] }}</strong> {{ i18n.footer.waterloo[lang] }}</p>
         </div>
         <div>
             <p><a href="/about">About</a></p>
@@ -24,6 +27,6 @@
         </div>
     </div>
     <div class="container center flex-row postscript">
-        <p class="text-right">Copyright &copy;{{ site.time | date: '%Y' }} Jesus Week Waterloo</p>
+        <p class="text-right">{{ i18n.footer.copyright[lang] }} &copy;{{ site.time | date: '%Y' }} {{ i18n.site.title[lang] }}</p>
     </div>
 </footer>
