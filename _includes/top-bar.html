@@ -1,17 +1,26 @@
+{% assign i18n = site.data.i18n %}
+{% assign lang = page.lang %}
+
 <header id="main-header">
     <div class="container center flex-row">
-        <div class="logo"><a href="/"><svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 563.158 72.25"><use x="0" y="0" href="#logo"></svg><br><span class="byline">{{ i18n.header.date[lang] }}</span></a></div>
-        <a id="toggle-main-nav" role="button" title="Open navigation" aria-label="Open navigation" aria-controls="main-nav" href="#"><span class="menu-open-icon">{% include icons/bars.svg %}</span><span class="menu-close-icon">{% include icons/times.svg %}</span></a>
+        <div class="logo"><a href="/"><svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 563.158 72.25"><use x="0" y="0" href="#logo"/></svg><br><span class="byline">{{ i18n.header.date[lang] }}</span></a></div>
+        <a id="change-lang" title="{{ i18n.site.accessibility.translate[lang] }}" aria-label="{{ i18n.site.accessibility.translate[lang] }}" aria-controls="change-lang-menu" href="#">{% include icons/language.svg %}</a>
+        <ul id="change-lang-menu">{% for language in i18n.site.accessibility.langs %}
+            {% assign cur_language = language[0] %}
+            <li><a href="{{ i18n.site.link-prefix[cur_language] }}{{ page.url | remove_first: i18n.site.link-prefix[lang] }}">{% if cur_language == lang %}<strong>{{ language[1] }}</strong>{% else %}{{ language[1] }}{% endif %}</a></li>
+        {% endfor %}</ul>
+        <a id="toggle-main-nav" role="button" title="{{ i18n.js-accessibility.open-navigation[lang] }}" aria-label="{{ i18n.js-accessibility.open-navigation[lang] }}" aria-controls="main-nav" data-alt-title="{{ i18n.js-accessibility.close-navigation[lang] }}" href="#" tabindex="0"><span class="menu-open-icon">{% include icons/bars.svg %}</span><span class="menu-close-icon">{% include icons/times.svg %}</span></a>
         <nav id="main-nav">
             <ul>
-                {% for id in site.display_pages %}
-                    {% assign node = site.pages | where: "name", id | first %}
+                {% for id in i18n.header.menu %}
+                    {% assign node = site.pages | where: "lang", lang | where: "title", id | first %}
                     {% if page.url contains node.url %}
-                <li class="current-page"><a href="{{node.url}}" class="current-page">{{node.title}}</a></li>
+                <li class="current-page"><a href="{{ node.url }}" class="current-page" tabindex="-1">{{ i18n.titles[id][lang] }}</a></li>
                     {% else %}
-                <li><a href="{{node.url}}">{{node.title}}</a></li>
+                <li><a href="{{ node.url }}" tabindex="-1">{{ i18n.titles[id][lang] }}</a></li>
                     {% endif %}
                 {% endfor %}
+                <li id="close-main-nav"><a href="#" aria-controls="main-nav" tabindex="-1">Close navigation</a></li>
             </ul>
         </nav>
     </div>

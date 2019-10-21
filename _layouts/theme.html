@@ -20,7 +20,7 @@ layout: default
         <div class="ThemeTitle_title">
             <div class="container center">
                 {% for question in i18n.theme.questions %}
-                <h2 class="ThemeTitle_titleQuestion">{{ i18n.theme.prefixes.questions[lang] }} <em>{{ question[lang] }}?</em></h2>
+                <h2 class="ThemeTitle_titleQuestion">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ question[lang] }}?</em></h2>
                 {% endfor %}
                 <br>
                 <h2 class="ThemeTitle_titleQuestion">{{ i18n.theme.description.title[lang] | markdownify | remove: "<p>" | remove: "</p>" }}</em></h2>
@@ -29,14 +29,14 @@ layout: default
     </div>
 
     <div id="doc-main-content">
-        <h2 class="ThemeSideTitle ThemeSideTitle--authority ThemeSideTitle--left">{{ i18n.theme.prefixes.questions[lang] }} <em>{{ i18n.theme.questions[0][lang] }}?</em></h2>
-        <h2 class="ThemeSideTitle ThemeSideTitle--authority ThemeSideTitle--right">{{ i18n.theme.prefixes.questions[lang] }} <em>{{ i18n.theme.questions[0][lang] }}?</em></h2>
-        <h2 class="ThemeSideTitle ThemeSideTitle--humbles ThemeSideTitle--left">{{ i18n.theme.prefixes.questions[lang] }} <em>{{ i18n.theme.questions[1][lang] }}?</em></h2>
-        <h2 class="ThemeSideTitle ThemeSideTitle--humbles ThemeSideTitle--right">{{ i18n.theme.prefixes.questions[lang] }} <em>{{ i18n.theme.questions[1][lang] }}?</em></h2>
-        <h2 class="ThemeSideTitle ThemeSideTitle--suffering ThemeSideTitle--left">{{ i18n.theme.prefixes.questions[lang] }} <em>{{ i18n.theme.questions[2][lang] }}?</em></h2>
-        <h2 class="ThemeSideTitle ThemeSideTitle--suffering ThemeSideTitle--right">{{ i18n.theme.prefixes.questions[lang] }} <em>{{ i18n.theme.questions[2][lang] }}?</em></h2>
-        <h2 class="ThemeSideTitle ThemeSideTitle--sacrifice ThemeSideTitle--left">{{ i18n.theme.prefixes.questions[lang] }} <em>{{ i18n.theme.questions[3][lang] }}?</em></h2>
-        <h2 class="ThemeSideTitle ThemeSideTitle--sacrifice ThemeSideTitle--right">{{ i18n.theme.prefixes.questions[lang] }} <em>{{ i18n.theme.questions[3][lang] }}?</em></h2>
+        <h2 class="ThemeSideTitle ThemeSideTitle--authority ThemeSideTitle--left">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ i18n.theme.questions[0][lang] }}?</em></h2>
+        <h2 class="ThemeSideTitle ThemeSideTitle--authority ThemeSideTitle--right">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ i18n.theme.questions[0][lang] }}?</em></h2>
+        <h2 class="ThemeSideTitle ThemeSideTitle--humbles ThemeSideTitle--left">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ i18n.theme.questions[1][lang] }}?</em></h2>
+        <h2 class="ThemeSideTitle ThemeSideTitle--humbles ThemeSideTitle--right">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ i18n.theme.questions[1][lang] }}?</em></h2>
+        <h2 class="ThemeSideTitle ThemeSideTitle--suffering ThemeSideTitle--left">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ i18n.theme.questions[2][lang] }}?</em></h2>
+        <h2 class="ThemeSideTitle ThemeSideTitle--suffering ThemeSideTitle--right">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ i18n.theme.questions[2][lang] }}?</em></h2>
+        <h2 class="ThemeSideTitle ThemeSideTitle--sacrifice ThemeSideTitle--left">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ i18n.theme.questions[3][lang] }}?</em></h2>
+        <h2 class="ThemeSideTitle ThemeSideTitle--sacrifice ThemeSideTitle--right">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ i18n.theme.questions[3][lang] }}?</em></h2>
         <h2 class="ThemeSideTitle ThemeSideTitle--conclusion ThemeSideTitle--left">{{ i18n.theme.description.title[lang] | markdownify | remove: "<p>" | remove: "</p>" }}</em></h2>
         <h2 class="ThemeSideTitle ThemeSideTitle--conclusion ThemeSideTitle--right">{{ i18n.theme.description.title[lang] | markdownify | remove: "<p>" | remove: "</p>" }}</em></h2>
 

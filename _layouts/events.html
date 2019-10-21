@@ -8,7 +8,7 @@ layout: landing
 <div class="flex-row" id="events-listing">
     {% for event_obj in i18n.events.events %}
         {% if event_obj[1].type != "onetime" %}{% continue %}{% endif %}
-        {% assign event_page = site.events | where: "key", event_obj[0] | where: "lang", lang | first %}
+        {% assign event_page = site.events_en-ca | concat: site.events_zh-hk | where: "lang", lang | where: "key", event_obj[0] | first %}
         {% assign event = event_obj[1] %}
     <div class="event-listing event-onetime text-center" id="{{ event_obj[0] }}">
         <div class="event-listing-bg"></div>
@@ -35,7 +35,7 @@ layout: landing
 
     {% for event_obj in i18n.events.events %}
         {% if event_obj[1].type != "recurring" %}{% continue %}{% endif %}
-        {% assign event_page = site.events | where: "key", event_obj[0] | where: "lang", lang | first %}
+        {% assign event_page = site.events_en-ca | concat: site.events_zh-hk | where: "lang", lang | where: "key", event_obj[0] | first %}
         {% assign event = event_obj[1] %}
     <div class="event-listing event-recurring text-center" id="{{ event_obj[0] }}">
         <div class="event-listing-bg"></div>

@@ -42,7 +42,7 @@ layout: default
         {{ event.description[lang] | markdownify }}
         {% if event.link %}
         <p class="text-center font-28">
-            <a class="btn blue-btn arrow-btn" href="{{ event.Link }}" rel="noreferrer"><strong>{{ i18n.events.links.facebook[lang] }}</strong> {% include icons/arrow-right.svg %}</a>
+            <a class="btn blue-btn arrow-btn" href="{{ event.Link }}" rel="noreferrer"><strong>{{ i18n.events.links.facebook[lang] }}</strong> {% include icons/external-link-alt.svg %}</a>
         </p>
         {% endif %}
     </div>

@@ -1,5 +1,5 @@
 ---
-title: Events
+title: events
 permalink: "/events"
 layout: events
 ---

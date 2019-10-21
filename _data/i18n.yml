@@ -29,6 +29,9 @@ site:
     translate:
       en-ca: Translate
       zh-hk: ...
+    langs:
+      en-ca: English (Canada)
+      zh-hk: 中文 (繁體字)
   js-accessibility:
     open-navigation:
       # open the navigation menu
@@ -51,6 +54,13 @@ site:
       none-upcoming:
         en-ca: No upcoming events
         zh-hk: ...
+  navigation:
+    back-to:
+      en-ca: Back to
+      zh-hk: 返回
+  sep:
+    en-ca: " "
+    zh-hk: ""
   link-prefix:
     # DO NOT CHANGE
     en-ca: ""
@@ -79,7 +89,6 @@ header:
     - gospel
     - events
     - connect
-    - contact
 
 #
 # The footer that appears at the bottom of every page
@@ -221,7 +230,7 @@ theme:
   description:
     title:
       # What kind of King is King Jesus?
-      en-ca: What kind of King is *King Jesus*?
+      en-ca: What kind of King is *King Jesus?*
       zh-hk: ...
   prefixes:
     questions:

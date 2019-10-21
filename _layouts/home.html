@@ -32,7 +32,7 @@ layout: default
                 <h2 class="HomeSection_title">{{ i18n.home.section-questions.title[lang] }}</h2>
                 <div class="HomeSection_content">
                     {% for question in i18n.theme.questions %}
-                    <p>{{ i18n.theme.prefixes.questions[lang] }} {{ question[lang] | default: "..." }}?</p>
+                    <p>{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}{{ question[lang] }}?</p>
                     {% endfor %}
                 </div>
                 <a class="HomeSection_link icon-link" href="{{ i18n.site.link-prefix[lang] }}/theme">{{ i18n.home.section-questions.link[lang] }} {% include icons/arrow-right.svg %}</a>
@@ -89,4 +89,4 @@ layout: default
 {% include footer.html %}
 
 <script>window.events = {{ i18n.events.events | jsonify }};
-window.eventsURLs = Object.assign.apply({}, {{ site.events | map: 'key' | jsonify }}.map(function(e, i) { var o = {}; o[e] = {{ site.events | map: 'url' | jsonify }}[i]; return o; }));</script>
+window.eventsURLs = Object.assign.apply({}, {{ site.events_en-ca | concat: site.events_zh-hk | where: 'lang', lang | map: 'key' | jsonify }}.map(function(e, i) { var o = {}; o[e] = {{ site.events_en-ca | concat: site.events_zh-hk | where: 'lang', lang | map: 'url' | jsonify }}[i]; return o; }));</script>

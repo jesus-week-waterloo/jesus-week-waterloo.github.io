@@ -1,0 +1,23 @@
+---
+layout: landing
+---
+
+{% assign i18n = site.data.i18n %}
+{% assign lang = page.lang %}
+
+<h2><mark>{{ i18n.about.mission.lede[lang] }}:{{ i18n.site.sep[lang] }}</mark><em>{{ i18n.about.mission.text[lang] }}</em></h2>
+<h2><mark>{{ i18n.about.vision.lede[lang] }}:{{ i18n.site.sep[lang] }}</mark><em>{{ i18n.about.vision.text[lang] }}</em></h2>
+
+<blockquote>
+	{{ i18n.about.verse.text[lang] | markdownify }}
+	<cite>&mdash;{{ i18n.site.sep[lang] }}{{ i18n.about.verse.source[lang] }}</cite>
+</blockquote>
+
+{{ i18n.about.description[lang] | markdownify }}
+
+<style>@media (min-width: 800px) {
+h2 { display: flex; }
+h2 mark { flex-shrink: 0; white-space: pre; }
+}
+h2 em { font-style: normal; }
+</style>

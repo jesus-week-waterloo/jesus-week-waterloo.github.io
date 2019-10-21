@@ -7,8 +7,8 @@ layout: default
 
 {% include top-bar.html %}
 
-{% for id in site.display_pages %}
-    {% assign node = site.pages | where: "name", id | first %}
+{% for id in i18n.header.menu %}
+    {% assign node = site.pages | where: "lang", lang | where: "title", id | first %}
     {% if page.url contains node.url %}
         {% assign parent = node %}
     {% endif %}
@@ -17,7 +17,7 @@ layout: default
 <main id="content" role="main">
     <div id="doc-title" class="container center">
         {% if parent %}
-        <a class="navigate-up" href="{{ parent.url }}">&laquo; Back to {{ parent.title }}</a>
+        <a class="navigate-up" href="{{ parent.url }}">&laquo; {{ i18n.site.navigation.back-to[lang] }}{{ i18n.site.sep[lang] }}{{ i18n.titles[parent.title][lang] }}</a>
         {% endif %}
         <h1>{{ i18n.titles[page.title][lang] }}</h1>
     </div>
