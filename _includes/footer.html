@@ -5,21 +5,14 @@
     <div class="container center flex-column mainscript">
         <div>
             <!-- Jesus Week Logo -->
-            <p><strong>{{ i18n.footer.jesus-week[lang] }}</strong> {{ i18n.footer.waterloo[lang] }}</p>
+            <p class="Footer_logo"><a href="{{ i18n.site.link-prefix[lang] }}/"><svg xmlns:xlink="http://www.w3.org/1999/xlink" height="20" viewBox="0 0 563.158 72.25"><use x="0" y="0" href="#logo"/></svg><br>{{ i18n.footer.waterloo[lang] }}</a></p>
         </div>
-        <div>
-            <p><a href="{{ i18n.site.link-prefix[lang] }}/about">{{ i18n.titles.about[lang] }}</a></p>
-            <p><a href="{{ i18n.site.link-prefix[lang] }}/theme">{{ i18n.titles.theme[lang] }}</a></p>
-            <p><a href="{{ i18n.site.link-prefix[lang] }}/gospel">{{ i18n.titles.gospel[lang] }}</a></p>
-            <p><a href="{{ i18n.site.link-prefix[lang] }}/events">{{ i18n.titles.events[lang] }}</a></p>
-        </div>
-        <div>
-            <p><a href="{{ i18n.site.link-prefix[lang] }}/connect">{{ i18n.titles.connect[lang] }}</a></p>
-            <ul>
-                <li><a href="{{ i18n.site.link-prefix[lang] }}/connect/churches">{{ i18n.titles.connect-churches[lang] }}</a></li>
-                <li><a href="{{ i18n.site.link-prefix[lang] }}/connect/fellowships">{{ i18n.titles.connect-fellys[lang] }}</a></li>
-                <li><a href="https://www.facebook.com/jesusweekwaterloo/" rel="noreferrer">Facebook</a></li>
-            </ul>
+        <div class="Footer_links">
+            <a href="{{ i18n.site.link-prefix[lang] }}/about">{{ i18n.titles.about[lang] }}</a>
+            <a href="{{ i18n.site.link-prefix[lang] }}/theme">{{ i18n.titles.theme[lang] }}</a>
+            <a href="{{ i18n.site.link-prefix[lang] }}/gospel">{{ i18n.titles.gospel[lang] }}</a>
+            <a href="{{ i18n.site.link-prefix[lang] }}/events">{{ i18n.titles.events[lang] }}</a>
+            <a href="{{ i18n.site.link-prefix[lang] }}/connect">{{ i18n.titles.connect[lang] }}</a>
         </div>
     </div>
     <div class="container center flex-row postscript">
