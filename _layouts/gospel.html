@@ -10,12 +10,11 @@ layout: landing
     <div class="gospel-tract">
         <h2><span class="quartz-highlight"><mark>{{ forloop.index }}.</mark> {{ point.title[lang] }}</span></h2>
         <div class="gospel-tract-content">
-            <p class="gospel-tract-summary">{{ point.description[lang] }}
-            <a class="gospel-tract-reveal" href="#">&mdash;&nbsp;{{ point.reference.source[lang] }}</a></p>
+            <p class="gospel-tract-summary">{{ point.description[lang] }}</p>
             <blockquote class="gospel-tract-verse">
                 <p>{{ point.reference.text[lang] }}</p>
-                <cite><a class="gospel-tract-reveal" href="#">&mdash;&nbsp;{{ point.reference.source[lang] }}</a></cite>
             </blockquote>
+            <p class="gospel-tract-source"><a class="gospel-tract-reveal" href="#">&mdash;&nbsp;{{ point.reference.source[lang] }}</a></p>
         </div>
     </div>
     {% endfor %}
