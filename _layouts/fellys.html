@@ -1,0 +1,34 @@
+---
+layout: page
+---
+
+{% assign lang = page.lang %}
+
+<div class="tabber">
+    <div class="tabber-tabbar">
+        {% for campus in site.data.i18n.connect.campuses %}
+        <a class="tabber-tab" {% if forloop.index == 1 %}data-active{% endif %} aria-controls="{{ campus.name.en-ca }}" href="#{{ campus.name.en-ca }}">{{ campus.name[lang] }}</a>
+        {% endfor %}
+    </div>
+    <div class="tabber-tabs">
+        {% for campus in site.data.i18n.connect.campuses %}
+        <div class="tabber-section" id="{{ campus.name.en-ca }}">
+            {% for felly in campus.fellys %}
+            <h2>{{ felly.name[lang] }}</h2>
+            <p>{{ felly.meetings.time[lang] }} <span class="slash-sep">//</span> {{ felly.meetings.location }}</p>
+            {% for link in felly.links %}
+            <p>
+            {% if link.type == "Facebook" %}
+                {% include icons/facebook-square.svg %}
+            {% else %}
+                {% include icons/link.svg %}
+            {% endif %}
+                <a class="raw" href="{{ link.URL }}" rel="noreferrer">{{ link.url }}</a>
+            </p>
+            {% endfor %}
+            <hr>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+</div>

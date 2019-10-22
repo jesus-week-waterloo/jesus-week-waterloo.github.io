@@ -3,7 +3,7 @@
 
 <header id="main-header">
     <div class="container center flex-row">
-        <div class="logo"><a href="/"><svg xmlns:xlink="http://www.w3.org/1999/xlink" height="20" viewBox="0 0 563.158 72.25"><use x="0" y="0" href="#logo"/></svg><br><span class="byline">{{ i18n.header.date[lang] }}</span></a></div>
+        <div class="logo"><a href="{{ i18n.site.link-prefix[lang] }}/"><svg xmlns:xlink="http://www.w3.org/1999/xlink" height="20" viewBox="0 0 563.158 72.25"><use x="0" y="0" href="#logo"/></svg><br><span class="byline">{{ i18n.header.date[lang] }}</span></a></div>
         <a id="change-lang" title="{{ i18n.site.accessibility.translate[lang] }}" aria-label="{{ i18n.site.accessibility.translate[lang] }}" aria-controls="change-lang-menu" href="#">{% include icons/language.svg %}</a>
         <ul id="change-lang-menu">{% for language in i18n.site.accessibility.langs %}
             {% assign cur_language = language[0] %}

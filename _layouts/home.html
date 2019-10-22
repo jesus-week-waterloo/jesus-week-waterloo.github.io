@@ -19,7 +19,7 @@ layout: default
             {% endfor %}
         </div>
         <div class="HomeTitle_racingStripe"></div>
-        <h1 class="HomeTitle_title">{{ i18n.home.title.pre-king[lang] }} <span class="HomeTitle_textBackground"><svg xmlns:xlink="http://www.w3.org/1999/xlink" height="40" viewBox="0 0 203 175" class="HomeTitle_crown"><use x="0" y="0" href="#crown"/></svg>{{ i18n.home.title.king[lang] }}</span> {{ i18n.home.title.post-king[lang] }}</h1>
+        <h1 class="HomeTitle_title">{{ i18n.home.title.pre-king[lang] }} <span class="HomeTitle_textBackground"><svg xmlns:xlink="http://www.w3.org/1999/xlink" height="40" viewBox="0 0 203 175" class="HomeTitle_crown"><use x="0" y="0" href="#crown"/></svg>{{ i18n.home.title.king[lang] }}</span>{{ i18n.site.sep[lang] }}{{ i18n.home.title.post-king[lang] }}</h1>
     </div>
     <div id="home-content" class="container">
         <div class="HomeSpacer" id="HomeSpacer--1">
@@ -32,7 +32,7 @@ layout: default
                 <h2 class="HomeSection_title">{{ i18n.home.section-questions.title[lang] }}</h2>
                 <div class="HomeSection_content">
                     {% for question in i18n.theme.questions %}
-                    <p>{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}{{ question[lang] }}?</p>
+                    <p>{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}{{ question[lang] }}</p>
                     {% endfor %}
                 </div>
                 <a class="HomeSection_link icon-link" href="{{ i18n.site.link-prefix[lang] }}/theme">{{ i18n.home.section-questions.link[lang] }} {% include icons/arrow-right.svg %}</a>
@@ -55,7 +55,7 @@ layout: default
                         {% endfor %}
                     </ol>
                 </div>
-                <a class="HomeSection_link icon-link" href="/gospel">{{ i18n.home.section-gospel.link[lang] }} {% include icons/arrow-right.svg %}</a>
+                <a class="HomeSection_link icon-link" href="{{ i18n.site.link-prefix[lang] }}/gospel">{{ i18n.home.section-gospel.link[lang] }} {% include icons/arrow-right.svg %}</a>
             </div>
         </div>
         <div class="HomeSpacer" id="HomeSpacer--3">
@@ -71,8 +71,8 @@ layout: default
                 <div class="HomeSection_content">
                     <p>{{ i18n.home.section-connect.description[lang] }}</p>
                 </div>
-                <a class="HomeSection_link icon-link" href="/connect/churches">{{ i18n.home.section-connect.link-churches[lang] }} {% include icons/arrow-right.svg %}</a><br>
-                <a class="HomeSection_link icon-link" href="/connect/fellowships">{{ i18n.home.section-connect.link-fellys[lang] }} {% include icons/arrow-right.svg %}</a><br>
+                <a class="HomeSection_link icon-link" href="{{ i18n.site.link-prefix[lang] }}//connect/churches">{{ i18n.home.section-connect.link-churches[lang] }} {% include icons/arrow-right.svg %}</a><br>
+                <a class="HomeSection_link icon-link" href="{{ i18n.site.link-prefix[lang] }}//connect/fellowships">{{ i18n.home.section-connect.link-fellys[lang] }} {% include icons/arrow-right.svg %}</a><br>
                 <a class="HomeSection_link icon-link" href="https://www.facebook.com/jesusweekwaterloo/">{{ i18n.home.section-connect.link-fb[lang] }} {% include icons/external-link-alt.svg %}</a>
         	</div>
         </div>
