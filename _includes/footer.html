@@ -16,6 +16,6 @@
         </div>
     </div>
     <div class="container center flex-row postscript">
-        <p class="text-right">{{ i18n.footer.copyright[lang] }} &copy;{{ site.time | date: '%Y' }} {{ i18n.site.title[lang] }}</p>
+        <p class="text-right">{{ i18n.footer.copyright[lang] }} &copy;{{ site.time | date: '%Y' }} {{ i18n.site.title[lang] }}{% if jekyll.environment == 'development' %} | <a href='#' style="color:blue;border-bottom:1px solid;" onclick='event.preventDefault();f()'>Give feedback</a>{% endif %}</p>
     </div>
 </footer>
