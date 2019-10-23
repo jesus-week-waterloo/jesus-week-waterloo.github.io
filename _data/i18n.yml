@@ -27,8 +27,8 @@ site:
       en-ca: Skip to content
       zh-hk: 跳至內容
     translate:
-      en-ca: Translate
-      zh-hk: 翻譯
+      en-ca: Translate | 翻譯
+      zh-hk: 翻譯 | Translate
     langs:
       en-ca: English (Canada)
       zh-hk: 中文 (繁體字)
