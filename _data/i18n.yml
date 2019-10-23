@@ -29,6 +29,9 @@ site:
     translate:
       en-ca: Translate | 翻譯
       zh-hk: 翻譯 | Translate
+    close-translate:
+      en-ca: Close | 關閉
+      zh-hk: 關閉 | Close
     langs:
       en-ca: English (Canada)
       zh-hk: 中文 (繁體字)
@@ -183,7 +186,7 @@ home:
     link:
       # Link text to lead to the page where we answer our theme questions (see below)
       en-ca: What kind of King is King Jesus?
-      zh-hk: 耶穌究竟是一個怎麼樣的王？
+      zh-hk: 一個怎麼樣的王是耶穌？
   section-gospel:
     title:
       # The title for the Gospel section of the home page
@@ -384,7 +387,7 @@ theme:
           sinners, Christ died for us.*
         zh-hk: >
           為義人死，是少有的；為仁人死，或者有敢做的。
-          惟有基督在我們*還作罪人的時候為我們死*，　神的愛就在此向我們顯明了。
+          惟有基督在我們*還作罪人的時候為我們死*，神的愛就在此向我們顯明了。
     conclusion:
       en-ca: |
         King Jesus is so powerful, yet so loving and tender. 
