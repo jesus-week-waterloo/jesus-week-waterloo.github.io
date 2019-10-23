@@ -2,10 +2,14 @@
 {% assign lang = page.lang %}
 
 <footer id="main-footer">
+    <div class="container center cross-container">
+        <div class="cross-vert"></div>
+        <div class="cross-horz"></div>
+    </div>
     <div class="container center flex-column mainscript">
         <div>
             <!-- Jesus Week Logo -->
-            <p class="Footer_logo"><a href="{{ i18n.site.link-prefix[lang] }}/"><svg xmlns:xlink="http://www.w3.org/1999/xlink" height="20" viewBox="0 0 563.158 72.25"><use x="0" y="0" href="#logo"/></svg><br>{{ i18n.footer.waterloo[lang] }}</a></p>
+            <p class="Footer_logo"><a href="{{ i18n.site.link-prefix[lang] }}/"><strong class="font-24">{{ i18n.footer.jesus-week[lang] }}</strong><br>{{ i18n.footer.waterloo[lang] }}</a></p>
         </div>
         <div class="Footer_links">
             <a href="{{ i18n.site.link-prefix[lang] }}/about">{{ i18n.titles.about[lang] }}</a>
