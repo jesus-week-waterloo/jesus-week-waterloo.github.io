@@ -8,6 +8,7 @@
         <div id="change-lang-menu" class="Menu ChangeLang">
             <div class="Menu_background"></div>
             <ul>
+                <li class="text-left font-20">{{ i18n.site.accessibility.translate[lang] | split: '|' | first }}</li>
                 {% for language in i18n.site.accessibility.langs %}
                     {% assign cur_language = language[0] %}
                 <li><a href="{{ i18n.site.link-prefix[cur_language] }}{{ page.url | remove_first: i18n.site.link-prefix[lang] }}" tabindex="-1">{% if cur_language == lang %}<strong>{{ language[1] }}</strong>{% else %}{{ language[1] }}{% endif %}</a></li>
