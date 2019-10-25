@@ -5,7 +5,7 @@ layout: landing
 {% assign i18n = site.data.i18n %}
 {% assign lang = page.lang %}
 
-<div class="flex-row gospel-container">
+<div class="gospel-container">
     {% for point in i18n.gospel.points %}
     <div class="gospel-tract">
         <h2><span class="quartz-highlight"><mark>{{ forloop.index }}.</mark> {{ point.title[lang] }}</span></h2>
@@ -13,8 +13,8 @@ layout: landing
             <p class="gospel-tract-summary">{{ point.description[lang] }}</p>
             <blockquote class="gospel-tract-verse">
                 <p>{{ point.reference.text[lang] }}</p>
+                <cite class="gospel-tract-source">&mdash;&nbsp;{{ point.reference.source[lang] }}</cite>
             </blockquote>
-            <p class="gospel-tract-source"><a class="gospel-tract-reveal" href="#">&mdash;&nbsp;{{ point.reference.source[lang] }}</a></p>
         </div>
     </div>
     {% endfor %}

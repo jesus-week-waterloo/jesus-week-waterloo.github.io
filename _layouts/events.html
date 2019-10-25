@@ -43,9 +43,7 @@ layout: landing
             <div class="event-content">
                 <h2 class="event-title"><span class="quartz-highlight">{{ event.title[lang] }}</span></h2>
                 <h3 class="event-datetime">{% if event.dates %}
-                    {% for date in event.dates %}
-                    <time class="event-date">{{ date[lang] }}</time>
-                    {% endfor %}
+                    <time class="event-date">{{ event.dates | map: lang | first }}&ndash;{{ event.dates | map: lang | last }}</time>
                     {% else %}
                     <time class="event-date">{{ event.date[lang] }}</time>
                 {% endif %} <span class="slash-sep">//</span> {{ event.time[lang] }}</h3>

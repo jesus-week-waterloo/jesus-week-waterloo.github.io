@@ -11,9 +11,9 @@
                 <li class="text-left font-20">{{ i18n.site.accessibility.translate[lang] | split: '|' | first }}</li>
                 {% for language in i18n.site.accessibility.langs %}
                     {% assign cur_language = language[0] %}
-                <li><a href="{{ i18n.site.link-prefix[cur_language] }}{{ page.url | remove_first: i18n.site.link-prefix[lang] }}" tabindex="-1">{% if cur_language == lang %}<strong>{{ language[1] }}</strong>{% else %}{{ language[1] }}{% endif %}</a></li>
+                <li><a href="{{ i18n.site.link-prefix[cur_language] }}{{ page.url | remove_first: i18n.site.link-prefix[lang] }}">{% if cur_language == lang %}<strong>{{ language[1] }}</strong>{% else %}{{ language[1] }}{% endif %}</a></li>
                 {% endfor %}
-                <li><a id="close-change-lang-menu" href="#" aria-controls="main-nav" tabindex="-1">{{ i18n.site.accessibility.close-translate[lang] }}</a></li>
+                <li><a id="close-change-lang-menu" href="#" aria-controls="main-nav">{{ i18n.site.accessibility.close-translate[lang] }}</a></li>
             </ul>
         </div>
         <button id="toggle-main-nav" class="Header_menu-btn accessibility-link" title="{{ i18n.site.js-accessibility.open-navigation[lang] }}" aria-label="{{ i18n.site.js-accessibility.open-navigation[lang] }}" aria-controls="main-nav" data-alt-title="{{ i18n.site.js-accessibility.close-navigation[lang] }}" href="#"><span class="menu-open-icon">{% include icons/bars.svg %}</span><span class="menu-close-icon">{% include icons/times.svg %}</span></button>
@@ -23,12 +23,12 @@
                 {% for id in i18n.header.menu %}
                     {% assign node = site.pages | where: "lang", lang | where: "title", id | first %}
                     {% if page.url contains node.url %}
-                <li class="current-page"><a href="{{ node.url }}" class="current-page" tabindex="-1">{{ i18n.titles[id][lang] }}</a></li>
+                <li class="current-page"><a href="{{ node.url }}" class="current-page">{{ i18n.titles[id][lang] }}</a></li>
                     {% else %}
-                <li><a href="{{ node.url }}" tabindex="-1">{{ i18n.titles[id][lang] }}</a></li>
+                <li><a href="{{ node.url }}">{{ i18n.titles[id][lang] }}</a></li>
                     {% endif %}
                 {% endfor %}
-                <li><a id="close-main-nav" href="#" aria-controls="main-nav" tabindex="-1">{{ i18n.site.js-accessibility.close-navigation[lang] }}</a></li>
+                <li><a id="close-main-nav" href="#" aria-controls="main-nav">{{ i18n.site.js-accessibility.close-navigation[lang] }}</a></li>
             </ul>
         </nav>
     </div>

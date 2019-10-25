@@ -20,9 +20,7 @@ layout: default
             <h1><span class="bg">{{ event.title[lang] }}</span></h1>
             <h2><span class="bg">
                 {% if event.dates %}
-                {% for date in event.dates %}
-                <time class="event-date" datetime="{{ event.canonicalDates[forloop.index] }}">{{ date[lang] }}</time>
-                {% endfor %}
+                <time class="event-date">{{ event.dates | map: lang | first }}&ndash;{{ event.dates | map: lang | last }}</time>
                 {% else %}
                 <time class="event-date" datetime="{{ event.canonicalDate }}">{{ event.date[lang] }}</time>
                 {% endif %}
