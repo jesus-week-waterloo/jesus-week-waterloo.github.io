@@ -16,12 +16,12 @@ layout: default
     {% comment %}</div>{% endcomment %}
     {% endif %}
         <div class="container center">
-            <a class="navigate-up" href="{{ page.url | split: '/' | pop | join: '/' }}">&laquo; {{ i18n.titles.events[lang] }}</a>
+            <a class="navigate-up" href="{{ page.url | split: '/' | pop | join: '/' }}">&laquo; {{ i18n.site.navigation.back-to[lang] }}{{ i18n.site.sep[lang] }}{{ i18n.titles.events[lang] }}</a>
             <h1><span class="bg">{{ event.title[lang] }}</span></h1>
             <h2><span class="bg">
                 {% if event.dates %}
                 {% for date in event.dates %}
-                <time class="event-date" datetime="{{ event.canonicalDates[forloop.index] }}">{{ date[lang] }}.</time>
+                <time class="event-date" datetime="{{ event.canonicalDates[forloop.index] }}">{{ date[lang] }}</time>
                 {% endfor %}
                 {% else %}
                 <time class="event-date" datetime="{{ event.canonicalDate }}">{{ event.date[lang] }}</time>
@@ -42,7 +42,7 @@ layout: default
         {{ event.description[lang] | markdownify }}
         {% if event.link %}
         <p class="text-center font-28">
-            <a class="btn blue-btn arrow-btn" href="{{ event.Link }}" rel="noreferrer"><strong>{{ i18n.events.links.facebook[lang] }}</strong> {% include icons/external-link-alt.svg %}</a>
+            <a class="btn blue-btn arrow-btn" href="{{ event.link }}" rel="noreferrer noopener"><strong>{{ i18n.events.links.facebook[lang] }}</strong> {% include icons/external-link-alt.svg %}</a>
         </p>
         {% endif %}
     </div>

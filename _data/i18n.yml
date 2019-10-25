@@ -347,13 +347,13 @@ theme:
     suffering:
       en-ca: |
         Jesus is not a king who demands to be served, as the world’s authority figures expect to
-        be, nor does he turn away from those who are suffering. Rather, he experiences our
-        suffering and cares (Hebrews 2:18).
+        be, nor does he turn away from those who are suffering. Rather, *he experiences our
+        suffering and cares* (Hebrews 2:18).
 
         Jesus, with all authority, emptied himself of his glory and took on the role of a servant.
       zh-hk: |
         耶穌不是一個正如世界權威人士所期望的國王，也不是要求被服侍的國王。
-        他不會遠離那些受苦的人，而且他也體會到我們的痛苦和關懷（希伯來書2：18）。
+        他不會遠離那些受苦的人，*而且他也體會到我們的痛苦和關懷*（希伯來書2：18）。
         
         耶穌擁有所有的權力，卻清空自己的榮耀，並承擔了一個僕人的角色。
     suffering-verse:
@@ -370,12 +370,12 @@ theme:
       en-ca: |
         As seen in the accounts of the authority of Jesus on Earth, he is patient, compassionate,
         and merciful to those who are helpless. Jesus sees the need in people. He sees us so
-        clearly in our brokenness, and still, Jesus is the King who died for us, so that we may be
-        reconciled to God (2 Corinthians 5:17-18).
+        clearly in our brokenness, and still, Jesus is the King who died for us, so that *we may be
+        reconciled to God* (2 Corinthians 5:17-18).
       zh-hk: |
         從耶穌在世上的權威的記載可以看出，他對那些無助的人很有耐心，同情心和仁慈。
         耶穌看到人的需要，也在破碎中清楚地看到了我們。
-        耶穌仍然是為我們而死的王，以便我們可以與上帝和解 （哥林多後書5：17-18）。
+        耶穌仍然是為我們而死的王，以便*我們可以與上帝和解* （哥林多後書5：17-18）。
     sacrifice-verse:
       source:
         en-ca: Romans 5:7-8
@@ -427,7 +427,7 @@ about:
       en-ca: Our Vision
       zh-hk: 我們的願景
     text:
-      en-ca: Gospel centred unity across the fellowships for the salvation of the campuses.
+      en-ca: Gospel-centred unity across the fellowships for the salvation of the campuses.
       zh-hk: 福音在團契中以合一為中心，以拯救眾多校園。
   verse:
     # The bible verse that underlies who we are
@@ -517,13 +517,9 @@ gospel:
         zh-hk: 彌賽亞
       description:
         en-ca: >
-          In the beginning, God created the world. He is a perfect and holy God who cannot be in
-          the presence of anything short of perfection. God sent his one and only Son Jesus to die
-          on the cross as the perfect sacrifice, to satisfy God’s wrath. And on the third day,
-          Jesus rose and conquered death.
+          God sent his one and only Son Jesus to die on the cross as the perfect sacrifice, to
+          satisfy God’s wrath. And on the third day, Jesus rose and conquered death.
         zh-hk: >
-          起初，上帝創造了世界。
-          他是一個完美而神聖的神，他不能在任何不完美的情況下存在。
           上帝差遣了他唯一的兒子耶穌死在十字架上作為完美的犧牲，以滿足神的憤怒。 
           第三天耶穌站起來征服了死亡。
       reference:
@@ -586,19 +582,15 @@ events:
         en-ca: 6-9pm
         zh-hk: 1800-2100
       type: onetime
-      link: "https://www.facebook.com/events/267107934213620/"
-      cover: "/uploads/JW%20Opening.jpg"
+      link: "https://www.facebook.com/events/381321092743746/"
+      cover: "/uploads/JW_banner.png"
       description:
         en-ca: |
-          Two campuses, one vision. To make Christ known on campus.
-
-          Join us for the OPENING NIGHT of Jesus Week for a night of prayer, praise, and
-          fellowship. As we prepare our hearts for the week ahead, we'll be coming together in a
-          time of prayer for the salvation of our campuses. 
-
-          We hope to see you there! 
+          Join us as we launch into prayer night for Jesus Week.  We will sing and pray to our Lord
+          and King asking that He would bring forth the kingdom on our campus :)
         zh-hk: |
-          兩個校園，一個願景。 在校園裡使基督知名。
+          兩個校園，一個願景。
+          在校園裡使基督知名。
           
           與我們一起參加耶穌週的開幕之夜，祈禱，讚美和團契。 
           當我們為下一周準備我們的心時，我們將在一起為拯救我們的校園而祈禱。
@@ -609,7 +601,7 @@ events:
       title:
         en-ca: Closing
         zh-hk: 閉幕
-      location: M3 1006
+      location: RCH 101
       canonicalDate: 2019-11-01
       date: 
         en-ca: Nov. 1
@@ -619,8 +611,8 @@ events:
         en-ca: 7-10pm
         zh-hk: 1900-2200
       type: onetime
-      link: "https://www.facebook.com/events/331365594153591/"
-      cover: "/uploads/JW%20Closing.jpg"
+      # link: "https://www.facebook.com/events/331365594153591/"
+      cover: "/uploads/JW_banner.png"
       description:
         en-ca: |
           Come hear about what God has done.
@@ -642,10 +634,7 @@ events:
       title:
         en-ca: Booths
         zh-hk: 攤位
-      locations:
-        - SLC
-        - STC
-        - DC
+      location: SLC Marketplace
       canonicalDates:
         - 2019-10-28
         - 2019-10-29
@@ -666,16 +655,38 @@ events:
         en-ca: |
           Come by the Booth stations to learn more what's offered on campus and off campus to get
           connected with a fellowship and church.
-
-          - Monday Oct 28:
-          - Tuesday Oct 29:
-          - Wednesday Oct 30:
         zh-hk: |
           到攤位站前來了解更多有關校園內外提供的內容的信息，以與團契和教會建立聯繫。
-          
-          - 星期一 10月28日:
-          - 星期二 10月29日:
-          - 星期三 10月30日: 
+    evangelism:
+      title: 
+        en-ca: Evangelism
+        zh-hk: 傳福音
+      location: SLC Basement
+      canonicalDates:
+        - 2019-10-28
+        - 2019-10-29
+        - 2019-10-30
+        - 2019-11-01
+      dates:
+        - en-ca: Oct. 28
+          zh-hk: 10月28日
+        - en-ca: Oct. 29
+          zh-hk: 10月29日
+        - en-ca: Oct. 30
+          zh-hk: 10月30日
+        - en-ca: Nov. 1
+          zh-hk: 11月1日
+      canonicalTime: 10:00-15:00
+      time:
+        en-ca: 10am-5pm
+        zh-hk: 1000-1700
+      type: recurring
+      description:
+        en-ca: |
+          If you are curious about Christianity or have any questions about God, feel free to drop
+          by the SLC basement Monday-Thursday from 10am-5pm to ask questions and hear the Gospel.
+        zh-hk: |
+          如果您有興趣想更加了解基督教或有關於上帝的有任何疑問，請在周一至週四1000-1700到SLC地下室隨意提問並聽取福音。
 
 #
 # Translations for the connect page
@@ -730,7 +741,7 @@ connect:
             zh-hk: 滑鐵盧韓裔基督教團契
           meetings:
             time:
-              en-ca: Fridays 630pm
+              en-ca: Fridays 6:30pm
               zh-hk: 逢星期五晚 六點半
             location: PHY 235
           links: 
@@ -778,7 +789,7 @@ connect:
             zh-hk: 王國來臨 - 滑鐵盧大學/勞雷爾大學
           meetings:
             time:
-              en-ca: Thursdays 630pm
+              en-ca: Thursdays 6:30pm
               zh-hk: 逢星期四晚 六點半
             location: DWE 3518
           links:
@@ -793,7 +804,7 @@ connect:
             zh-hk: 勞雷爾大學華裔基督教團契 (英文)
           meetings:
             time: 
-              en-ca: Wednesdays 730pm
+              en-ca: Wednesdays 7:30pm
               zh-hk: 逢星期三晚 七點半
             location: Updated weekly on Facebook
           links: 
@@ -804,7 +815,7 @@ connect:
             zh-hk: Power2Change - 勞雷爾大學
           meetings:
             time: 
-              en-ca: Thursdays 715pm
+              en-ca: Thursdays 7:15pm
               zh-hk: 逢星期四晚 七點十五分
             location: Updated weekly on Facebook
           links: 
@@ -815,7 +826,7 @@ connect:
             zh-hk: 王國來臨 - 滑鐵盧大學/勞雷爾大學
           meetings:
             time:
-              en-ca: Thursdays 630pm
+              en-ca: Thursdays 6:30pm
               zh-hk: 逢星期四晚 六點半
             location: DWE 3518
           links:
@@ -837,7 +848,7 @@ contact:
 
 p404:
   message:
-    en-ca: We couldn't find the page you were looking for
+    en-ca: We couldn't find the page you were looking for.
     zh-hk: 我們找不到你想要的頁面。
   back-to-home:
     en-ca: Back to the homepage
