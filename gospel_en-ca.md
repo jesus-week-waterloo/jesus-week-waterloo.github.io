@@ -1,5 +1,5 @@
 ---
-title: The Gospel
+title: gospel
 permalink: "/gospel"
 layout: gospel
 ---

@@ -1,29 +1,25 @@
+{% assign i18n = site.data.i18n %}
+{% assign lang = page.lang %}
+
 <footer id="main-footer">
+    <div class="container center cross-container">
+        <div class="cross-vert"></div>
+        <div class="cross-horz"></div>
+    </div>
     <div class="container center flex-column mainscript">
         <div>
             <!-- Jesus Week Logo -->
-            <p><strong>Jesus Week <mark>2019</mark></strong></p>
+            <p class="Footer_logo"><a href="{{ i18n.site.link-prefix[lang] }}/"><strong class="font-24">{{ i18n.footer.jesus-week[lang] }}</strong><br>{{ i18n.footer.waterloo[lang] }}</a></p>
         </div>
-        <div>
-            <p><a href="/about">About</a></p>
-            <p><a href="/gospel">The Gospel</a></p>
-            <p><a href="/events">Events</a></p>
-        </div>
-        <div>
-            <p><a href="/connect">Connect</a></p>
-            <ul>
-                <li><a href="/connect/churches">Churches</a></li>
-                <li><a href="/connect/fellowships">Fellowships</a></li>
-            </ul>
-        </div>
-        <div>
-            <p><a href="/contact">Contact</a></p>
-            <ul>
-                <li><a href="https://www.facebook.com/jesusweekwaterloo/" rel="noreferrer">Facebook</a></li>
-            </ul>
+        <div class="Footer_links">
+            <a href="{{ i18n.site.link-prefix[lang] }}/about">{{ i18n.titles.about[lang] }}</a>
+            <a href="{{ i18n.site.link-prefix[lang] }}/theme">{{ i18n.titles.theme[lang] }}</a>
+            <a href="{{ i18n.site.link-prefix[lang] }}/gospel">{{ i18n.titles.gospel[lang] }}</a>
+            <a href="{{ i18n.site.link-prefix[lang] }}/events">{{ i18n.titles.events[lang] }}</a>
+            <a href="{{ i18n.site.link-prefix[lang] }}/connect">{{ i18n.titles.connect[lang] }}</a>
         </div>
     </div>
     <div class="container center flex-row postscript">
-        <p class="text-right">Copyright &copy;{{ site.time | date: '%Y' }} Jesus Week Waterloo</p>
+        <p class="text-right">{{ i18n.footer.copyright[lang] }} &copy;{{ site.time | date: '%Y' }} {{ i18n.site.title[lang] }}{% if jekyll.environment == 'development' %} | <a href='#' style="color:blue;border-bottom:1px solid;" onclick='event.preventDefault();f()'>Give feedback</a>{% endif %}</p>
     </div>
 </footer>

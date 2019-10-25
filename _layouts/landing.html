@@ -2,11 +2,14 @@
 layout: default
 ---
 
+{% assign i18n = site.data.i18n %}
+{% assign lang = page.lang %}
+
 {% include top-bar.html %}
 
 <main id="content" role="main">
     <div id="landing-title" class="container center flex-row">
-        <h1><span class="blue-highlight">{{ page.title }}.</span></h1>
+        <h1>{{ i18n.titles[page.title][lang] }}</h1>
         {% if page.links %}
         <ul>
             {% for link in page.links %}<li><a href="{{ link.href }}">{{ link.title }}</a></li>{% endfor %}

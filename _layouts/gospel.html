@@ -2,59 +2,26 @@
 layout: landing
 ---
 
-<div class="flex-row gospel-container">
+{% assign i18n = site.data.i18n %}
+{% assign lang = page.lang %}
+
+<div class="gospel-container">
+    {% for point in i18n.gospel.points %}
     <div class="gospel-tract">
-        <h2><span class="quartz-highlight"><mark>1.</mark> A Holy and Perfect God</span></h2>
+        <h2><span class="quartz-highlight"><mark>{{ forloop.index }}.</mark> {{ point.title[lang] }}</span></h2>
         <div class="gospel-tract-content">
-            <p class="gospel-tract-summary">In the beginning, God created the world.
-            He is a perfect and holy God who cannot be in the presence of anything short of perfection.
-            <a class="gospel-tract-reveal" href="#">&mdash;&nbsp;Hebrews 12:14</a></p>
+            <p class="gospel-tract-summary">{{ point.description[lang] }}</p>
             <blockquote class="gospel-tract-verse">
-                <em>Make every effort to live in peace with everyone and to be holy; without holiness no one will see the Lord.</em>
-                <p class="text-right"><a class="gospel-tract-reveal" href="#">&mdash;&nbsp;Hebrews 12:14</a></p>
+                <p>{{ point.reference.text[lang] }}</p>
+                <cite class="gospel-tract-source">&mdash;&nbsp;{{ point.reference.source[lang] }}</cite>
             </blockquote>
         </div>
     </div>
-    <div class="gospel-tract">
-        <h2><span class="quartz-highlight"><mark>2.</mark> The Fall</span></h2>
-        <div class="gospel-tract-content">
-            <p class="gospel-tract-summary">Humans are sinful in nature and deserve God’s wrath, eternal punishment.
-            We are eternally separated from God.
-            <a class="gospel-tract-reveal" href="#">&mdash;&nbsp;Romans 5:12</a></p>
-            <blockquote class="gospel-tract-verse">
-                <em>Therefore, just as sin entered the world through one man, and death through sin, and in this way death came to all people, because all sinned.</em>
-                <p class="text-right"><a class="gospel-tract-reveal" href="#">&mdash;&nbsp;Romans 5:12</a></p>
-            </blockquote>
-        </div>
-    </div>
-    <div class="gospel-tract">
-        <h2><span class="quartz-highlight"><mark>3.</mark> The Messiah</span></h2>
-        <div class="gospel-tract-content">
-            <p class="gospel-tract-summary">God sent his one and only Son Jesus to die on the cross as the perfect sacrifice, to satisfy God’s wrath.
-            And on the third day, Jesus rose and conquered death.
-            <a class="gospel-tract-reveal" href="#">&mdash;&nbsp;1&nbsp;Corinthians 15:3-4 </a></p>
-            <blockquote class="gospel-tract-verse">
-                <em>For I delivered to you as of first importance what I also received: that Christ died for our sins in accordance with the Scriptures, that he was buried, that he was raised on the third day in accordance with the Scriptures.</em>
-                <p class="text-right"><a class="gospel-tract-reveal" href="#">&mdash;&nbsp;1&nbsp;Corinthians 15:3-4 </a></p>
-            </blockquote>
-        </div>
-    </div>
-    <div class="gospel-tract">
-        <h2><span class="quartz-highlight"><mark>4.</mark> Saved by Grace Through Faith</span></h2>
-        <div class="gospel-tract-content">
-            <p class="gospel-tract-summary">Though we hated him, God gives to us unmerited favour by sending his own Son to die in our place.
-            It is because of him, not of any earned merit of ourselves, that we can be saved.
-            <a class="gospel-tract-reveal" href="#">&mdash;&nbsp;Romans 10:9-10</a></p>
-            <blockquote class="gospel-tract-verse">
-                <em>If you declare with your mouth, "Jesus is Lord", and believe in your heart that God raised him from the dead, you will be saved. For it is with your heart that you believe and are justified, and it is with your mouth that you profess your faith and are saved.</em>
-                <p class="text-right"><a class="gospel-tract-reveal" href="#">&mdash;&nbsp;Romans 10:9-10</a></p>
-            </blockquote>
-        </div>
-    </div>
+    {% endfor %}
 </div>
 
 <div class="splash splash-blue">
-    <h2>Interested in taking the next step?</h2>
-    <a class="btn blue-btn arrow-btn" href="/connect/churches">Connect with a church {% include icons/arrow-right.svg %}</a>
-    <a class="btn blue-btn arrow-btn" href="/connect/fellowships">Connect with a fellowship {% include icons/arrow-right.svg %}</a>
+    <h2>{{ i18n.connect.card[lang] }}</h2>
+    <a class="btn blue-btn arrow-btn" href="{{ i18n.site.link-prefix[lang] }}/connect/churches">{{ i18n.connect.link-find-church[lang] }} {% include icons/arrow-right.svg %}</a>
+    <a class="btn blue-btn arrow-btn" href="{{ i18n.site.link-prefix[lang] }}/connect/fellowships">{{ i18n.connect.link-find-felly[lang] }} {% include icons/arrow-right.svg %}</a>
 </div>

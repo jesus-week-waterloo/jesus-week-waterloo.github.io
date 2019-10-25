@@ -1,0 +1,140 @@
+---
+layout: default
+---
+
+{% assign i18n = site.data.i18n %}
+{% assign lang = page.lang %}
+
+{% include top-bar.html %}
+
+<div class="ThemeBackground">
+    <div class="ThemeBackground_image ThemeBackground_image-authority"></div>
+    <div class="ThemeBackground_image ThemeBackground_image-humbles"></div>
+    <div class="ThemeBackground_image ThemeBackground_image-suffering"></div>
+    <div class="ThemeBackground_image ThemeBackground_image-sacrifice"></div>
+    <div class="ThemeBackground_overlay"></div>
+</div>
+
+<main id="content" role="main">
+    <div id="doc-title" class="ThemeTitle flex-column">
+        <div class="ThemeTitle_title">
+            <div class="container center">
+                {% for question in i18n.theme.questions %}
+                <h2 class="ThemeTitle_titleQuestion">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ question[lang] }}</em></h2>
+                {% endfor %}
+                <br>
+                <h2 class="ThemeTitle_titleQuestion">{{ i18n.theme.description.title[lang] | markdownify | remove: "<p>" | remove: "</p>" }}</em></h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="doc-main-content">
+        <h2 class="ThemeSideTitle ThemeSideTitle--authority ThemeSideTitle--left">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ i18n.theme.questions[0][lang] }}</em></h2>
+        <h2 class="ThemeSideTitle ThemeSideTitle--authority ThemeSideTitle--right">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ i18n.theme.questions[0][lang] }}</em></h2>
+        <h2 class="ThemeSideTitle ThemeSideTitle--humbles ThemeSideTitle--left">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ i18n.theme.questions[1][lang] }}</em></h2>
+        <h2 class="ThemeSideTitle ThemeSideTitle--humbles ThemeSideTitle--right">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ i18n.theme.questions[1][lang] }}</em></h2>
+        <h2 class="ThemeSideTitle ThemeSideTitle--suffering ThemeSideTitle--left">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ i18n.theme.questions[2][lang] }}</em></h2>
+        <h2 class="ThemeSideTitle ThemeSideTitle--suffering ThemeSideTitle--right">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ i18n.theme.questions[2][lang] }}</em></h2>
+        <h2 class="ThemeSideTitle ThemeSideTitle--sacrifice ThemeSideTitle--left">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ i18n.theme.questions[3][lang] }}</em></h2>
+        <h2 class="ThemeSideTitle ThemeSideTitle--sacrifice ThemeSideTitle--right">{{ i18n.theme.prefixes.questions[lang] }}{{ i18n.site.sep[lang] }}<em>{{ i18n.theme.questions[3][lang] }}</em></h2>
+        <h2 class="ThemeSideTitle ThemeSideTitle--conclusion ThemeSideTitle--left">{{ i18n.theme.description.title[lang] | markdownify | remove: "<p>" | remove: "</p>" }}</em></h2>
+        <h2 class="ThemeSideTitle ThemeSideTitle--conclusion ThemeSideTitle--right">{{ i18n.theme.description.title[lang] | markdownify | remove: "<p>" | remove: "</p>" }}</em></h2>
+
+        <div class="ThemeAnswer ThemeAnswer--authority">
+            <div class="ThemeSection ThemeSection--white" id="preamble">
+                <!-- White bg -->
+                <div class="ThemeSection_sideBySide container center">
+                    {{ i18n.theme.explanation.preamble[lang] | markdownify }}
+                    <blockquote class="text-right">
+                        <p>{{ i18n.theme.explanation.preamble-verse.text[lang] }}</p>
+                        <cite>{{ i18n.theme.explanation.preamble-verse.source[lang] }}</cite>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="ThemeSection" id="authority">
+                <!-- gold-10 bg, gold-70 highlights -->
+                <div class="container center">
+                    {{ i18n.theme.explanation.authority[lang] | markdownify }}
+                </div>
+            </div>
+
+            <div class="ThemeSection" id="authority-verses">
+                <!-- Jesus calms the storm bg tinted blue-90 50%, gold-20 highlights -->
+                <div class="ThemeSection_authorityContainer container center">
+                    {% for verse in i18n.theme.explanation.authority-verses %}
+                    <blockquote class="ThemeSection_authorityVerse text-center">
+                        {{ verse.text[lang] | markdownify }}
+                        <cite>{{ verse.source[lang] }}</cite>
+                    </blockquote>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <div class="ThemeAnswer ThemeAnswer--humbles">
+            <div class="ThemeSection ThemeSection--white" id="humbles">
+                <!-- white bg, blue-60 highlights -->
+                <div class="container center">
+                    {{ i18n.theme.explanation.humbles[lang] | markdownify }}
+                </div>
+            </div>
+
+            <div class="ThemeSection ThemeSection--verse" id="humbles-verse">
+                <!-- Jesus's birth bg tinted blue-10 50%, blue-60 highlights -->
+                <div class="container center">
+                    <blockquote class="text-center">
+                        {{ i18n.theme.explanation.humbles-verse.text[lang] | markdownify }}
+                        <cite>{{ i18n.theme.explanation.humbles-verse.source[lang] }}</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <div class="ThemeAnswer ThemeAnswer--suffering">
+            <div class="ThemeSection ThemeSection--white" id="suffering">
+                <!-- Jesus feeding the crowd bg tinted blue-90 50%, blue-20 highlights -->
+                <div class="container center">
+                    {{ i18n.theme.explanation.suffering[lang] | markdownify }}
+                </div>
+            </div>
+            <div class="ThemeSection ThemeSection--verse" id="suffering-verse">
+                <div class="container center">
+                    <blockquote class="text-center">
+                        {{ i18n.theme.explanation.suffering-verse.text[lang] | markdownify }}
+                        <cite>{{ i18n.theme.explanation.suffering-verse.source[lang] }}</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <div class="ThemeAnswer ThemeAnswer--sacrifice">
+            <div class="ThemeSection" id="sacrifice">
+                <!-- Jesus carrying the cross bg tinted grey-90 50% -->
+                <div class="container center">
+                    {{ i18n.theme.explanation.sacrifice[lang] | markdownify }}
+                </div>
+            </div>
+
+            <div class="ThemeSection ThemeSection--verse" id="sacrifice-verse">
+                <div class="container center">
+                    <blockquote class="text-center">
+                        {{ i18n.theme.explanation.sacrifice-verse.text[lang] | markdownify }}
+                        <cite>{{ i18n.theme.explanation.sacrifice-verse.source[lang] }}</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <div class="ThemeAnswer ThemeAnswer--conclusion">
+            <div class="ThemeSection ThemeSection--white" id="conclusion">
+                <!-- white bg, purple-60 highlights -->
+                <div class="container center">
+                    {{ i18n.theme.explanation.conclusion[lang] | markdownify }}
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+{% include footer.html %}

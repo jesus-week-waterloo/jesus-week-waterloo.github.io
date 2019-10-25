@@ -1,0 +1,25 @@
+---
+title: p404
+layout: default
+---
+
+{% assign i18n = site.data.i18n %}
+{% assign lang = page.lang %}
+
+{% include top-bar.html %}
+
+<main id="content" class="container center" role="main">
+    <div id="main-title"><h1 class="text-center font-80">404.</h1></div>
+    <blockquote>
+        <p class="text-center font-24">And they found the stone rolled away from the tomb, but when they went in they did not find the body of the Lord Jesus.</p>
+        <cite class="text-right">&mdash; Luke 24:2-3</cite>
+    </blockquote>
+    <p class="text-center">{{ i18n.p404.message.en-ca }}</p>
+    <p class="text-center"><a href="{{ i18n.site.link-prefix.en-ca }}/">{{ i18n.p404.back-to-home.en-ca }}</a></p>
+    <p class="text-center">{{ i18n.p404.message.zh-hk }}</p>
+    <p class="text-center"><a href="{{ i18n.site.link-prefix.zh-hk }}/">{{ i18n.p404.back-to-home.zh-hk }}</a></p>
+</main>
+<style>#change-lang,#change-lang-menu{display: none}
+blockquote{width:80%;max-width:600px;margin:1.5em auto}</style>
+
+{% include footer.html %}

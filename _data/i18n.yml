@@ -1,0 +1,855 @@
+# This is a comment.
+# Everything after the '#' on the same line will be ignored
+
+# The purpose of this file is to provide a consistent translation interface for the Jesus Week site.
+# Unless otherwise stated, translations should be (mostly) literal, and can be assumed to have no context.
+# Fields whose value is ... signify untranslated strings.
+
+#
+# General site internationalizations
+#
+
+site:
+  title:
+    # The title of our site
+    en-ca: Jesus Week Waterloo
+    zh-hk: 滑鐵盧耶穌週
+  description:
+    # A short description to appear on Google when we're searched for
+    en-ca: What kind of King is this? // To make Christ known on the campuses.
+    zh-hk: 這是一個怎麼樣的王？ // 要把基督的名在校園裡傳開去。
+  theme:
+    # The theme of the current Jesus Week
+    en-ca: What kind of King is this?
+    zh-hk: 這是一個怎麼樣的王？
+  accessibility:
+    skip-to-content:
+      en-ca: Skip to content
+      zh-hk: 跳至內容
+    translate:
+      en-ca: Translate | 翻譯
+      zh-hk: 翻譯 | Translate
+    close-translate:
+      en-ca: Close | 關閉
+      zh-hk: 關閉 | Close
+    langs:
+      en-ca: English (Canada)
+      zh-hk: 中文 (繁體字)
+  js-accessibility:
+    open-navigation:
+      # open the navigation menu
+      en-ca: Open navigation
+      zh-hk: 打開導航菜單
+    close-navigation:
+      # close the navigation menu
+      en-ca: Close navigation
+      zh-hk: 關閉導航菜單
+    events:
+      ongoing:
+        en-ca: Ongoing
+        zh-hk: 進行中
+      upcoming:
+        en-ca: Next event
+        zh-hk: 下一項活動
+      none-ongoing:
+        en-ca: No ongoing events
+        zh-hk: 沒有進行中的活動
+      none-upcoming:
+        en-ca: No upcoming events
+        zh-hk: 沒有即將舉行的活動
+  navigation:
+    back-to:
+      en-ca: Back to
+      zh-hk: 返回
+  sep:
+    # DO NOT CHANGE
+    en-ca: " "
+    zh-hk: ""
+  link-prefix:
+    # DO NOT CHANGE
+    en-ca: ""
+    zh-hk: /zh-hk
+  roman-font-family:
+    # DO NOT CHANGE
+    en-ca: neue-haas-grotesk-text, system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', HelveticaNeue, Roboto, 'Segoe UI', Arial, sans-serif
+    zh-hk: source-han-sans-hong-kong, system-ui, -apple-system, BlinkMacSystemFont, 'PingFang HK', 'Noto Sans CJK HK', 'Microsoft JhengHei', sans-serif
+  display-font-family:
+    # DO NOT CHANGE
+    en-ca: neue-haas-grotesk-display, var(--rm-ff)
+    zh-hk: var(--rm-ff)
+
+#
+# The header that appears on top of every page
+#
+
+header:
+  date:
+    en-ca: Oct 27–Nov 1
+    zh-hk: 10月27日–11月1日
+  menu:
+    # DO NOT CHANGE
+    - about
+    - theme
+    - gospel
+    - events
+    - connect
+
+#
+# The footer that appears at the bottom of every page
+#
+
+footer:
+  jesus-week:
+    en-ca: Jesus Week
+    zh-hk: 耶穌週
+  waterloo:
+    en-ca: Waterloo
+    zh-hk: 滑鐵盧
+  copyright:
+    en-ca: Copyright
+    zh-hk: 版權
+
+#
+# List of page titles and their translations
+#
+
+titles:
+  p404:
+    en-ca: 404, Page Not Found
+    zh-hk: 404, 頁面不存在
+  about:
+    en-ca: About
+    zh-hk: 關於
+  theme:
+    en-ca: The Theme
+    zh-hk: 主題
+  gospel:
+    en-ca: The Gospel
+    zh-hk: 福音
+  events:
+    en-ca: Events
+    zh-hk: 活動
+  connect:
+    en-ca: Connect
+    zh-hk: 接觸
+  connect-churches:
+    en-ca: Churches
+    zh-hk: 教會
+  connect-fellys:
+    en-ca: Fellowships
+    zh-hk: 團契
+  contact:
+    en-ca: Contact
+    zh-hk: 聯絡
+
+#
+# Translations for the home page
+#
+
+home:
+  title:
+    # This is the headline of the Jesus Week site, the first thing people will see when they go to
+    # jesusweek.ca.
+    # These three strings will be concatenated, e.g. en-ca: What kind of King is this?
+    pre-king:
+      en-ca: What kind of
+      zh-hk: 這是一個怎麼樣的
+    king:
+      en-ca: King
+      zh-hk: 王
+    post-king:
+      en-ca: is this?
+      zh-hk: ？
+  background-questions:
+    # These are the questions that we have scrolling across the background on the home page
+    - en-ca: What kind of King fulfills prophecies?
+      zh-hk: 怎麼樣的王能兌現預言？
+    - en-ca: What kind of King never lies?
+      zh-hk: 怎麼樣的王不會說謊？
+    - en-ca: What kind of King heals the sick?
+      zh-hk: 怎麼樣的王能醫治患病的人？
+    - en-ca: What kind of King dines with criminals?
+      zh-hk: 怎麼樣的王能與罪犯一同聚餐？
+    - en-ca: What kind of King is oppressed by his people?
+      zh-hk: 怎麼樣的王被他的人民壓迫？
+    - en-ca: What kind of King gets buried with the wicked?
+      zh-hk: 怎麼樣的王被惡人埋葬？
+    - en-ca: What kind of King comes back to life?
+      zh-hk: 怎麼樣的王能夠重生？
+    - en-ca: What kind of King brings salvation?
+      zh-hk: 怎麼樣的王能夠帶來救贖？
+  section-questions:
+    title:
+      # The title for the questions section of the home page, right below the Jesus Week title
+      en-ca: The Theme
+      zh-hk: 主題
+    link:
+      # Link text to lead to the page where we answer our theme questions (see below)
+      en-ca: What kind of King is King Jesus?
+      zh-hk: 一個怎麼樣的王是耶穌？
+  section-gospel:
+    title:
+      # The title for the Gospel section of the home page
+      en-ca: The Gospel
+      zh-hk: 福音
+    points:
+      - en-ca: God is holy and perfect.
+        zh-hk: 神是聖潔和完美的。
+      - en-ca: We are sinful and separated from God.
+        zh-hk: 我們人類原是充滿罪惡並且與神隔絕。
+      - en-ca: God sent Jesus to die on the cross as the perfect sacrifice for our sins.
+        zh-hk: 神差遣祂的獨生子耶穌為我們的罪在十字架上死；這是一個全然的犧牲。
+      - en-ca: All who repent of their sins and believe in Him are saved.
+        zh-hk: 所有悔改認罪且相信主耶穌的人就會被拯救。
+    link:
+      # Link text to lead to a more detailed explanation of the Gospel
+      en-ca: Learn more about the Gospel
+      zh-hk: 認識福音更多
+  section-connect:
+    title:
+      # The title for the Connect section of the home page
+      en-ca: Connect
+      zh-hk: 接觸
+    description:
+      en-ca: >
+        Whether you've just started your spiritual journey, or you've been a long-time believer,
+        finding a church and fellowship is an important step in growing your faith.
+      zh-hk: >
+        無論你剛開始你屬靈的旅程還是一個信主長久的信徒，尋找教會和團契都是一個幫助你信心增長的重要一步。
+    link-churches:
+      en-ca: Connect with a church
+      zh-hk: 接觸一間教會
+    link-fellys:
+      en-ca: Connect with a fellowship
+      zh-hk: 接觸一個團契
+    link-fb:
+      en-ca: Connect with us on Facebook
+      zh-hk: 在Facebook接觸我們
+
+#
+# Translations for the theme page, where we explain our theme and answer the theme questions
+#
+
+theme:
+  description:
+    title:
+      # What kind of King is King Jesus?
+      en-ca: What kind of King is *King Jesus?*
+      zh-hk: 耶穌究竟是一個怎麼樣的王？
+  prefixes:
+    questions:
+      en-ca: What kind of King # e.g. What kind of King has utmost authority, but we only need the
+                               # contexual translation for "What kind of King"
+      zh-hk: 一個怎麼樣的王
+  questions:
+    # These are the concrete examples of our theme, "What kind of King is this?"
+    # They are questions meant to challenge the idea of a king, or authority, of power.
+    # We pose these questions throughout the website (as well as on our print and digital media)
+    # to get people to ponder on who and what Jesus is.
+
+    # QUESTION 1
+    - en-ca: has utmost authority? # => What kind of King has utmost authority?
+      zh-hk: 有著最高權柄？
+    # QUESTION 2
+    - en-ca: humbles himself for the sake of the weak?
+      zh-hk: 會為弱者而謙卑自己？
+    # QUESTION 3
+    - en-ca: feels compassion for the suffering of the world?
+      zh-hk: 會憐憫世界的痛苦？
+    # QUESTION 4
+    - en-ca: dies for his enemies?
+      zh-hk: 會為他的敵人而死？
+  explanation:
+    # This is our explanation for our theme. It's split into several sections, each corresponding
+    # to a specific visual effect.
+    preamble:
+      en-ca: |
+        Jesus is the one with total authority, given by God, in Heaven and on Earth.
+      zh-hk: |
+        耶穌有著從上帝而來、在天上地下的所有權柄。
+    preamble-verse:
+      source:
+        en-ca: Ephesians 1:20-21
+        zh-hk: 以弗所書 1:20-21
+      text:
+        en-ca: >
+          God raised him from the dead and seated him at his right hand in the heavenly places, far
+          above all rule and authority and power and dominion, and above every name that is named,
+          not only in this age but also in the one to come.
+        zh-hk: >
+           這大能曾運行在基督身上，使他從死人中復活，又使他在天上坐在自己的右邊，遠超越一切執政的、掌權的、有權能的、統治的和一切有名號的；不但是今世的，連來世的也都超越了。
+    authority:
+      en-ca: |
+        The authority of Jesus can be witnessed through his triumph over nature, illness,
+        forgiveness of sins, and even death. We see accounts of his authority over nature when he
+        controls the wind and seas to *calm a storm*, over illness when he *heals blindness*, over
+        sin when he *pours out mercy*, and over death when he *rose from the grave*.
+      zh-hk: |
+        耶穌的權柄可以從他戰勝自然、疾病、寬恕罪惡、甚至死亡看出來。
+        當他制止風浪以*平靜風暴*、*醫治失明* 的人、對罪人*施憐憫*和*從墳墓醒來*戰勝死亡，我們能夠看見他的權柄超越自然。
+    authority-verses:
+      - source:
+          en-ca: Mark 4:41
+          zh-hk: 馬可福音 4:41
+        text:
+          en-ca: >
+            Who then is this, that even *the wind and the sea obey him?*
+          zh-hk: >
+            這到底是誰？連*風和海都聽從他。*
+      - source:
+          en-ca: Acts 10:38
+          zh-hk: 使徒行傳 10:38
+        text:
+          en-ca: >
+            He went about doing good and healing all who were oppressed by the devil, for *God was
+            with Him.*
+          zh-hk: >
+            他到處奔波，行善事，醫好凡被魔鬼壓制的人，因為*神與他同在。*
+      - source:
+          en-ca: Mark 1:27
+          zh-hk: 馬可福音 1:27
+        text:
+          en-ca: >
+            What is this? *A new teaching with authority!* He commands even the unclean spirits, and
+            *they obey Him.*
+          zh-hk: >
+            這是甚麼事？是個*新的教導*啊！他用權柄命令污靈，連污靈也*聽從了他。*
+      - source:
+          en-ca: Luke 24:6-7
+          zh-hk: 路加福音 24:6-7
+        text:
+          en-ca: >
+            He is not here; *he has risen!* Remember how he told you, while he was still with you
+            in Galilee: ‘The Son of Man must be delivered over to the hands of sinners, be 
+            crucified and *on the third day be raised again.*’
+          zh-hk: >
+            他不在這裏，*已經復活了。*
+            要記得他還在加利利的時候怎樣告訴你們的，他說：『人子必須被交在罪人手裏，釘在十字架上，*第三天復活 。*』
+    humbles:
+      en-ca: |
+        Jesus has all authority and all power, and is all holy and righteous (Romans 3:10). He is
+        the one who is fully right to judge us, but instead of judging us from his throne in
+        Heaven, *he comes down to Earth to offer us eternal life.* This tremendously contradicts
+        our expectation of a king.
+      zh-hk: |
+        耶穌擁有所有的權柄和全部的能力，並且都是聖潔和公義的 （羅馬書3：10）。
+        他是完全有權利審判我們的人，但他卻不是從天上的寶座來審判我們，*而是來到地上為我們提供永生。*
+        這與我們對國王的期望抵觸了。
+    humbles-verse:
+      source:
+        en-ca: John 6:38
+        zh-hk: 約翰福音 6:38
+      text:
+        en-ca: >
+          For I have come down from heaven, not to do my own will but the will of him who sent me.
+        zh-hk: >
+          因為我從天上降下來，不是要按自己的意願行，而是要遵行差我來那位的旨意。
+    suffering:
+      en-ca: |
+        Jesus is not a king who demands to be served, as the world’s authority figures expect to
+        be, nor does he turn away from those who are suffering. Rather, *he experiences our
+        suffering and cares* (Hebrews 2:18).
+
+        Jesus, with all authority, emptied himself of his glory and took on the role of a servant.
+      zh-hk: |
+        耶穌不是一個正如世界權柄人士所期望的國王，也不是要求被服侍的國王。
+        他不會遠離那些受苦的人，*而且他也體會到我們的痛苦和關懷*（希伯來書2：18）。
+        
+        耶穌擁有所有的權力，卻放棄自己的榮耀，並承擔了一個僕人的角色。
+    suffering-verse:
+      source:
+        en-ca: Matthew 9:36
+        zh-hk: 馬太福音 9:36
+      text:
+        en-ca: >
+          When he saw the crowds, *he had compassion for them*, because they were harassed and
+          helpless, like sheep without a shepherd.
+        zh-hk: >
+          他看見一大羣人，*就憐憫他們*；因為他們困苦無助，如同羊沒有牧人一樣。
+    sacrifice:
+      en-ca: |
+        As seen in the accounts of the authority of Jesus on Earth, he is patient, compassionate,
+        and merciful to those who are helpless. Jesus sees the need in people. He sees us so
+        clearly in our brokenness, and still, Jesus is the King who died for us, so that *we may be
+        reconciled to God* (2 Corinthians 5:17-18).
+      zh-hk: |
+        從耶穌在世上的權柄的記載可以看出，他對那些無助的人很有耐心，同情心和仁慈。
+        耶穌看到人的需要，也在破碎中清楚地看到了我們。
+        耶穌仍然是為我們而死的王，以便*我們可以與上帝和解*（哥林多後書5：17-18）。
+    sacrifice-verse:
+      source:
+        en-ca: Romans 5:7-8
+        zh-hk: 羅馬書 5:7-8
+      text:
+        en-ca: >
+          For one will scarcely die for a righteous person — though perhaps for a good person one
+          would dare even to die — but God shows his love for us in that *while we were still
+          sinners, Christ died for us.*
+        zh-hk: >
+          為義人死，是少有的；為仁人死，或者有敢做的。
+          惟有基督在我們*還作罪人的時候為我們死*，神的愛就在此向我們顯明了。
+    conclusion:
+      en-ca: |
+        King Jesus is so powerful, yet so loving and tender. 
+
+        He is the Lord of lords and King of kings (Revelation 17:14), and the good shepherd who
+        lays down His life for His sheep (John 10:11). 
+
+        He is the promised King, the one who will save, who will rule, who will redeem. 
+
+        *He is the way, and the truth, and the life (John 14:6).*
+      zh-hk: |
+        耶穌是如此強大的王，卻又如此慈愛和溫柔。
+        
+        他是萬主之主和萬王之王 (啟示錄17:14), 是良善的牧人，為羊捨命 （約翰福音10:11）。
+        
+        他是應許的國王，他將拯救，統治和救贖。
+        
+        *他就是道路、真理和生命。(約翰福音 14:6)*
+
+#
+# Translations for our about page
+# Note: this is the same as what we had for Winter 2019
+#
+
+about:
+  mission:
+    # Our Mission: ...
+    lede:
+      en-ca: Our Mission
+      zh-hk: 我們的使命
+    text:
+      en-ca: To make Christ known on the campuses.
+      zh-hk: 要把基督的名在校園裡傳開去。
+  vision:
+    # Our Vision: ...
+    lede:
+      en-ca: Our Vision
+      zh-hk: 我們的願景
+    text:
+      en-ca: Gospel-centred unity across the fellowships for the salvation of the campuses.
+      zh-hk: 福音在團契中以合一為中心，以拯救眾多校園。
+  verse:
+    # The bible verse that underlies who we are
+    source:
+      en-ca: 2 Corinthians 5:20-21
+      zh-hk: 哥林多後書 5:20-21
+    text:
+      en-ca: >
+        Therefore, we are ambassadors for Christ, God making his appeal through us. We implore you
+        on behalf of Christ, be reconciled to God. For our sake he made him to be sin who knew no
+        sin, so that in him we might become the righteousness of God.
+      zh-hk: >
+        所以，我們作基督的特使，就好像　神藉我們勸你們一般。
+        我們替基督求你們，與　神和好吧！
+        神使那無罪的，替我們成為罪，好使我們在他裏面成為　神的義。
+  description:
+    en-ca: |
+      The objective of Jesus Week 2019 is simple: a desperate and urgent plea to our fellow
+      students at the University of Waterloo and Wilfrid Laurier University to consider the reality
+      of hell and the saving work of Jesus Christ on the cross for sinners like ourselves.
+
+      We don’t believe that we, in our own individual power and wisdom, can convert anyone, but our
+      desire is to make known to all the grace and mercy of Jesus, who stood in our place at
+      Calvary and died the death that we deserved. Whoever should repent and trust in Jesus will
+      be saved.
+
+      We plead with you; hell is real, heaven is real, time is short; you must choose how you will
+      respond.
+    zh-hk: |
+      耶穌週2019的目標很簡單：對我們在滑鐵盧大學和威爾弗里德·勞里爾大學的同學們迫切和緊急的呼籲 --
+      思考地獄的現實和耶穌基督在十字架上為像我們這樣的罪人所做的拯救工作。
+      
+      我們不相信我們能以自己的個人力量和智慧可以改變任何人，但是我們的願望是要使耶穌的一切恩典和憐憫能夠廣為人知，因為他為應死的我們受難而死。
+      只要悔改並相信耶穌便可以被拯救。
+      
+      我們懇求您； 地獄是真實的，天堂是真實的，時間是短暫的； 你必須選擇你會如何響應。
+
+#
+# Translations for our Gospel page
+#
+
+gospel:
+  points:
+    - title:
+        en-ca: A Holy and Perfect God
+        zh-hk: 一個聖潔和完全的主
+      description:
+        en-ca: >
+          In the beginning, God created the world. He is a perfect and holy God who cannot be
+          in the presence of anything short of perfection. 
+        zh-hk: >
+          起初，上帝創造了世界。
+          他是一個完美而神聖的神，他不能在任何不完美的情況下存在。
+      reference:
+        source:
+          en-ca: Hebrews 12:14
+          zh-hk: 希伯來書 12:14
+        text:
+          en-ca: >
+            Make every effort to live in peace with everyone and to be holy; without holiness
+            no one will see the Lord.
+          zh-hk: >
+            你們要追求與眾人和睦，並要追求聖潔；人非聖潔不能見主。
+    - title:
+        en-ca: The Fall
+        zh-hk: 墜落
+      description:
+        en-ca: >
+          Humans are sinful in nature and deserve God’s wrath, eternal punishment. We are
+          eternally separated from God.
+        zh-hk: >
+          人類本質上是有罪的，應受到神的憤怒和永恆的懲罰。
+          我們原是與上帝永遠分離。
+      reference:
+        source:
+          en-ca: Romans 5:12
+          zh-hk: 羅馬書 5:12
+        text:
+          en-ca: >
+            Therefore, just as sin entered the world through one man, and death through sin, and in
+            this way death came to all people, because all sinned.
+          zh-hk: >
+            為此，正如罪是從一人進入世界，死又從罪而來，
+            於是死就臨到所有的人，因為人人都犯了罪。
+    - title:
+        en-ca: The Messiah
+        zh-hk: 彌賽亞
+      description:
+        en-ca: >
+          God sent his one and only Son Jesus to die on the cross as the perfect sacrifice, to
+          satisfy God’s wrath. And on the third day, Jesus rose and conquered death.
+        zh-hk: >
+          上帝差遣了他唯一的兒子耶穌死在十字架上作為完美的犧牲，以滿足神的憤怒。 
+          第三天耶穌站起來征服了死亡。
+      reference:
+        source:
+          en-ca: 1 Corinthians 15:3-4
+          zh-hk: 哥林多前書 15:3-4
+        text:
+          en-ca: >
+            For I delivered to you as of first importance what I also received: that Christ died
+            for our sins in accordance with the Scriptures, that he was buried, that he was raised
+            on the third day in accordance with the Scriptures.
+          zh-hk: >
+            我當日所領受又傳給你們的，最重要的就是：照聖經所說，基督為我們的罪死了，而且埋葬了；又照聖經所說，第三天復活了。
+    - title:
+        en-ca: Saved by Grace Through Faith
+        zh-hk: 通過信心蒙恩得救
+      description:
+        en-ca: >
+          Though we hated him, God gives to us unmerited favour by sending his own Son to die in
+          our place. It is because of him, not of any earned merit of ourselves, that we can be
+          saved.
+        zh-hk: >
+          儘管我們恨他，但上帝卻差遣自己的兒子死在了上帝面前，給予了我們優厚的恩惠。
+          因為他，而不是我們自己的功勞，我們才能得救。
+      reference:
+        source:
+          en-ca: Romans 10:9-10
+          zh-hk: 羅馬書 10:9-10
+        text:
+          en-ca: >
+            If you declare with your mouth, "Jesus is Lord", and believe in your heart that God
+            raised him from the dead, you will be saved. For it is with your heart that you believe
+            and are justified, and it is with your mouth that you profess your faith and are saved.
+          zh-hk: >
+            你若口裏宣認耶穌為主，心裏信　神叫他從死人中復活，就必得救。 
+            因為，人心裏信就可以稱義，口裏宣認就可以得救。
+
+#
+# Translations for events
+#
+
+events:
+  links:
+    facebook:
+      en-ca: See this event on Facebook
+      zh-hk: 在Facebook上查看這項活動
+  events:
+    # Our opening night event
+    launch-night:
+      title:
+        en-ca: Opening Night
+        zh-hk: 開幕之夜
+      location: AL 116
+      canonicalDate: 2019-10-27
+      date:
+        en-ca: Oct. 27
+        zh-hk: 10月27日
+      canonicalTime: 18:00-21:00
+      time: 
+        en-ca: 6–9pm
+        zh-hk: 1800–2100
+      type: onetime
+      link: "https://www.facebook.com/events/381321092743746/"
+      cover: "/uploads/JW_banner.png"
+      description:
+        en-ca: |
+          Join us as we launch into prayer night for Jesus Week.  We will sing and pray to our Lord
+          and King asking that He would bring forth the kingdom on our campus :)
+        zh-hk: |
+          兩個校園，一個願景。
+          在校園裡使基督知名。
+          
+          與我們一起參加耶穌週的開幕之夜，祈禱，讚美和團契。 
+          當我們為下一周準備我們的心時，我們將在一起為拯救我們的校園而祈禱。
+          
+          我們希望在那裡見到你！
+    # Our closing night event
+    closing:
+      title:
+        en-ca: Closing
+        zh-hk: 閉幕
+      location: RCH 101
+      canonicalDate: 2019-11-01
+      date: 
+        en-ca: Nov. 1
+        zh-hk: 11月1日
+      canonicalTime: 19:00-22:00
+      time: 
+        en-ca: 7–10pm
+        zh-hk: 1900–2200
+      type: onetime
+      # link: "https://www.facebook.com/events/331365594153591/"
+      cover: "/uploads/JW_banner.png"
+      description:
+        en-ca: |
+          Come hear about what God has done.
+          
+          Come share about what God has done.
+
+          Join us for a night of celebration and thanksgiving as we reflect and pray about God's
+          goodness throughout the week. We want to wrap up Jesus Week with a time of encouragement
+          to propel us to live daily in the mission of Jesus.
+        zh-hk: |
+          來聽聽上帝所做的事。
+          
+          來分享上帝所做的事。
+          
+          與我們一起慶祝和感恩，整週反思並為上帝的良善祈禱。
+          我們希望在一個鼓勵的時候結束耶穌週，以促使我們每天生活在耶穌的使命中。
+    # Event page for booths
+    booths:
+      title:
+        en-ca: Booths
+        zh-hk: 攤位
+      location: SLC Marketplace
+      canonicalDates:
+        - 2019-10-28
+        - 2019-10-29
+        - 2019-10-30
+      dates:
+        - en-ca: Oct. 28
+          zh-hk: 10月28日
+        - en-ca: Oct. 29
+          zh-hk: 10月29日
+        - en-ca: Oct. 30
+          zh-hk: 10月30日
+      canonicalTime: 10:00-15:00
+      time:
+        en-ca: 10am–3pm
+        zh-hk: 1000–1500
+      type: recurring
+      description:
+        en-ca: |
+          Come by the Booth stations to learn more what's offered on campus and off campus to get
+          connected with a fellowship and church.
+        zh-hk: |
+          到攤位站前來了解更多有關校園內外提供的內容的信息，以與團契和教會建立聯繫。
+    evangelism:
+      title: 
+        en-ca: Evangelism
+        zh-hk: 傳福音
+      location: SLC Basement
+      canonicalDates:
+        - 2019-10-28
+        - 2019-10-29
+        - 2019-10-30
+        - 2019-11-01
+      dates:
+        - en-ca: Oct. 28
+          zh-hk: 10月28日
+        - en-ca: Oct. 29
+          zh-hk: 10月29日
+        - en-ca: Oct. 30
+          zh-hk: 10月30日
+        - en-ca: Nov. 1
+          zh-hk: 11月1日
+      canonicalTime: 10:00-15:00
+      time:
+        en-ca: 10am–5pm
+        zh-hk: 1000–1700
+      type: recurring
+      description:
+        en-ca: |
+          If you are curious about Christianity or have any questions about God, feel free to drop
+          by the SLC basement Monday-Thursday from 10am-5pm to ask questions and hear the Gospel.
+        zh-hk: |
+          如果您有興趣想更加了解基督教或有更多關於上帝的任何疑問，請在周一至週四1000–1700到SLC地下室隨意提問並聽取福音。
+
+#
+# Translations for the connect page
+#
+
+connect:
+  headline:
+    en-ca: The Gospel doesn't just stop with Jesus Week.
+    zh-hk: 福音不僅止於耶穌週。
+  preamble:
+    en-ca: >
+      Whether you're a fully professing Christian, just started on your spiritual journey, or
+      interested in learning more about Jesus, we strongly encourage you to go to a church and join
+      a fellowship. You'll find a community of like-minded, Gospel-centred believers in Christ that
+      will answer your questions, keep you accountable, and guide you in growing your faith.
+    zh-hk: >
+      無論您是一位完全自稱為基督徒的人，還是剛剛開始您的屬靈之旅，還是有興趣進一步了解耶穌，我們強烈建議您去教會參加團契。
+      您會發現一個由志同道合、以福音為中心的信徒組成的社群；那裡的人會回答您的問題，讓您負責任，並幫助您信仰成長。
+  card:
+    # This text will appear whenever we want to link to the connect page from another page
+    en-ca: Interested in taking the next step?
+    zh-hk: 有興趣踏出下一步？
+  link-find-church:
+    en-ca: Connect with a church
+    zh-hk: 接觸一間教會
+  link-find-felly:
+    en-ca: Connect with a fellowship
+    zh-hk: 接觸一個團契   
+  # A list of fellowships in UW and WLU
+  campuses:
+    - name:
+        en-ca: UWaterloo
+        zh-hk: 滑鐵盧大學
+      fellys:
+        - name:
+            en-ca: UW Chinese Christian Fellowship
+            zh-hk: 滑鐵盧大學華裔基督教團契 (英文)
+          meetings:
+            time:
+              en-ca: Fridays 7pm
+              zh-hk: 逢星期五晚 七點
+            location: RCH 101/201
+          links: 
+            - type: Page
+              url: "https://www.uwccf.com"
+            - type: Facebook
+              url: "https://www.facebook.com/uwccf/"
+            - type: Facebook
+              url: "https://www.facebook.com/groups/uwaterlooccf/"
+        - name:
+            en-ca: Waterloo Korean Christian Fellowship
+            zh-hk: 滑鐵盧韓裔基督教團契
+          meetings:
+            time:
+              en-ca: Fridays 6:30pm
+              zh-hk: 逢星期五晚 六點半
+            location: PHY 235
+          links: 
+            - type: Facebook
+              url: "https://www.facebook.com/groups/waterlookcf/"
+        - name:
+            en-ca: UW Cantonese Chinese Christian Fellowship
+            zh-hk: 滑鐵盧大學廣東話基督教團契
+          meetings:
+            time:
+              en-ca: Mondays 6pm
+              zh-hk: 逢星期一晚 六點
+            location: PHY 145
+          links: 
+            - type: Facebook
+              url: "https://www.facebook.com/groups/uwcccf/"
+        - name:
+            en-ca: UW Mandarin Chinese Christian Fellowship
+            zh-hk: 滑鐵盧大學國語基督教團契
+          meetings:
+            time:
+              en-ca: Thursdays 7pm
+              zh-hk: 逢星期四晚 七點
+            location: MC 4060
+          links: 
+            - type: Facebook
+              url: "https://www.facebook.com/groups/uwmccf/"
+        - name:
+            en-ca: Power2Change - Waterloo
+            zh-hk: Power2Change - 滑鐵盧
+          meetings:
+            time: 
+              en-ca: Fridays 7pm
+              zh-hk: 逢星期五晚 七點
+            location: MC 2065
+          links:
+            - type: Page
+              url: "https://p2c.com/students/campuses/university-of-waterloo/"
+            - type: Facebook
+              url: "https://www.facebook.com/p2c.waterloo/"
+            - type: Facebook
+              url: "https://www.facebook.com/groups/p2cwaterloo/"
+        - name:
+            en-ca: Kingdom Come - UW/WLU
+            zh-hk: 王國來臨 - 滑鐵盧大學/勞雷爾大學
+          meetings:
+            time:
+              en-ca: Thursdays 6:30pm
+              zh-hk: 逢星期四晚 六點半
+            location: DWE 3518
+          links:
+            - type: Facebook
+              url: "https://www.facebook.com/groups/kcwaterloo/"
+    - name:
+        en-ca: WLU
+        zh-hk: 勞雷爾大學
+      fellys:
+        - name:
+            en-ca: Laurier Chinese Christian Fellowship
+            zh-hk: 勞雷爾大學華裔基督教團契 (英文)
+          meetings:
+            time: 
+              en-ca: Wednesdays 7:30pm
+              zh-hk: 逢星期三晚 七點半
+            location: Updated weekly on Facebook
+          links: 
+            - type: Facebook
+              url: "https://www.facebook.com/groups/laurierccf/"
+        - name:
+            en-ca: Power2Change - Laurier
+            zh-hk: Power2Change - 勞雷爾大學
+          meetings:
+            time: 
+              en-ca: Thursdays 7:15pm
+              zh-hk: 逢星期四晚 七點十五分
+            location: Updated weekly on Facebook
+          links: 
+            - type: Facebook
+              url: "https://www.facebook.com/groups/p2claurier/"
+        - name:
+            en-ca: Kingdom Come - UW/WLU
+            zh-hk: 王國來臨 - 滑鐵盧大學/勞雷爾大學
+          meetings:
+            time:
+              en-ca: Thursdays 6:30pm
+              zh-hk: 逢星期四晚 六點半
+            location: DWE 3518
+          links:
+            - type: Facebook
+              url: "https://www.facebook.com/groups/kcwaterloo/"
+
+#
+# Translations for the contact page
+#
+
+contact:
+  facebook:
+    en-ca: Check out the Jesus Week Waterloo Facebook page
+    zh-hk: 查看滑鐵盧耶穌週的Facebook專頁。
+
+#
+# Translations for the 404 page
+#
+
+p404:
+  message:
+    en-ca: We couldn't find the page you were looking for.
+    zh-hk: 我們找不到你想要的頁面。
+  back-to-home:
+    en-ca: Back to the homepage
+    zh-hk: 回到主頁

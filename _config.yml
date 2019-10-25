@@ -1,22 +1,35 @@
 ---
 title: Jesus Week Waterloo
 timezone: America/New_York
+lang: en-ca
+langs:
+  en-ca: en-CA
+  zh-hk: zh-yue-Hant-HK
+locales:
+  en-ca: en_CA
+  zh-hk: zh_HK
 collections:
-  connect:
-    title: Connect
+  connect_en-ca:
+    permalink: "/connect/:name"
     output: true
-    permalink: "/:collection/:name"
-  events:
-    title: Events
+  connect_zh-hk:
+    permalink: "/zh-hk/connect/:name"
     output: true
-    permalink: "/:collection/:name"
+  events_en-ca:
+    permalink: "/events/:name"
+    output: true
+  events_zh-hk:
+    permalink: "/zh-hk/events/:name"
+    output: true
   posts:
-    title: Posts
     output: true
   uploads:
-    title: Uploads
     output: true
 defaults:
+- scope:
+    path: ""
+  values:
+    lang: en-ca
 - scope:
     path: _uploads/
   values:
@@ -24,19 +37,13 @@ defaults:
 exclude:
 - node_modules
 - test-assets/node_modules
-display_pages:
-- about.md
-- gospel.md
-- events.md
-- connect.md
-- contact.md
 baseurl: 
 url: https://jesusweek.ca
 future: true
-logo: "/favicon.png?20190310"
+logo: "/favicon.png?20191021"
 encoding: utf-8
-description: Choose Christ. // To make Christ known on the campuses.
-short_description: Choose Christ.
+description: "What kind of King is this? // To make Christ known on the campuses."
+short_description: What kind of King is this?
 plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
