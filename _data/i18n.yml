@@ -249,16 +249,16 @@ theme:
 
     # QUESTION 1
     - en-ca: has utmost authority? # => What kind of King has utmost authority?
-      zh-hk: 有著最高權威？
+      zh-hk: 有著最高權柄？
     # QUESTION 2
     - en-ca: humbles himself for the sake of the weak?
-      zh-hk: 為弱者而謙卑他自己？
+      zh-hk: 會為弱者而謙卑自己？
     # QUESTION 3
     - en-ca: feels compassion for the suffering of the world?
-      zh-hk: 對世界的痛苦感到同情？
+      zh-hk: 會憐憫世界的痛苦？
     # QUESTION 4
     - en-ca: dies for his enemies?
-      zh-hk: 為他的敵人而死？
+      zh-hk: 會為他的敵人而死？
   explanation:
     # This is our explanation for our theme. It's split into several sections, each corresponding
     # to a specific visual effect.
@@ -285,8 +285,8 @@ theme:
         controls the wind and seas to *calm a storm*, over illness when he *heals blindness*, over
         sin when he *pours out mercy*, and over death when he *rose from the grave*.
       zh-hk: |
-        耶穌的權威可以從他戰勝自然、疾病、寬恕罪惡、甚至死亡看出來。
-        當他控制風浪以*平靜風暴*、*醫治失明* 的人、對人犯罪*施展憐憫*、從 *墳墓醒來戰勝死亡* 時，我們能夠看見他的權威超越自然。
+        耶穌的權柄可以從他戰勝自然、疾病、寬恕罪惡、甚至死亡看出來。
+        當他制止風浪以*平靜風暴*、*醫治失明* 的人、對罪人*施憐憫*和*從墳墓醒來*戰勝死亡，我們能夠看見他的權柄超越自然。
     authority-verses:
       - source:
           en-ca: Mark 4:41
@@ -333,8 +333,8 @@ theme:
         our expectation of a king.
       zh-hk: |
         耶穌擁有所有的權柄和全部的能力，並且都是聖潔和公義的 （羅馬書3：10）。
-        他是完全有權利審判我們的人，但他不是從天上的寶座來審判我們，*而是來到地球為我們提供永生。*
-        這極大地違反了我們對國王的期望。
+        他是完全有權利審判我們的人，但他卻不是從天上的寶座來審判我們，*而是來到地上為我們提供永生。*
+        這與我們對國王的期望抵觸了。
     humbles-verse:
       source:
         en-ca: John 6:38
@@ -352,10 +352,10 @@ theme:
 
         Jesus, with all authority, emptied himself of his glory and took on the role of a servant.
       zh-hk: |
-        耶穌不是一個正如世界權威人士所期望的國王，也不是要求被服侍的國王。
+        耶穌不是一個正如世界權柄人士所期望的國王，也不是要求被服侍的國王。
         他不會遠離那些受苦的人，*而且他也體會到我們的痛苦和關懷*（希伯來書2：18）。
         
-        耶穌擁有所有的權力，卻清空自己的榮耀，並承擔了一個僕人的角色。
+        耶穌擁有所有的權力，卻放棄自己的榮耀，並承擔了一個僕人的角色。
     suffering-verse:
       source:
         en-ca: Matthew 9:36
@@ -373,9 +373,9 @@ theme:
         clearly in our brokenness, and still, Jesus is the King who died for us, so that *we may be
         reconciled to God* (2 Corinthians 5:17-18).
       zh-hk: |
-        從耶穌在世上的權威的記載可以看出，他對那些無助的人很有耐心，同情心和仁慈。
+        從耶穌在世上的權柄的記載可以看出，他對那些無助的人很有耐心，同情心和仁慈。
         耶穌看到人的需要，也在破碎中清楚地看到了我們。
-        耶穌仍然是為我們而死的王，以便*我們可以與上帝和解* （哥林多後書5：17-18）。
+        耶穌仍然是為我們而死的王，以便*我們可以與上帝和解*（哥林多後書5：17-18）。
     sacrifice-verse:
       source:
         en-ca: Romans 5:7-8
@@ -399,7 +399,7 @@ theme:
 
         *He is the way, and the truth, and the life (John 14:6).*
       zh-hk: |
-        耶穌這個國王是如此強大，卻又如此慈愛和溫柔。
+        耶穌是如此強大的王，卻又如此慈愛和溫柔。
         
         他是萬主之主和萬王之王 (啟示錄17:14), 是良善的牧人，為羊捨命 （約翰福音10:11）。
         
@@ -579,8 +579,8 @@ events:
         zh-hk: 10月27日
       canonicalTime: 18:00-21:00
       time: 
-        en-ca: 6-9pm
-        zh-hk: 1800-2100
+        en-ca: 6–9pm
+        zh-hk: 1800–2100
       type: onetime
       link: "https://www.facebook.com/events/381321092743746/"
       cover: "/uploads/JW_banner.png"
@@ -608,8 +608,8 @@ events:
         zh-hk: 11月1日
       canonicalTime: 19:00-22:00
       time: 
-        en-ca: 7-10pm
-        zh-hk: 1900-2200
+        en-ca: 7–10pm
+        zh-hk: 1900–2200
       type: onetime
       # link: "https://www.facebook.com/events/331365594153591/"
       cover: "/uploads/JW_banner.png"
@@ -648,8 +648,8 @@ events:
           zh-hk: 10月30日
       canonicalTime: 10:00-15:00
       time:
-        en-ca: 10am-3pm
-        zh-hk: 1000-1500
+        en-ca: 10am–3pm
+        zh-hk: 1000–1500
       type: recurring
       description:
         en-ca: |
@@ -678,15 +678,15 @@ events:
           zh-hk: 11月1日
       canonicalTime: 10:00-15:00
       time:
-        en-ca: 10am-5pm
-        zh-hk: 1000-1700
+        en-ca: 10am–5pm
+        zh-hk: 1000–1700
       type: recurring
       description:
         en-ca: |
           If you are curious about Christianity or have any questions about God, feel free to drop
           by the SLC basement Monday-Thursday from 10am-5pm to ask questions and hear the Gospel.
         zh-hk: |
-          如果您有興趣想更加了解基督教或有關於上帝的有任何疑問，請在周一至週四1000-1700到SLC地下室隨意提問並聽取福音。
+          如果您有興趣想更加了解基督教或有更多關於上帝的任何疑問，請在周一至週四1000–1700到SLC地下室隨意提問並聽取福音。
 
 #
 # Translations for the connect page
