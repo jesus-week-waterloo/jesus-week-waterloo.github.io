@@ -7,7 +7,7 @@ layout: landing
 
 <p class="font-36"><strong>{{ i18n.connect.headline[lang] }}</strong></p>
 
-<p class="font-28">{{ i18n.connect.preamble[lang] | remove: "<p>" | remove: "</p>" }}</p>
+{{ i18n.connect.preamble[lang] | markdownify }}
 
 <div class="find-container flex-row font-36">
     <p><a class="btn blue-btn arrow-btn" href="{{ i18n.site.link-prefix[lang] }}/connect/churches"><strong>{{ i18n.connect.link-find-church[lang] }}</strong> {% include icons/arrow-right.svg %}</a></p>
