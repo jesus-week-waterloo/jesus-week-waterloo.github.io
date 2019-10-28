@@ -186,7 +186,7 @@ home:
     link:
       # Link text to lead to the page where we answer our theme questions (see below)
       en-ca: What kind of King is King Jesus?
-      zh-hk: 一個怎麼樣的王是耶穌？
+      zh-hk: 耶穌究竟是一個怎麼樣的王？
   section-gospel:
     title:
       # The title for the Gospel section of the home page
@@ -204,7 +204,7 @@ home:
     link:
       # Link text to lead to a more detailed explanation of the Gospel
       en-ca: Learn more about the Gospel
-      zh-hk: 認識福音更多
+      zh-hk: 認識福音
   section-connect:
     title:
       # The title for the Connect section of the home page
@@ -215,7 +215,7 @@ home:
         Whether you've just started your spiritual journey, or you've been a long-time believer,
         finding a church and fellowship is an important step in growing your faith.
       zh-hk: >
-        無論你剛開始你屬靈的旅程還是一個信主長久的信徒，尋找教會和團契都是一個幫助你信心增長的重要一步。
+        無論你剛開始你的屬靈旅程還是一位長久信主的信徒，尋找教會和團契都是一個能夠幫助你信仰增長重要的一步。
     link-churches:
       en-ca: Connect with a church
       zh-hk: 接觸一間教會
@@ -554,7 +554,7 @@ gospel:
             raised him from the dead, you will be saved. For it is with your heart that you believe
             and are justified, and it is with your mouth that you profess your faith and are saved.
           zh-hk: >
-            你若口裏宣認耶穌為主，心裏信　神叫他從死人中復活，就必得救。 
+            你若口裏宣認耶穌為主，心裏信神叫他從死人中復活，就必得救。 
             因為，人心裏信就可以稱義，口裏宣認就可以得救。
 
 #
@@ -666,6 +666,7 @@ events:
         - 2019-10-28
         - 2019-10-29
         - 2019-10-30
+        - 2019-10-31
         - 2019-11-01
       dates:
         - en-ca: Oct. 28
@@ -674,6 +675,8 @@ events:
           zh-hk: 10月29日
         - en-ca: Oct. 30
           zh-hk: 10月30日
+        - en-ca: Oct. 31
+          zh-hk: 10月31日
         - en-ca: Nov. 1
           zh-hk: 11月1日
       canonicalTime: 10:00-15:00
@@ -684,9 +687,9 @@ events:
       description:
         en-ca: |
           If you are curious about Christianity or have any questions about God, feel free to drop
-          by the SLC basement Monday-Thursday from 10am-5pm to ask questions and hear the Gospel.
+          by the SLC basement Monday-Friday from 10am-5pm to ask questions and hear the Gospel.
         zh-hk: |
-          如果您有興趣想更加了解基督教或有更多關於上帝的任何疑問，請在周一至週四1000–1700到SLC地下室隨意提問並聽取福音。
+          如果您有興趣想更加了解基督教或有更多關於上帝的任何疑問，請在周一至週五1000–1700到SLC地下室隨意提問並聽取福音。
 
 #
 # Translations for the connect page
