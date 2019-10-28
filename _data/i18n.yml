@@ -186,7 +186,7 @@ home:
     link:
       # Link text to lead to the page where we answer our theme questions (see below)
       en-ca: What kind of King is King Jesus?
-      zh-hk: 一個怎麼樣的王是耶穌？
+      zh-hk: 耶穌究竟是一個怎麼樣的王？
   section-gospel:
     title:
       # The title for the Gospel section of the home page
@@ -204,7 +204,7 @@ home:
     link:
       # Link text to lead to a more detailed explanation of the Gospel
       en-ca: Learn more about the Gospel
-      zh-hk: 認識福音更多
+      zh-hk: 認識福音
   section-connect:
     title:
       # The title for the Connect section of the home page
@@ -215,7 +215,7 @@ home:
         Whether you've just started your spiritual journey, or you've been a long-time believer,
         finding a church and fellowship is an important step in growing your faith.
       zh-hk: >
-        無論你剛開始你屬靈的旅程還是一個信主長久的信徒，尋找教會和團契都是一個幫助你信心增長的重要一步。
+        無論你剛開始你的屬靈旅程還是一位長久信主的信徒，尋找教會和團契都是一個能夠幫助你信仰增長重要的一步。
     link-churches:
       en-ca: Connect with a church
       zh-hk: 接觸一間教會
@@ -285,8 +285,8 @@ theme:
         controls the wind and seas to *calm a storm*, over illness when he *heals blindness*, over
         sin when he *pours out mercy*, and over death when he *rose from the grave*.
       zh-hk: |
-        耶穌的權柄可以從他戰勝自然、疾病、寬恕罪惡、甚至死亡看出來。
-        當他制止風浪以*平靜風暴*、*醫治失明*的人、對罪人*施憐憫*和*從墳墓醒來*戰勝死亡，我們能夠看見他的權柄超越自然。
+        耶穌的權威可以從他戰勝自然規律、疾病、寬恕罪惡、甚至死亡見證出來。
+        當他制止風浪以*平靜風暴*、*醫治失明*的人、對罪人*施展憐憫*、*從墳墓醒來*戰勝死亡時，我們能夠見證到他的權威超越了自然規律。
     authority-verses:
       - source:
           en-ca: Mark 4:41
@@ -333,8 +333,8 @@ theme:
         our expectation of a king.
       zh-hk: |
         耶穌擁有所有的權柄和全部的能力，並且都是聖潔和公義的 （羅馬書3：10）。
-        他是完全有權利審判我們的人，但他卻不是從天上的寶座來審判我們，*而是來到地上為我們提供永生。*
-        這與我們對國王的期望抵觸了。
+        他是完全有權利審判我們的人，但卻他不是從天上的寶座來審判我們，*而是來到地球為我們提供永生。*
+        這與我們對國王的期望有很大的抵觸。
     humbles-verse:
       source:
         en-ca: John 6:38
@@ -399,11 +399,11 @@ theme:
 
         *He is the way, and the truth, and the life (John 14:6).*
       zh-hk: |
-        耶穌是如此強大的王，卻又如此慈愛和溫柔。
+        耶穌是一位如此強大的王，卻又是慈愛和溫柔。
         
         他是萬主之主和萬王之王 (啟示錄17:14), 是良善的牧人，為羊捨命 （約翰福音10:11）。
         
-        他是應許的國王，他將拯救，統治和救贖。
+        他是應許的國王，他將會拯救，統治和救贖。
         
         *他就是道路、真理和生命。(約翰福音 14:6)*
 
@@ -440,9 +440,9 @@ about:
         on behalf of Christ, be reconciled to God. For our sake he made him to be sin who knew no
         sin, so that in him we might become the righteousness of God.
       zh-hk: >
-        所以，我們作基督的特使，就好像　神藉我們勸你們一般。
-        我們替基督求你們，與　神和好吧！
-        神使那無罪的，替我們成為罪，好使我們在他裏面成為　神的義。
+        所以，我們作基督的特使，就好像神藉我們勸你們一般。
+        我們替基督求你們，與神和好吧！
+        神使那無罪的，替我們成為罪，好使我們在他裏面成為神的義。
   description:
     en-ca: |
       The objective of Jesus Week 2019 is simple: a desperate and urgent plea to our fellow
@@ -473,7 +473,7 @@ gospel:
   points:
     - title:
         en-ca: A Holy and Perfect God
-        zh-hk: 一個聖潔和完全的主
+        zh-hk: 一個聖潔和完美的主
       description:
         en-ca: >
           In the beginning, God created the world. He is a perfect and holy God who cannot be
@@ -500,7 +500,7 @@ gospel:
           eternally separated from God.
         zh-hk: >
           人類本質上是有罪的，應受到神的憤怒和永恆的懲罰。
-          我們原是與上帝永遠分離。
+          我們原是要與上帝永遠分離。
       reference:
         source:
           en-ca: Romans 5:12
@@ -520,8 +520,8 @@ gospel:
           God sent his one and only Son Jesus to die on the cross as the perfect sacrifice, to
           satisfy God’s wrath. And on the third day, Jesus rose and conquered death.
         zh-hk: >
-          上帝差遣了他唯一的兒子耶穌死在十字架上作為完美的犧牲，以滿足神的憤怒。 
-          第三天耶穌站起來征服了死亡。
+          上帝差遣了他唯一的兒子耶穌為我們所有罪人死在十字架上作為完美的犧牲。
+          第三天耶穌從死裡復活，征服了死亡。
       reference:
         source:
           en-ca: 1 Corinthians 15:3-4
@@ -535,15 +535,15 @@ gospel:
             我當日所領受又傳給你們的，最重要的就是：照聖經所說，基督為我們的罪死了，而且埋葬了；又照聖經所說，第三天復活了。
     - title:
         en-ca: Saved by Grace Through Faith
-        zh-hk: 通過信心蒙恩得救
+        zh-hk: 通過信念蒙恩得救
       description:
         en-ca: >
           Though we hated him, God gives to us unmerited favour by sending his own Son to die in
           our place. It is because of him, not of any earned merit of ourselves, that we can be
           saved.
         zh-hk: >
-          儘管我們恨他，但上帝卻差遣自己的兒子死在了上帝面前，給予了我們優厚的恩惠。
-          因為他，而不是我們自己的功勞，我們才能得救。
+          儘管我們恨他，上帝仍然給予了我們優厚的恩惠，差遣自己的兒子為我們以死。
+          全因為他，而不是我們自己的功勞，我們才能得救。
       reference:
         source:
           en-ca: Romans 10:9-10
@@ -554,7 +554,7 @@ gospel:
             raised him from the dead, you will be saved. For it is with your heart that you believe
             and are justified, and it is with your mouth that you profess your faith and are saved.
           zh-hk: >
-            你若口裏宣認耶穌為主，心裏信　神叫他從死人中復活，就必得救。 
+            你若口裏宣認耶穌為主，心裏信神叫他從死人中復活，就必得救。 
             因為，人心裏信就可以稱義，口裏宣認就可以得救。
 
 #
@@ -666,6 +666,7 @@ events:
         - 2019-10-28
         - 2019-10-29
         - 2019-10-30
+        - 2019-10-31
         - 2019-11-01
       dates:
         - en-ca: Oct. 28
@@ -674,6 +675,8 @@ events:
           zh-hk: 10月29日
         - en-ca: Oct. 30
           zh-hk: 10月30日
+        - en-ca: Oct. 31
+          zh-hk: 10月31日
         - en-ca: Nov. 1
           zh-hk: 11月1日
       canonicalTime: 10:00-15:00
@@ -684,9 +687,9 @@ events:
       description:
         en-ca: |
           If you are curious about Christianity or have any questions about God, feel free to drop
-          by the SLC basement Monday-Thursday from 10am-5pm to ask questions and hear the Gospel.
+          by the SLC basement Monday-Friday from 10am-5pm to ask questions and hear the Gospel.
         zh-hk: |
-          如果您有興趣想更加了解基督教或有更多關於上帝的任何疑問，請在周一至週四1000–1700到SLC地下室隨意提問並聽取福音。
+          如果您有興趣想更加了解基督教或有更多關於上帝的任何疑問，請在周一至週五1000–1700到SLC地下室隨意提問並聽取福音。
 
 #
 # Translations for the connect page
@@ -703,8 +706,8 @@ connect:
       a fellowship. You'll find a community of like-minded, Gospel-centred believers in Christ that
       will answer your questions, keep you accountable, and guide you in growing your faith.
     zh-hk: >
-      無論您是一位完全自稱為基督徒的人，還是剛剛開始您的屬靈之旅，還是有興趣進一步了解耶穌，我們強烈建議您去教會參加團契。
-      您會發現一個由志同道合、以福音為中心的信徒組成的社群；那裡的人會回答您的問題，讓您負責任，並幫助您信仰成長。
+      無論您是一位完全自稱為基督徒的人，剛剛開始您的屬靈之旅，還是有興趣進一步了解耶穌，我們強烈建議您去教會和參加團契。
+      您會找到一個由志同道合、以福音為中心的信徒組成的社群；並會回答您的問題，讓您對自己的信仰負責任和幫助您的信仰成長。
   card:
     # This text will appear whenever we want to link to the connect page from another page
     en-ca: Interested in taking the next step?
